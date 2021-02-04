@@ -1,0 +1,76 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3097867629	DSPState			\Default Work Unit\DSPState	
+	3363456409	FillState			\Default Work Unit\FillState	
+	3943631437	CubeState			\Default Work Unit\CubeState	
+
+State	ID	Name	State Group			Notes
+	0	None	DSPState			
+	2604525308	DSPActive	DSPState			
+	2704169237	DSPOff	DSPState			
+	0	None	FillState			
+	700997592	CloseFill	FillState			
+	2262225030	OpenFill	FillState			
+	0	None	CubeState			
+	876571128	Dholak	CubeState			
+	1645216428	OGProd	CubeState			
+	2073862306	Charleston	CubeState			
+	2332359742	Squeaker	CubeState			
+	2476960775	Funk	CubeState			
+	2550763292	Sniper	CubeState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	292607393	CloseFill	FillState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+	397613890	DSPActive	DSPState	\Effects\Default Work Unit\TurnThatShitDown		
+	682419042	DSPOff	DSPState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music\DSPRack1\DSPRack2		
+	1017687158	DSPOff	DSPState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music\DSPRack1		
+	1020667083	DSPOff	DSPState	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music\DSPRack1\DSPRack2\Layers		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	649823924	CC18			\Default Work Unit\CC18	
+	649823925	CC19			\Default Work Unit\CC19	
+	649823930	CC16			\Default Work Unit\CC16	
+	649823931	CC17			\Default Work Unit\CC17	
+	700156788	CC21			\Default Work Unit\CC21	
+	700156789	CC20			\Default Work Unit\CC20	
+	3730232882	SidechainRTPC			\Default Work Unit\SidechainRTPC	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	418900426	BassPatch			\Default Work Unit\Master Audio Bus\Music\DSPRack1\DSPRack2\BassPatch	
+	526470464	CC#20			\Default Work Unit\Master Audio Bus\MutedDSP\CC#20	
+	526470465	CC#21			\Default Work Unit\Master Audio Bus\MutedDSP\CC#21	
+	537820942	KickReaktion			\Default Work Unit\Master Audio Bus\MutedReaktion\KickReaktion	
+	549046773	Fills			\Default Work Unit\Master Audio Bus\Fills	
+	576803344	CC#19			\Default Work Unit\Master Audio Bus\MutedDSP\CC#19	
+	576803345	CC#18			\Default Work Unit\Master Audio Bus\MutedDSP\CC#18	
+	576803358	CC#17			\Default Work Unit\Master Audio Bus\MutedDSP\CC#17	
+	576803359	CC#16			\Default Work Unit\Master Audio Bus\MutedDSP\CC#16	
+	619082779	MutedReaktion			\Default Work Unit\Master Audio Bus\MutedReaktion	
+	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
+	1596103257	SnareReaktion			\Default Work Unit\Master Audio Bus\MutedReaktion\SnareReaktion	
+	2283301986	MutedSidechain			\Default Work Unit\Master Audio Bus\MutedSidechain	
+	2368470800	DSPRack1			\Default Work Unit\Master Audio Bus\Music\DSPRack1	
+	2368470803	DSPRack2			\Default Work Unit\Master Audio Bus\Music\DSPRack1\DSPRack2	
+	3281831119	MutedDSP			\Default Work Unit\Master Audio Bus\MutedDSP	
+	3298531235	Layers			\Default Work Unit\Master Audio Bus\Music\DSPRack1\DSPRack2\Layers	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	442435820	CC21Trem	Wwise Tremolo			
+	534559576	CC19Distortion	Wwise Guitar Distortion			
+	869835104	CC17LowPass	Wwise Parametric EQ			
+	1202749338	CC20Verb	Wwise RoomVerb			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	1573808800	SnareReaktionMeter	Wwise Meter			
+	1728792901	TurnThatShitDown	Wwise Gain			
+	2258521792	Brick_Wall_Minus_1dB_Peak_Slow_Release	Wwise Peak Limiter			
+	2415480630	SidechainedByRTPC	Wwise Gain			
+	2598052119	CC18Flanger	Wwise Flanger			
+	3710062021	CC16HighPass	Wwise Parametric EQ			
+	4256401353	KickReaktionMeter	Wwise Meter			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+	4230635974	Default_Motion_Device	Wwise Motion			
+

@@ -1,0 +1,568 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15554ff91a8c5ae40a1f00f0097b2c8e, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: f8f58024466dc942a8caa56bd2fe411e
+    GuidInternal: 
+    m_lastTime: -8586261156254775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 3a3bcde622a0504db0b85747027c4dc2
+    GuidInternal: 
+    m_lastTime: -8586147882514775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 51d89e9640a6984dae05eef7a3a37551
+    GuidInternal: 
+    m_lastTime: -8585909376814775808
+    List:
+    - name: Song1
+      guid: 2a82202266e7d24e886e292b49967bdf
+      id: 778469039
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Song1
+        ObjectType: 7
+      Path: Default Work Unit\Song1
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0665b86bd814b244a7429e3fc0ea34b9
+    GuidInternal: 
+    m_lastTime: -8586071035274775808
+    List:
+    - name: CloseFills
+      guid: 9f12c114a1fac44abcd475cb617a5867
+      id: 2658066811
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CloseFills
+        ObjectType: 3
+      Path: Default Work Unit\CloseFills
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: DSPTrigger
+      guid: 288bbdc60687da4e90fee545916c693e
+      id: 4286046374
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DSPTrigger
+        ObjectType: 3
+      Path: Default Work Unit\DSPTrigger
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: LayerCharleston
+      guid: 42855ab4747a5c4798b0feccdd477271
+      id: 3556790691
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LayerCharleston
+        ObjectType: 3
+      Path: Default Work Unit\LayerCharleston
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: LayerDholak
+      guid: 7a928e0763c3c848bba354805e18954b
+      id: 1154343441
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LayerDholak
+        ObjectType: 3
+      Path: Default Work Unit\LayerDholak
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: LayerFunk
+      guid: 6cca2056054a6848b3de89f041fae4bd
+      id: 189758730
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LayerFunk
+        ObjectType: 3
+      Path: Default Work Unit\LayerFunk
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: LayerOGProd
+      guid: a4ece48dd422b345964b65c4ef87f24e
+      id: 2774025313
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LayerOGProd
+        ObjectType: 3
+      Path: Default Work Unit\LayerOGProd
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: LayerSniper
+      guid: 40ee4e12f812e6439fe23731d4897c4d
+      id: 4001994617
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LayerSniper
+        ObjectType: 3
+      Path: Default Work Unit\LayerSniper
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: LayerSqueaker
+      guid: 254a4401fe63d844b0f9d112e162916a
+      id: 323477279
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: LayerSqueaker
+        ObjectType: 3
+      Path: Default Work Unit\LayerSqueaker
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: OpenFills
+      guid: 3382e446714d8042b265566b01bfe885
+      id: 3391767169
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: OpenFills
+        ObjectType: 3
+      Path: Default Work Unit\OpenFills
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StartLevel
+      guid: b9d7a5d18ba65a43ab812d349fcf302d
+      id: 3385657599
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StartLevel
+        ObjectType: 3
+      Path: Default Work Unit\StartLevel
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StopMusic
+      guid: 87a80c3820651a48b4adf090c289c6ab
+      id: 1917263390
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StopMusic
+        ObjectType: 3
+      Path: Default Work Unit\StopMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 82e4c700b937f5408459d9920dadfd0f
+    GuidInternal: 
+    m_lastTime: -8586071035274775808
+    List:
+    - name: CC16
+      guid: 7258ea95fd70ad41bf84c292d6b93e0b
+      id: 649823930
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CC16
+        ObjectType: 13
+      Path: Default Work Unit\CC16
+    - name: CC17
+      guid: 55ec57786b76f14c966acf43d3c74cdc
+      id: 649823931
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CC17
+        ObjectType: 13
+      Path: Default Work Unit\CC17
+    - name: CC18
+      guid: 294e6199291c4644bd67bd44285ceca1
+      id: 649823924
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CC18
+        ObjectType: 13
+      Path: Default Work Unit\CC18
+    - name: CC19
+      guid: fe8ae12f766d4845b2c3d85b3a5fa890
+      id: 649823925
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CC19
+        ObjectType: 13
+      Path: Default Work Unit\CC19
+    - name: CC20
+      guid: 60f7563bc215e546b9ba3286e224c6f3
+      id: 700156789
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CC20
+        ObjectType: 13
+      Path: Default Work Unit\CC20
+    - name: CC21
+      guid: 69f5fcae960c694581d216bc5a866b03
+      id: 700156788
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CC21
+        ObjectType: 13
+      Path: Default Work Unit\CC21
+    - name: ChargeLevel
+      guid: ee403338d5cddb4b98ba576d68596138
+      id: 768774117
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: ChargeLevel
+        ObjectType: 13
+      Path: Default Work Unit\ChargeLevel
+    - name: KickReaktionRTPC
+      guid: 7f7861ea24705e43a3edd1ee9ce81548
+      id: 4144501391
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: KickReaktionRTPC
+        ObjectType: 13
+      Path: Default Work Unit\KickReaktionRTPC
+    - name: PlaybackSpeedRTPC
+      guid: 5b1a25e3851a4f4e98d20bcc04132693
+      id: 1075330786
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: PlaybackSpeedRTPC
+        ObjectType: 13
+      Path: Default Work Unit\PlaybackSpeedRTPC
+    - name: SidechainRTPC
+      guid: 83a02ed8d3566e4987cde37aa1b2d760
+      id: 3730232882
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SidechainRTPC
+        ObjectType: 13
+      Path: Default Work Unit\SidechainRTPC
+    - name: SnareReaktionRTPC
+      guid: 4b43fb02267a0a42a4094b3054a96845
+      id: 3200341508
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: SnareReaktionRTPC
+        ObjectType: 13
+      Path: Default Work Unit\SnareReaktionRTPC
+  - PhysicalPath: Game Parameters\Factory Motion.wwu
+    ParentPhysicalPath: 
+    guid: 225213d7dbd1d042adc0930743567776
+    GuidInternal: 
+    m_lastTime: -8586261156254775808
+    List:
+    - name: Playback_Rate
+      guid: e37e38283ac11643b9c3db5c521624af
+      id: 1524500807
+      PathAndIcons:
+      - ElementName: Factory Motion
+        ObjectType: 12
+      - ElementName: Playback_Rate
+        ObjectType: 13
+      Path: Factory Motion\Playback_Rate
+    - name: RPM
+      guid: 05aa129177f5fd449f4e4424158129e6
+      id: 796049864
+      PathAndIcons:
+      - ElementName: Factory Motion
+        ObjectType: 12
+      - ElementName: RPM
+        ObjectType: 13
+      Path: Factory Motion\RPM
+  - PhysicalPath: Game Parameters\Factory SoundSeed Air Game Syncs.wwu
+    ParentPhysicalPath: 
+    guid: 5577163b42fb8b4598bf96f557afb3b9
+    GuidInternal: 
+    m_lastTime: -8586261156254775808
+    List:
+    - name: SS_Air_Fear
+      guid: 59062ef746431c4ea1b1dab46a05101e
+      id: 1351367891
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fear
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fear
+    - name: SS_Air_Freefall
+      guid: 37fe2d2f9e4f944d83d853cca39781ad
+      id: 3002758120
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Freefall
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Freefall
+    - name: SS_Air_Fury
+      guid: dc79aea23acaba4696529986c322a87b
+      id: 1029930033
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Fury
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Fury
+    - name: SS_Air_Month
+      guid: 45b4e209a3c47f44b3ca818a1d925ef7
+      id: 2648548617
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Month
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Month
+    - name: SS_Air_Presence
+      guid: 1a81b7e32f7b0f49b44f5fe51b468041
+      id: 3847924954
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Presence
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Presence
+    - name: SS_Air_RPM
+      guid: ab9048a3d5b92645a64d5290c43ef2dc
+      id: 822163944
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_RPM
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_RPM
+    - name: SS_Air_Size
+      guid: efeb291393a12e47a38c64668b494879
+      id: 3074696722
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Size
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Size
+    - name: SS_Air_Storm
+      guid: db8c3fe9d1063747acaf7cd44bbed783
+      id: 3715662592
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Storm
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Storm
+    - name: SS_Air_TimeOfDay
+      guid: 2ca76f537e8c8b4cae03ef34fdadc314
+      id: 3203397129
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_TimeOfDay
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_TimeOfDay
+    - name: SS_Air_Turbulence
+      guid: 197ba8edaa73a0409f192073606db710
+      id: 4160247818
+      PathAndIcons:
+      - ElementName: Factory SoundSeed Air Game Syncs
+        ObjectType: 12
+      - ElementName: SS_Air_Turbulence
+        ObjectType: 13
+      Path: Factory SoundSeed Air Game Syncs\SS_Air_Turbulence
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: cac5d564c51d40429486f642a0418ec2
+    GuidInternal: 
+    m_lastTime: -8586252406174775808
+    List:
+    - name: CubeState
+      guid: 752ee587ee73c043a70e35a9f789fc62
+      id: 3943631437
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: CubeState
+        ObjectType: 9
+      Path: Default Work Unit\CubeState
+      values:
+      - name: Charleston
+        guid: 7ec091deff5f194698b9df3576d7ef2d
+        id: 2073862306
+        PathAndIcons:
+        - ElementName: Charleston
+          ObjectType: 8
+      - name: Dholak
+        guid: 5bc39a9a05e04e42876a5661e9904094
+        id: 876571128
+        PathAndIcons:
+        - ElementName: Dholak
+          ObjectType: 8
+      - name: Funk
+        guid: 9617710109f9d8448bf2d88e92ae0080
+        id: 2476960775
+        PathAndIcons:
+        - ElementName: Funk
+          ObjectType: 8
+      - name: None
+        guid: 695464f252ddbd48bb2f9f749c535de4
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: OGProd
+        guid: 4c575504fc5d834ba88ad431cdcc20e4
+        id: 1645216428
+        PathAndIcons:
+        - ElementName: OGProd
+          ObjectType: 8
+      - name: Sniper
+        guid: bcac23630601b543a506e028e73a144b
+        id: 2550763292
+        PathAndIcons:
+        - ElementName: Sniper
+          ObjectType: 8
+      - name: Squeaker
+        guid: 5055b8b19bb6de42ba171ba806281a46
+        id: 2332359742
+        PathAndIcons:
+        - ElementName: Squeaker
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: DSPState
+      guid: 27c37482d244af48b1b46e7e101d6819
+      id: 3097867629
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: DSPState
+        ObjectType: 9
+      Path: Default Work Unit\DSPState
+      values:
+      - name: DSPActive
+        guid: 4797bff2b6d2b74e9a3584fb263c8a45
+        id: 2604525308
+        PathAndIcons:
+        - ElementName: DSPActive
+          ObjectType: 8
+      - name: DSPOff
+        guid: 67256b94152d45499e6272755b8f6048
+        id: 2704169237
+        PathAndIcons:
+        - ElementName: DSPOff
+          ObjectType: 8
+      - name: None
+        guid: 2cc0c9bdf0f1b14bb7fe8e68a30e4574
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: FillState
+      guid: 8b87ea74ba096f43bc6aea9a4ef94ee9
+      id: 3363456409
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: FillState
+        ObjectType: 9
+      Path: Default Work Unit\FillState
+      values:
+      - name: CloseFill
+        guid: 348874babdd27f43b2b6691109d700eb
+        id: 700997592
+        PathAndIcons:
+        - ElementName: CloseFill
+          ObjectType: 8
+      - name: None
+        guid: 8a63158fd25fb54687fc528d4b53b60d
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: OpenFill
+        guid: c13b40fb876d9a4eb570466f03623a7d
+        id: 2262225030
+        PathAndIcons:
+        - ElementName: OpenFill
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 2d9a35552175bc4a966e1e323bec1c25
+    GuidInternal: 
+    m_lastTime: -8586261156254775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 0ec33c27810d9544ad3c0b429d10ed76
+    GuidInternal: 
+    m_lastTime: -8586147863574775808
+    List:
+    - name: MeasureOfDSP
+      guid: f3a4202d64523747b165d1ed05226f44
+      id: 3518675453
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: MeasureOfDSP
+        ObjectType: 14
+      Path: Default Work Unit\MeasureOfDSP
+    - name: WallEventStinger
+      guid: cfd218086ed71546877bd60453724111
+      id: 541953367
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WallEventStinger
+        ObjectType: 14
+      Path: Default Work Unit\WallEventStinger
+  ExpandedItems: []
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

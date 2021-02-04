@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}" SchemaVersion="89">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="TurnThatShitDown" ID="{DA042272-DE7A-4C4C-9846-E181CDB5AB3C}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32" Value="-96.3"/>
+						<Property Name="LFEGain" Type="Real32" Value="-96.3"/>
+					</PropertyList>
+					<StateInfo>
+						<StatePropertyList>
+							<Property Name="FullBandGain"/>
+						</StatePropertyList>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="DSPState" ID="{8274C327-44D2-48AF-B1B4-6E7E101D6819}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}"/>
+								<State Name="" ID="{089763D8-FE42-40E9-A721-A1EC9F0C7A0D}" ShortID="351734527"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="DSPActive" ID="{F2BF9747-D2B6-4EB7-9A35-84FB263C8A45}"/>
+								<State Name="" ID="{70D666A0-6D36-49D7-8073-97E61D119CA1}" ShortID="397613890">
+									<PropertyList>
+										<Property Name="FullBandGain" Type="Real32" Value="-120.3"/>
+									</PropertyList>
+								</State>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+				</Effect>
+				<Effect Name="SidechainMeter" ID="{F7EA5ABA-5B44-4908-8F67-330AB4290183}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.02"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="0.02"/>
+					</PropertyList>
+					<PluginData>
+	<GameParameter Name="SidechainRTPC" ID="{D82EA083-56D3-496E-87CD-E37AA1B2D760}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="SidechainedByRTPC" ID="{6BC3B594-D361-4590-8E67-CF29D1FFB01E}" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+					<PropertyList>
+						<Property Name="FullBandGain" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{3C454406-E6F3-415E-95AB-558DBE961353}" ShortID="995985619">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="SidechainRTPC" ID="{D82EA083-56D3-496E-87CD-E37AA1B2D760}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{AC843678-5119-4166-BBE4-7FF6E0A93FC6}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-0.04276</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-47.999</XPos>
+												<YPos>-0.0562</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-16.69565</XPos>
+												<YPos>-0.0269</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-0.001</XPos>
+												<YPos>-120.3</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-120.3</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="CC16Meter" ID="{3A2504AD-EE52-472E-BE80-E399D5502DA3}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="CC16" ID="{95EA5872-70FD-41AD-BF84-C292D6B93E0B}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="CC17Meter" ID="{00476499-75E8-478F-9294-E26DEE67422A}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="CC17" ID="{7857EC55-766B-4CF1-966A-CF43D3C74CDC}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="CC18Meter" ID="{AC14286B-B78F-48FA-9518-618EE70F3D20}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="CC18" ID="{99614E29-1C29-4446-BD67-BD44285CECA1}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="CC19Meter" ID="{07A3632A-15A7-4261-8A86-470F59C0BBDD}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="CC19" ID="{2FE18AFE-6D76-4548-B2C3-D85B3A5FA890}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="CC20Meter" ID="{3A7697B9-76B4-410B-A323-A577ED12D492}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="CC20" ID="{3B56F760-15C2-46E5-B9BA-3286E224C6F3}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="CC21Meter" ID="{CBDA99FB-BE85-40A9-A526-E5241AF450AA}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="CC21" ID="{AEFCF569-0C96-4569-81D2-16BC5A866B03}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="CC19Distortion" ID="{4941A676-7C7E-4504-816D-2707DB6AA827}" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+					<PropertyList>
+						<Property Name="DistortionDrive" Type="Real32" Value="48">
+							<RTPCList>
+								<RTPC Name="" ID="{1447FB2D-3AA5-450C-9ECB-57FB9FABA037}" ShortID="971414080">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="CC19" ID="{2FE18AFE-6D76-4548-B2C3-D85B3A5FA890}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{29ADE053-4233-4F03-B2CC-243E7F3D86AC}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-99.01477</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-34.97821</XPos>
+												<YPos>-39.40887</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-28.56238</XPos>
+												<YPos>-68.96552</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-23.4297</XPos>
+												<YPos>-36.45321</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-15.87326</XPos>
+												<YPos>-57.45</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-9.7901</XPos>
+												<YPos>0.89571</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-99.01478</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="DistortionTone" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{4D845B1B-5B18-4D21-920F-3CB8E8154488}" ShortID="893394134">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="CC19" ID="{2FE18AFE-6D76-4548-B2C3-D85B3A5FA890}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{10ED131E-20CA-451C-903F-3A8BAB4E780E}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-41.6792</XPos>
+												<YPos>-69.83953</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-34.1703</XPos>
+												<YPos>-100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-23.76237</XPos>
+												<YPos>-70.93596</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-16.87128</XPos>
+												<YPos>-87.19212</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-9.4099</XPos>
+												<YPos>-29.06404</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-71.42857</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="DistortionType" Type="int32" Value="3"/>
+						<Property Name="OutputLevel" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{CC0B69DE-90A2-4E79-A9A1-1AA6454160FF}" ShortID="462050924">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="CC19" ID="{2FE18AFE-6D76-4548-B2C3-D85B3A5FA890}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{CF71C427-D051-4A94-879F-151B9CBFE131}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-10.02772</XPos>
+												<YPos>-6.75983</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="Rectification" Type="Real32" Value="49"/>
+						<Property Name="WetDryMix" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{EC430553-4C38-4D25-ABC5-C506F0ACAF7C}" ShortID="754567070">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="CC19" ID="{2FE18AFE-6D76-4548-B2C3-D85B3A5FA890}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{1841BFB5-AC90-4280-A977-D5D6CFCA8474}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-9.88515</XPos>
+												<YPos>-57.14286</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="CC21Delay" ID="{9D32483A-4B9C-4750-B841-25B97C2DFBBA}" PluginName="Wwise Stereo Delay" CompanyID="0" PluginID="135" PluginType="3"/>
+				<Effect Name="CC21Trem" ID="{C61A2933-1A4F-493E-9CF6-C31B821CA8EC}" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+					<PropertyList>
+						<Property Name="ModDepth" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{A8B3B671-7931-41C4-B051-88F039034F71}" ShortID="41977444">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="CC21" ID="{AEFCF569-0C96-4569-81D2-16BC5A866B03}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{7818EE10-6E1D-434D-B00C-049B818ACDA5}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>-100</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-10.02771</XPos>
+												<YPos>-29.66152</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="ModFrequency" Type="Real32">
+							<RTPCList>
+								<RTPC Name="" ID="{74C2C95C-0C72-47AB-9063-8078B5A663E8}" ShortID="259094123">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="CC21" ID="{AEFCF569-0C96-4569-81D2-16BC5A866B03}" WorkUnitID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A22BB506-C850-42F2-9961-520059986865}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="5"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>-48</XPos>
+												<YPos>0.07035</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>-34.97822</XPos>
+												<YPos>130.83803</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-25.99604</XPos>
+												<YPos>0.19911</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-13.54455</XPos>
+												<YPos>221.33653</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>-9.26733</XPos>
+												<YPos>0.15045</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>1</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+				</Effect>
+				<Effect Name="KickReaktionMeter" ID="{B07FA3B7-0F63-4C6F-9811-D58C313D6AEA}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="KickReaktionRTPC" ID="{EA61787F-7024-435E-A3ED-D1EE9CE81548}"/>
+</PluginData>
+				</Effect>
+				<Effect Name="SnareReaktionMeter" ID="{F0627815-E27A-4D04-B8CC-CDC84A17F01B}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">					<PluginData>
+	<GameParameter Name="SnareReaktionRTPC" ID="{02FB434B-7A26-420A-A409-4B3054A96845}"/>
+</PluginData>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}" SchemaVersion="89">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{8B9C96BA-1418-41A2-9684-80598937DB4F}" WorkUnitID="{9F44B2B4-B1B0-4536-9C13-8F9B2DA5970F}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{C39DE304-B55A-44F4-A8BD-E4920C0C9F34}">
+							<PropertyList>
+								<Property Name="BypassEffect1" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="TurnThatShitDown" ID="{DA042272-DE7A-4C4C-9846-E181CDB5AB3C}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="DSPRack1" ID="{DB5CB9E2-D04D-4351-84EF-202A9BC8E4EB}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="CC17LowPass" ID="{830124FB-B9D5-4AE8-846E-E94A74652666}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect1" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<ObjectRef Name="CC16HighPass" ID="{F9627628-0B10-4272-BC30-D4C20423CB38}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+										<Reference Name="Effect3" CompanyID="4095" PluginID="65535" PluginType="15">
+											<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Slow_Release" ID="{9FB8DC2B-7F1C-4E4E-8FA5-50872652D2DD}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Bus Name="DSPRack2" ID="{ADE7B27A-BB6A-4882-BF38-E29DDBC39134}">
+											<ReferenceList>
+												<Reference Name="Effect0" PluginName="Wwise Tremolo" CompanyID="0" PluginID="131" PluginType="3">
+													<ObjectRef Name="CC21Trem" ID="{C61A2933-1A4F-493E-9CF6-C31B821CA8EC}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+												</Reference>
+												<Reference Name="Effect1" PluginName="Wwise Flanger" CompanyID="0" PluginID="125" PluginType="3">
+													<ObjectRef Name="CC18Flanger" ID="{9104321C-9E54-4879-A29A-EF8D46BE9035}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect2" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+													<ObjectRef Name="CC20Verb" ID="{AEB3F175-958B-45F2-A4C2-3FBD4F456568}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+												</Reference>
+												<Reference Name="Effect3" PluginName="Wwise Guitar Distortion" CompanyID="0" PluginID="126" PluginType="3">
+													<ObjectRef Name="CC19Distortion" ID="{4941A676-7C7E-4504-816D-2707DB6AA827}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Bus Name="BassPatch" ID="{92C3841E-37F4-4D4B-8ED8-AB3142877E7E}">
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<ObjectRef Name="SidechainedByRTPC" ID="{6BC3B594-D361-4590-8E67-CF29D1FFB01E}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+														</Reference>
+													</ReferenceList>
+												</Bus>
+												<Bus Name="Layers" ID="{9741053C-A102-463B-94FB-5D4865A453D3}">
+													<PropertyList>
+														<Property Name="BypassEffect0" Type="bool">
+															<ValueList>
+																<Value>True</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Effect0" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+															<ObjectRef Name="TurnThatShitDown" ID="{DA042272-DE7A-4C4C-9846-E181CDB5AB3C}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+														</Reference>
+													</ReferenceList>
+													<StateInfo>
+														<StatePropertyList>
+															<Property Name="BusVolume"/>
+															<Property Name="BypassEffect1"/>
+															<Property Name="Highpass"/>
+															<Property Name="Lowpass"/>
+															<Property Name="Pitch"/>
+															<Property Name="Volume"/>
+														</StatePropertyList>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="DSPState" ID="{8274C327-44D2-48AF-B1B4-6E7E101D6819}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}"/>
+																<State Name="" ID="{332E9DBA-1C01-41A5-BB24-BE2AF4F250EB}" ShortID="1020667083">
+																	<PropertyList>
+																		<Property Name="BypassEffect1" Type="bool" Value="True"/>
+																	</PropertyList>
+																</State>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="DSPActive" ID="{F2BF9747-D2B6-4EB7-9A35-84FB263C8A45}"/>
+																<State Name="" ID="{0EDD2463-302B-4A47-98F7-2C6B6FADF067}" ShortID="777925999"/>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+												</Bus>
+											</ChildrenList>
+											<StateInfo>
+												<StatePropertyList>
+													<Property Name="BusVolume"/>
+													<Property Name="BypassEffect"/>
+													<Property Name="Highpass"/>
+													<Property Name="Lowpass"/>
+													<Property Name="Pitch"/>
+													<Property Name="Volume"/>
+												</StatePropertyList>
+												<StateGroupList>
+													<StateGroupInfo>
+														<StateGroupRef Name="DSPState" ID="{8274C327-44D2-48AF-B1B4-6E7E101D6819}"/>
+													</StateGroupInfo>
+												</StateGroupList>
+												<CustomStateList>
+													<CustomState>
+														<StateRef Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}"/>
+														<State Name="" ID="{E098A96F-5C1F-411D-8D77-5084DEBF7BC6}" ShortID="682419042">
+															<PropertyList>
+																<Property Name="BypassEffect" Type="bool" Value="True"/>
+															</PropertyList>
+														</State>
+													</CustomState>
+													<CustomState>
+														<StateRef Name="DSPActive" ID="{F2BF9747-D2B6-4EB7-9A35-84FB263C8A45}"/>
+														<State Name="" ID="{BD9E4DFD-FE39-4C98-ADD1-C9C74A4E0099}" ShortID="738419011"/>
+													</CustomState>
+												</CustomStateList>
+											</StateInfo>
+										</Bus>
+									</ChildrenList>
+									<StateInfo>
+										<StatePropertyList>
+											<Property Name="BusVolume"/>
+											<Property Name="BypassEffect"/>
+											<Property Name="Highpass"/>
+											<Property Name="Lowpass"/>
+											<Property Name="Pitch"/>
+											<Property Name="Volume"/>
+										</StatePropertyList>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="DSPState" ID="{8274C327-44D2-48AF-B1B4-6E7E101D6819}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}"/>
+												<State Name="" ID="{FCE15F35-41CF-418E-90F3-2C015E6B50F5}" ShortID="1017687158">
+													<PropertyList>
+														<Property Name="BypassEffect" Type="bool" Value="True"/>
+													</PropertyList>
+												</State>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="DSPActive" ID="{F2BF9747-D2B6-4EB7-9A35-84FB263C8A45}"/>
+												<State Name="" ID="{F8BAC198-B7D1-40AF-A0BB-9094094105D4}" ShortID="570859178"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+								</Bus>
+							</ChildrenList>
+							<StateInfo>
+								<StatePropertyList>
+									<Property Name="BusVolume"/>
+									<Property Name="BypassEffect0"/>
+									<Property Name="Highpass"/>
+									<Property Name="Lowpass"/>
+									<Property Name="Pitch"/>
+									<Property Name="Volume"/>
+								</StatePropertyList>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="FillState" ID="{74EA878B-09BA-436F-BC6A-EA9A4EF94EE9}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="CloseFill" ID="{BA748834-D2BD-437F-B2B6-691109D700EB}"/>
+										<State Name="" ID="{7712BBCD-1ECB-4026-B1F7-EE555AB0879B}" ShortID="292607393">
+											<PropertyList>
+												<Property Name="BypassEffect0" Type="bool" Value="True"/>
+											</PropertyList>
+										</State>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
+										<State Name="" ID="{DCE3D89A-6A02-478C-B847-DBA5C71A3307}" ShortID="108101395"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Fills" ID="{EF9563A1-FE8B-4F63-922F-EEDA897E1DC7}"/>
+						<Bus Name="MutedSidechain" ID="{7D1BFDC5-5C86-4020-BCBA-835272D43BDC}">
+							<ReferenceList>
+								<Reference Name="Effect1" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="TurnThatShitDown" ID="{DA042272-DE7A-4C4C-9846-E181CDB5AB3C}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+								</Reference>
+							</ReferenceList>
+						</Bus>
+						<Bus Name="MutedDSP" ID="{FC0608D5-B7B6-48B7-B2C5-3C9012D7E07E}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="TurnThatShitDown" ID="{DA042272-DE7A-4C4C-9846-E181CDB5AB3C}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="CC#16" ID="{7DE78A71-F1AA-4147-BB3B-8E9D80B15BDA}"/>
+								<Bus Name="CC#17" ID="{3D53BAC2-755A-4FCA-B979-4DBEC8024E97}"/>
+								<Bus Name="CC#18" ID="{163B1A9C-A0ED-4D70-8CA6-5ED3C803897D}"/>
+								<Bus Name="CC#19" ID="{7CBE7717-3B53-447D-8501-3A90D51E611E}"/>
+								<Bus Name="CC#20" ID="{30BA0821-06EC-4E26-8CC0-491AB680DE82}"/>
+								<Bus Name="CC#21" ID="{3E71CAA2-5149-460A-9375-86F461C44F84}"/>
+							</ChildrenList>
+						</Bus>
+						<Bus Name="MutedReaktion" ID="{B517A816-4258-4C39-9FE8-5741D2A4DEBA}">
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3">
+									<ObjectRef Name="TurnThatShitDown" ID="{DA042272-DE7A-4C4C-9846-E181CDB5AB3C}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Bus Name="KickReaktion" ID="{16D43FD8-D72D-48CA-ABA9-011BEEA9D072}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="KickReaktionMeter" ID="{B07FA3B7-0F63-4C6F-9811-D58C313D6AEA}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+								<Bus Name="SnareReaktion" ID="{8F48F004-E314-47B5-BC92-17E8587F031D}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="SnareReaktionMeter" ID="{F0627815-E27A-4D04-B8CC-CDC84A17F01B}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+										</Reference>
+									</ReferenceList>
+								</Bus>
+							</ChildrenList>
+						</Bus>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="Default_Motion_Device" ID="{BA0A56E7-5639-4A98-86AC-73F60934E07E}" WorkUnitID="{9F44B2B4-B1B0-4536-9C13-8F9B2DA5970F}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

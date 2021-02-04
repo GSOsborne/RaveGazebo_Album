@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="89">
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1575491257" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Attenuations\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Audio Devices\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Control Surface Sessions\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Conversion Settings\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1575491257" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\DavisDnB.gsosb.wsettings" DateLow="1575491276" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\DavisDnB.wproj" DateLow="1575491257" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Factory Auro Headphone.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Factory Effects.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Factory iZotope Box Modeler.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Factory iZotope Delay.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Factory iZotope Dynamics.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Factory iZotope Filters.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Effects\Factory McDSP Effects.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Events\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Game Parameters\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Game Parameters\Factory Motion.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Mixing Sessions\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Modulators\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Presets\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Queries\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Queries\Factory Queries.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\SoundBanks\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\States\Default Work Unit.wwu" DateLow="1575491257" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Switches\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Triggers\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\BPM_DesignChallenge\DavisDnB\Virtual Acoustics\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1586824835" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1575491257" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Attenuations\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Audio Devices\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Control Surface Sessions\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Conversion Settings\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1575491257" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\DavisDnB.gsosb.wsettings" DateLow="1595717232" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\DavisDnB.wproj" DateLow="1575594628" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Default Work Unit.wwu" DateLow="1586121122" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Factory Auro Headphone.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Factory Effects.wwu" DateLow="1586819342" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Factory iZotope Box Modeler.wwu" DateLow="1575592063" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Factory iZotope Delay.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Factory iZotope Dynamics.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Factory iZotope Filters.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Effects\Factory McDSP Effects.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Events\Default Work Unit.wwu" DateLow="1594503356" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Game Parameters\Default Work Unit.wwu" DateLow="1594503356" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Game Parameters\Factory Motion.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1595717233" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1586818632" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Mixing Sessions\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Modulators\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Presets\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Queries\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Queries\Factory Queries.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\SoundBanks\Default Work Unit.wwu" DateLow="1576366653" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1595717233" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\States\Default Work Unit.wwu" DateLow="1576366267" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Switches\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Triggers\Default Work Unit.wwu" DateLow="1586820526" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\gsosb\Documents\Game Projects\DavisDnBSong\DavisDnB\Virtual Acoustics\Default Work Unit.wwu" DateLow="1575491258" DateHigh="0"/>
+</ValidationCache>

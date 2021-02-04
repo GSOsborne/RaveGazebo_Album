@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}" SchemaVersion="89">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="CubeState" ID="{87E52E75-73EE-43C0-A70E-35A9F789FC62}">
+					<ChildrenList>
+						<State Name="None" ID="{F2645469-DD52-48BD-BB2F-9F749C535DE4}"/>
+						<State Name="OGProd" ID="{0455574C-5DFC-4B83-A88A-D431CDCC20E4}"/>
+						<State Name="Dholak" ID="{9A9AC35B-E005-424E-876A-5661E9904094}"/>
+						<State Name="Charleston" ID="{DE91C07E-5FFF-4619-98B9-DF3576D7EF2D}"/>
+						<State Name="Squeaker" ID="{B1B85550-B69B-42DE-BA17-1BA806281A46}"/>
+						<State Name="Funk" ID="{01711796-F909-44D8-8BF2-D88E92AE0080}"/>
+						<State Name="Sniper" ID="{6323ACBC-0106-43B5-A506-E028E73A144B}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="FillState" ID="{74EA878B-09BA-436F-BC6A-EA9A4EF94EE9}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{8F15638A-5FD2-46B5-87FC-528D4B53B60D}"/>
+						<State Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
+						<State Name="CloseFill" ID="{BA748834-D2BD-437F-B2B6-691109D700EB}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="CloseFill" ID="{BA748834-D2BD-437F-B2B6-691109D700EB}"/>
+							<EndState Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
+							<Time>0.1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
+							<EndState Name="CloseFill" ID="{BA748834-D2BD-437F-B2B6-691109D700EB}"/>
+							<Time>0</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+				<StateGroup Name="DSPState" ID="{8274C327-44D2-48AF-B1B4-6E7E101D6819}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0.2"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{BDC9C02C-F1F0-4BB1-B7FE-8E68A30E4574}"/>
+						<State Name="DSPActive" ID="{F2BF9747-D2B6-4EB7-9A35-84FB263C8A45}"/>
+						<State Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

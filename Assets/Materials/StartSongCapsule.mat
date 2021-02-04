@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: StartSongCapsule
+  m_Shader: {fileID: 4800000, guid: 8d2bb70cbf9db8d4da26e15b26e74248, type: 3}
+  m_ShaderKeywords: _EMISSION _GLOSSINESS_FROM_BASE_ALPHA _SPECULAR_COLOR
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2050
+  stringTagMap:
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AdditiveRamp:
+        m_Texture: {fileID: 2800000, guid: e9b2e3debb91f8a4581576bf71b2bf99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCapTintTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutlineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Ramp:
+        m_Texture: {fileID: 2800000, guid: e9b2e3debb91f8a4581576bf71b2bf99, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampB:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampG:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampR:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RimTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ToonShade:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AdditiveRampMode: 0
+    - _AlphaClip: 0
+    - _AlphaToCoverage: 0
+    - _Blend: 0
+    - _BumpScale: 1
+    - _Cull: 0
+    - _Cutoff: 0.5
+    - _CutoutEnabled: 0
+    - _DetailNormalMapScale: 1
+    - _DirectLightBoost: 0.8
+    - _DstBlend: 0
+    - _EmissionMapIsTint: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossinessSource: 0
+    - _GlossyReflections: 1
+    - _IndirectLightBoost: 1.3
+    - _IndirectLightDirMergeMax: 0.75
+    - _IndirectLightDirMergeMin: 0.65
+    - _Intensity: 1.3
+    - _IntensityB: 1.3
+    - _IntensityG: 1.3
+    - _IntensityR: 1.3
+    - _MatCapMode: 0
+    - _MatCapOrigin: 0
+    - _MatCapStrength: 1
+    - _Metallic: 0
+    - _MetallicMode: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Outline: 0.002
+    - _OutlineAlphaWidthEnabled: 1
+    - _OutlineStencilComp: 6
+    - _OutlineWidth: 5
+    - _OverrideWorldLightDir: 0
+    - _Parallax: 0.02
+    - _QueueOffset: 0
+    - _RampAntiAliasingEnabled: 0
+    - _RampMaskEnabled: 0
+    - _RampTinting: 0
+    - _ReceiveShadows: 1
+    - _RimInvert: 0
+    - _RimLightMode: 0
+    - _RimWidth: 0.75
+    - _SampleGI: 0
+    - _Saturation: 1
+    - _SaturationB: 1
+    - _SaturationG: 1
+    - _SaturationR: 1
+    - _ScreenSpaceMaxDist: 100
+    - _ScreenSpaceMinDist: 11.828571
+    - _ScreenSpaceOutline: 1
+    - _Shininess: 0
+    - _Smoothness: 0
+    - _SmoothnessSource: 1
+    - _SmoothnessTextureChannel: 0
+    - _SpecSource: 0
+    - _SpecularHighlights: 0
+    - _SrcBlend: 1
+    - _StencilWriteAction: 2
+    - _Surface: 0
+    - _ToonContrast: 0.5
+    - _ToonContrastB: 0.5
+    - _ToonContrastG: 0.5
+    - _ToonContrastR: 0.5
+    - _ToonRampOffset: 0
+    - _ToonRampOffsetB: 0
+    - _ToonRampOffsetG: 0
+    - _ToonRampOffsetR: 0
+    - _UVSec: 0
+    - _VertexOffsetEnabled: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _BaseColor: {r: 0.99034953, g: 1, b: 0, a: 0}
+    - _Color: {r: 0.99034953, g: 1, b: 0, a: 1}
+    - _EmissionColor: {r: 1, g: 0.85627043, b: 0, a: 1}
+    - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0.91540945, g: 1, b: 0, a: 1}
+    - _RimLightColor: {r: 1, g: 1, b: 1, a: 0.4}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _StaticToonLight: {r: 0, g: 1, b: 0, a: 0}
+    - _VertexOffsetPos: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetPosWorld: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetRot: {r: 0, g: 0, b: 0, a: 0}
+    - _VertexOffsetScale: {r: 1, g: 1, b: 1, a: 0}
+--- !u!114 &5920465440214423764
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 1

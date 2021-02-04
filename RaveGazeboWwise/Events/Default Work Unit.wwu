@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" SchemaVersion="89">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="StartLevel" ID="{D1A5D7B9-A68B-435A-AB81-2D349FCF302D}">
+					<ChildrenList>
+						<Action Name="" ID="{ECB698E5-5870-4353-9523-E2389C75FB01}" ShortID="697997783">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CubeSwitch" ID="{875C0887-7727-43D7-A29E-9A589F1C4BDF}" WorkUnitID="{7D79D512-1B97-4816-8759-37707A740E36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0FB8760C-AF99-4AC7-8F0D-255786BA52CD}" ShortID="610737822">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CloseFill" ID="{BA748834-D2BD-437F-B2B6-691109D700EB}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FF8EC6D4-3D32-4B76-A9C8-248D55F73A80}" ShortID="652069529">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}">
+					<ChildrenList>
+						<Action Name="" ID="{05F17323-BEB2-4291-ACCF-84B1EC97A334}" ShortID="757202936">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CC53BDFC-4528-4AA6-9141-7B3B3311FF99}" ShortID="891517550">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WallTriggerSound" ID="{C3FB3E82-EC64-41E8-9884-0055E9DFA5BC}" WorkUnitID="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="CloseFills" ID="{14C1129F-FAA1-4AC4-BCD4-75CB617A5867}">
+					<ChildrenList>
+						<Action Name="" ID="{DEF1E70E-2CF4-4B3F-BC5A-55D0E9F00249}" ShortID="636352764">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CloseFill" ID="{BA748834-D2BD-437F-B2B6-691109D700EB}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopMusic" ID="{380CA887-6520-481A-B4AD-F090C289C6AB}">
+					<ChildrenList>
+						<Action Name="" ID="{E9EFA378-E2E1-4107-9955-102BB4F66F0C}" ShortID="816300444">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LayerCharleston" ID="{B45A8542-7A74-475C-98B0-FECCDD477271}">
+					<ChildrenList>
+						<Action Name="" ID="{D465944F-8992-41BE-8D91-D5A5C9C6F4FB}" ShortID="485900341">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Charleston" ID="{DE91C07E-5FFF-4619-98B9-DF3576D7EF2D}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{41F9B514-BA07-4860-B903-B6F496C01D21}" ShortID="143320622">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LayerDholak" ID="{078E927A-C363-48C8-BBA3-54805E18954B}">
+					<ChildrenList>
+						<Action Name="" ID="{EE5C79CE-D67B-4AE3-B2A4-483F95463F2F}" ShortID="179651738">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dholak" ID="{9A9AC35B-E005-424E-876A-5661E9904094}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{52509E4A-799E-490B-8FED-1BA1C76C3CAC}" ShortID="547428645">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LayerOGProd" ID="{8DE4ECA4-22D4-45B3-964B-65C4EF87F24E}">
+					<ChildrenList>
+						<Action Name="" ID="{6FB66172-7321-4ADB-AB51-FF6C2006D467}" ShortID="20539064">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OGProd" ID="{0455574C-5DFC-4B83-A88A-D431CDCC20E4}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A3C5417B-3BC6-4105-B474-06EEEFA0947A}" ShortID="155973614">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LayerFunk" ID="{5620CA6C-4A05-4868-B3DE-89F041FAE4BD}">
+					<ChildrenList>
+						<Action Name="" ID="{3117B263-77A5-430A-849A-4E19A8BFC18E}" ShortID="749183489">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Funk" ID="{01711796-F909-44D8-8BF2-D88E92AE0080}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{94E9C04F-B109-4517-8EFD-703B7DD9D7D5}" ShortID="497169690">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LayerSqueaker" ID="{01444A25-63FE-44D8-B0F9-D112E162916A}">
+					<ChildrenList>
+						<Action Name="" ID="{3966950E-F496-4E9E-A1BA-FAE41555A93A}" ShortID="543967610">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Squeaker" ID="{B1B85550-B69B-42DE-BA17-1BA806281A46}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DE9445CA-F953-40BB-AAEA-91AEB2BD8930}" ShortID="40465698">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DSPTrigger" ID="{C6BD8B28-8706-4EDA-90FE-E545916C693E}">
+					<ChildrenList>
+						<Action Name="" ID="{69EA9B14-8879-480F-A624-53E0CA30E419}" ShortID="172531584">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="35"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MeasureOfDSP" ID="{2D20A4F3-5264-4737-B165-D1ED05226F44}" WorkUnitID="{273CC30E-0D81-4495-AD3C-0B429D10ED76}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{866E38F2-88CC-4146-AEE3-A6DA3ED7216C}" ShortID="632627471">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DSPActive" ID="{F2BF9747-D2B6-4EB7-9A35-84FB263C8A45}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5E2A3776-B953-4BDF-AA31-8FEC150C0B80}" ShortID="311859442">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="LayerSniper" ID="{124EEE40-12F8-43E6-9FE2-3731D4897C4D}">
+					<ChildrenList>
+						<Action Name="" ID="{B82159D5-95CF-474B-A2C5-108D7C4BF63A}" ShortID="624307822">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D4BFC167-9F53-47D1-B95E-8B35379DEBB5}" ShortID="414424523">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Sniper" ID="{6323ACBC-0106-43B5-A506-E028E73A144B}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

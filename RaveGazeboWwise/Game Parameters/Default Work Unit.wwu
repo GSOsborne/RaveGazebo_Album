@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}" SchemaVersion="89">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{00C7E482-37B9-40F5-8459-D9920DADFD0F}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="ChargeLevel" ID="{383340EE-CDD5-4BDB-98BA-576D68596138}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SidechainRTPC" ID="{D82EA083-56D3-496E-87CD-E37AA1B2D760}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CC16" ID="{95EA5872-70FD-41AD-BF84-C292D6B93E0B}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CC17" ID="{7857EC55-766B-4CF1-966A-CF43D3C74CDC}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CC18" ID="{99614E29-1C29-4446-BD67-BD44285CECA1}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CC19" ID="{2FE18AFE-6D76-4548-B2C3-D85B3A5FA890}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CC20" ID="{3B56F760-15C2-46E5-B9BA-3286E224C6F3}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="CC21" ID="{AEFCF569-0C96-4569-81D2-16BC5A866B03}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="KickReaktionRTPC" ID="{EA61787F-7024-435E-A3ED-D1EE9CE81548}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="SnareReaktionRTPC" ID="{02FB434B-7A26-420A-A409-4B3054A96845}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="-48"/>
+						<Property Name="Max" Type="Real64" Value="0"/>
+						<Property Name="Min" Type="Real64" Value="-48"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

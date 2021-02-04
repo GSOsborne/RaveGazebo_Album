@@ -1,0 +1,1805 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}" SchemaVersion="89">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{0247375D-9199-4BC6-A6FB-3DE650F4C8A5}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SidechainSend" ID="{40AB1A8A-04F2-41F1-A684-436036637761}" ShortID="978140798">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+							<ObjectRef Name="SidechainMeter" ID="{F7EA5ABA-5B44-4908-8F67-330AB4290183}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="MutedSidechain" ID="{7D1BFDC5-5C86-4020-BCBA-835272D43BDC}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{A0C1E5A4-34B4-481D-A0ED-A4EB274DA8B0}" ShortID="355326471" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{EEC8D710-9D27-41EA-81D1-773AF7EF2CDF}" ShortID="929504800">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{F116EE64-A9C7-48FE-8F5A-3A0FBD12FDAA}" ShortID="851273654">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.1"/>
+																<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.03"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{4BF45B7D-1E62-4ECE-896F-E9195939D294}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{A0C1E5A4-34B4-481D-A0ED-A4EB274DA8B0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Folder Name="DSPSynths" ID="{380E08A2-948F-4B0D-A598-76AB29F155CC}" ShortID="5772344">
+					<ChildrenList>
+						<Sound Name="CC#17" ID="{3DE36C84-D669-4A3C-876A-577918B3628C}" ShortID="400182961">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="CC17Meter" ID="{00476499-75E8-478F-9294-E26DEE67422A}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="CC#17" ID="{3D53BAC2-755A-4FCA-B979-4DBEC8024E97}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="CC#17" ID="{4818F487-2555-45BA-B364-FEDC68AF54F9}" ShortID="655498310" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{4EF8F664-8535-4A4A-ABD9-5958F0CE1CF0}" ShortID="310719618">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{6E51F9C2-F46B-4DDF-93D9-E80F6A1F7C26}" ShortID="242848860">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.1"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{8EDCCB3C-D2F0-4D10-88B0-4F3649F0F608}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{7463FA91-CB21-42D2-8ABF-80A4A5E60E20}" ShortID="991316677">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="CC #17: General Purpose Controller 2" ID="{B618CBCE-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{85F3B255-77CE-4B2B-9291-0E87338D9A4C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-48</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC#17" ID="{4818F487-2555-45BA-B364-FEDC68AF54F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC#16" ID="{C0E4B3C6-241B-4E72-BCC8-B33DD9ECC425}" ShortID="940014317">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="CC16Meter" ID="{3A2504AD-EE52-472E-BE80-E399D5502DA3}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="CC#16" ID="{7DE78A71-F1AA-4147-BB3B-8E9D80B15BDA}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="CC#16" ID="{EB2E6D7A-BFF0-4C5D-8813-E60CF964519D}" ShortID="271470553" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{F9D4DE09-5788-4449-AC27-60B3B67F5083}" ShortID="144062215">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="CC #16: General Purpose Controller 1" ID="{B618CBCD-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{45F3498E-E1C5-471F-B28C-2AA0C01C8833}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-48</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{B1A3E3F7-73F9-4643-8145-79DF329426B2}" ShortID="451046248">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{5A86C528-F78D-4014-8A3B-44D417FAED08}" ShortID="195750924">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.1"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{5E2D27F3-0824-4C20-AC3C-984BC23D9D21}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC#16" ID="{EB2E6D7A-BFF0-4C5D-8813-E60CF964519D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC#18" ID="{C77B29BD-AC5E-4562-B69A-B844580808D7}" ShortID="224818290">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="CC18Meter" ID="{AC14286B-B78F-48FA-9518-618EE70F3D20}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="CC#18" ID="{163B1A9C-A0ED-4D70-8CA6-5ED3C803897D}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="CC#18" ID="{38896158-2C2A-455B-A646-36787D910F9E}" ShortID="234184245" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{DD9EF34E-9D81-4CBA-B087-894A64ED62F9}" ShortID="677993327">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="CC #18: General Purpose Controller 3" ID="{B618CBCF-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{53858069-2C92-4090-9074-104AE501A5B0}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-48</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{33AF4CD9-EB3C-4591-995C-3051B3978D38}" ShortID="583586076">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{EDB4739B-22CF-4386-89F5-33A92932CE81}" ShortID="662007857">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.1"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{07E0D896-A111-49F7-BBF0-5DD268121E9A}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC#18" ID="{38896158-2C2A-455B-A646-36787D910F9E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC#21" ID="{2E1F5C42-7E24-4429-B499-366223DE1DBE}" ShortID="118578140">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="CC21Meter" ID="{CBDA99FB-BE85-40A9-A526-E5241AF450AA}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="CC#21" ID="{3E71CAA2-5149-460A-9375-86F461C44F84}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="CC#21" ID="{B893CB5D-F81D-4934-836C-544F044B2859}" ShortID="993120632" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{D66EC14C-CA5E-4A8B-8683-CE4F60F3AE54}" ShortID="165075058">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="CC #21" ID="{B618CBD2-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{45F96222-77AC-4721-929A-C957FC5B6DE4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-48</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{4F4039AA-E85B-430A-B338-886919502EBA}" ShortID="436017801">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{49D475DB-F664-45A1-BCCD-5EED0DF77B9F}" ShortID="471671171">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.1"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{12C6D20E-5F9B-4349-B33A-0B1CCA83E84C}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC#21" ID="{B893CB5D-F81D-4934-836C-544F044B2859}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC#19" ID="{12747256-BE9D-4622-957C-EFEA940D0D84}" ShortID="275216460">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="CC19Meter" ID="{07A3632A-15A7-4261-8A86-470F59C0BBDD}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="CC#19" ID="{7CBE7717-3B53-447D-8501-3A90D51E611E}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="CC#19" ID="{E3ADEB94-D096-4A1F-9496-36ADE02113F2}" ShortID="550651706" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{0434173A-61EF-40F0-88B0-D45533C21BEC}" ShortID="313198191">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="CC #19: General Purpose Controller 4" ID="{B618CBD0-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{EF18E314-71EB-42DC-9999-F84979D1257E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-48</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{1D54A4E2-73EA-4AEB-9A15-098D627942DC}" ShortID="443366271">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{9B81C4A0-0323-4DF6-90B3-B898F0915B5B}" ShortID="722870960">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.1"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6FB385DE-E134-4CBD-81DC-607E3F0CA896}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC#19" ID="{E3ADEB94-D096-4A1F-9496-36ADE02113F2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="CC#20" ID="{B90D19CD-55C6-49FD-8FB5-0CAD3831D715}" ShortID="733414424">
+							<PropertyList>
+								<Property Name="EnableMidiNoteTracking" Type="bool" Value="True"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+								</Reference>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="CC20Meter" ID="{3A7697B9-76B4-410B-A323-A577ED12D492}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="CC#20" ID="{30BA0821-06EC-4E26-8CC0-491AB680DE82}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="CC#20" ID="{3AEF069A-EF40-4517-A59A-44C08D81C449}" ShortID="458242813" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{74992D37-35CC-4435-97AD-A80A6BB932BB}" ShortID="865908102">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{74DF94F4-D15C-4CB8-BA88-A16A583FADA9}" ShortID="59337272">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.1"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{51B1A939-8CB5-4380-8B67-4AA845DCC36E}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+												<RTPC Name="" ID="{CA768B91-2E2F-4E97-9A9D-71C3848A997D}" ShortID="948460970">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="CC #20" ID="{B618CBD1-04FA-4149-A36B-37B8A1F2B642}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{D5E7093F-1B21-4029-A01A-561A2EE2C973}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-48</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>127</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="CC#20" ID="{3AEF069A-EF40-4517-A59A-44C08D81C449}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="ReaktionSynths" ID="{514D2683-AFD5-45CC-915E-81ADFE6C1FCF}" ShortID="249299131">
+					<ChildrenList>
+						<Sound Name="KickSynth" ID="{BB227261-8574-4B30-8F33-BC7C9CC87FCA}" ShortID="504173325">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="KickReaktion" ID="{16D43FD8-D72D-48CA-ABA9-011BEEA9D072}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One" ID="{A307D2AB-BACE-446D-BDFB-FE1ECCF7E5B5}" ShortID="933899504" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{B8B70692-E499-4451-AFF8-281E6C83102C}" ShortID="1006859470">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{CFA7D852-FCFB-485C-A040-E3A5235FE7AE}" ShortID="15520942">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{946041EA-EB95-4EF2-A3DB-DC4656373B97}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One" ID="{A307D2AB-BACE-446D-BDFB-FE1ECCF7E5B5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SnareSynth" ID="{D9205EB2-89E5-427F-A0C0-873CAF7B330B}" ShortID="715329607">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SnareReaktion" ID="{8F48F004-E314-47B5-BC92-17E8587F031D}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SourcePlugin Name="Wwise Synth One" ID="{33A8B698-C168-41AD-B85E-F7486CB28E12}" ShortID="85729181" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+									<PropertyList>
+										<Property Name="OutputLevel" Type="Real32">
+											<RTPCList>
+												<RTPC Name="" ID="{5696FD10-0B63-4454-BC40-C702AAB1790F}" ShortID="946112131">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<Custom>
+																<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{F5A68467-3EEE-4B8C-8BB8-3025549ACC90}" ShortID="367842867">
+																	<PropertyList>
+																		<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																		<Property Name="EnvelopeDecayTime" Type="Real64" Value="0"/>
+																		<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.1"/>
+																	</PropertyList>
+																</ModulatorEnvelope>
+															</Custom>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{50E025C1-E81D-4F92-8B63-C3D5682DBFB0}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+								</SourcePlugin>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wwise Synth One" ID="{33A8B698-C168-41AD-B85E-F7486CB28E12}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<BlendContainer Name="WallTriggerSound" ID="{C3FB3E82-EC64-41E8-9884-0055E9DFA5BC}" ShortID="189560340">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="WallTriggerSwitch" ID="{BCBF5912-5533-44DE-A88E-0B88336CD117}" ShortID="308060189">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="None" ID="{F2645469-DD52-48BD-BB2F-9F749C535DE4}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="CubeState" ID="{87E52E75-73EE-43C0-A70E-35A9F789FC62}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="CharlestonStinger" ID="{9BD9BF07-C01F-42A8-8042-1667D63ADF7B}" ShortID="875269141">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{08F0272F-38E9-40BB-895D-0BDCE9A0E448}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8C55F838-7B4E-4217-928A-8A280D578233}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Sting1" ID="{9CF580EB-F0B0-4910-8FFC-F80D10F53B6A}" ShortID="79914063">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Charleston_Sting1" ID="{8CD2C338-4E7E-42B9-958C-605DD164377A}" ShortID="649239353">
+													<Language>SFX</Language>
+													<AudioFile>Charleston_Sting1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Charleston_Sting1" ID="{8CD2C338-4E7E-42B9-958C-605DD164377A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sting2" ID="{6BCEF37E-0EA3-4C37-9C71-D5DB9501E774}" ShortID="131230542">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Charleston_Sting2" ID="{D0864E89-7E09-443C-8722-B625D7F41462}" ShortID="576606435">
+													<Language>SFX</Language>
+													<AudioFile>Charleston_Sting2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Charleston_Sting2" ID="{D0864E89-7E09-443C-8722-B625D7F41462}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sting3" ID="{C991F3D0-DE9E-4C9E-9ABF-5677DB6D3B49}" ShortID="849680231">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Charleston_Sting3" ID="{6350BC86-52BE-442F-B781-B6C6322E3E8D}" ShortID="722996484">
+													<Language>SFX</Language>
+													<AudioFile>Charleston_Sting3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Charleston_Sting3" ID="{6350BC86-52BE-442F-B781-B6C6322E3E8D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sting4" ID="{DC4744FD-9CEC-4A5A-9A5A-2441D98A4CEC}" ShortID="636795677">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Charleston_Sting4" ID="{CB80E3B1-1C1F-4EA1-BAB7-FA30476BD5EA}" ShortID="951639129">
+													<Language>SFX</Language>
+													<AudioFile>Charleston_Sting4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Charleston_Sting4" ID="{CB80E3B1-1C1F-4EA1-BAB7-FA30476BD5EA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sting5" ID="{4C67626F-C427-42E8-9CD2-76D8EDDA44D3}" ShortID="992701374">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Charleston_Sting5" ID="{0171E554-DB65-4724-BC1E-5589827BF531}" ShortID="569728116">
+													<Language>SFX</Language>
+													<AudioFile>Charleston_Sting5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Charleston_Sting5" ID="{0171E554-DB65-4724-BC1E-5589827BF531}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sting6" ID="{53F354F1-195B-4E8E-A370-57529DFA639A}" ShortID="861446429">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Charleston_Sting6" ID="{8687FBBB-BB4E-433D-AFD7-2DDE0987B7A0}" ShortID="1039274912">
+													<Language>SFX</Language>
+													<AudioFile>Charleston_Sting6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Charleston_Sting6" ID="{8687FBBB-BB4E-433D-AFD7-2DDE0987B7A0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="DholakStinger" ID="{F670DECB-9F18-4B86-85E8-57BBDCBAD0C9}" ShortID="971603071">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8370FE85-4279-4DA8-A23D-28E4E7E410D1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9F7FA8C5-D7AB-4A3C-8F08-8D24E14EB389}">
+														<PropertyList>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Dholak_Sting1" ID="{61AB029D-A4C4-4603-9DB0-55D4304965F5}" ShortID="474883152">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dholak_Sting1" ID="{041C1EF6-2F89-43C7-8966-B127576AC31A}" ShortID="1053127628">
+													<Language>SFX</Language>
+													<AudioFile>Dholak_Sting1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dholak_Sting1" ID="{041C1EF6-2F89-43C7-8966-B127576AC31A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dholak_Sting2" ID="{AB767039-2168-4AC9-A312-962B1092C54D}" ShortID="1063259329">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Dholak_Sting2" ID="{9F13DBCD-5198-464C-BE26-ACB04FBF8507}" ShortID="606072574">
+													<Language>SFX</Language>
+													<AudioFile>Dholak_Sting2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Dholak_Sting2" ID="{9F13DBCD-5198-464C-BE26-ACB04FBF8507}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="FunkStinger" ID="{6DC63D85-FD0E-475B-A767-9A38191CE4A1}" ShortID="381462074">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1FA39051-D53C-4736-A949-D2E1BA9B0E2D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{20D3B5F3-C21E-4EE2-B9A1-F82B68864F74}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Funk_Sting1" ID="{6FF306FD-0370-4CBF-93A9-83570A0A9750}" ShortID="640188564">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Funk_Sting1" ID="{DDB4EBC3-DD14-4011-9C5F-02C52B5AE1BC}" ShortID="889169828">
+													<Language>SFX</Language>
+													<AudioFile>Funk_Sting1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Funk_Sting1" ID="{DDB4EBC3-DD14-4011-9C5F-02C52B5AE1BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Funk_Sting2" ID="{8DA280E7-5F7B-4CB0-9160-778B2ACE1589}" ShortID="80477646">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Funk_Sting2" ID="{9F044DBA-B671-4FE4-82D5-7535CE0EEF0D}" ShortID="906824125">
+													<Language>SFX</Language>
+													<AudioFile>Funk_Sting2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Funk_Sting2" ID="{9F044DBA-B671-4FE4-82D5-7535CE0EEF0D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Funk_Sting3" ID="{520F6AF3-1005-4A9C-A90B-A63161AE4760}" ShortID="500535340">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Funk_Sting3" ID="{4DBA054C-F928-4E48-9EE8-0E9AAB7267B4}" ShortID="186175733">
+													<Language>SFX</Language>
+													<AudioFile>Funk_Sting3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Funk_Sting3" ID="{4DBA054C-F928-4E48-9EE8-0E9AAB7267B4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Funk_Sting4" ID="{A340FE41-CE23-4BA0-986F-E940921172DF}" ShortID="694681560">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Funk_Sting4" ID="{83E78B61-00C0-4EE2-B866-B4D01BB47ECF}" ShortID="245042619">
+													<Language>SFX</Language>
+													<AudioFile>Funk_Sting4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Funk_Sting4" ID="{83E78B61-00C0-4EE2-B866-B4D01BB47ECF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Funk_Sting5" ID="{AD19DF12-076D-49BB-8E03-5352A2D14674}" ShortID="352688038">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Funk_Sting5" ID="{C825F4CF-F1FE-42BF-B18F-DBBAB75A77DC}" ShortID="132468760">
+													<Language>SFX</Language>
+													<AudioFile>Funk_Sting5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Funk_Sting5" ID="{C825F4CF-F1FE-42BF-B18F-DBBAB75A77DC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Funk_Sting6" ID="{70566973-F3AC-43B9-9B5B-AC42AC75A152}" ShortID="831716212">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Funk_Sting6" ID="{571844F7-F686-49F4-BDC8-4E14890F3C6C}" ShortID="514573673">
+													<Language>SFX</Language>
+													<AudioFile>Funk_Sting6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Funk_Sting6" ID="{571844F7-F686-49F4-BDC8-4E14890F3C6C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Funk_Sting7" ID="{64829816-AA0A-40D1-B3E2-5D1FD52C539E}" ShortID="816300109">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Funk_Sting7" ID="{8C839532-338A-4286-9AAE-B96A3D2143BA}" ShortID="203845955">
+													<Language>SFX</Language>
+													<AudioFile>Funk_Sting7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Funk_Sting7" ID="{8C839532-338A-4286-9AAE-B96A3D2143BA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="OGProdStinger" ID="{02E33B71-64B8-4390-8C92-5E4BED1C4973}" ShortID="386192997">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1DB31819-6F49-4C52-9AEF-16D85D691A42}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{47EE7E0A-F322-4278-91B2-5D4C75485A9D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="OGProd_Sting1" ID="{E25106A9-F30A-473B-9C26-B84A36193FD0}" ShortID="985176669">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OGProd_Sting1" ID="{94EE0E7C-D483-4BB3-B592-E1057D0A7594}" ShortID="801217734">
+													<Language>SFX</Language>
+													<AudioFile>OGProd_Sting1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="OGProd_Sting1" ID="{94EE0E7C-D483-4BB3-B592-E1057D0A7594}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="OGProd_Sting2" ID="{F4F6389D-987B-49F6-8235-C47E77C837D8}" ShortID="880100253">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OGProd_Sting2" ID="{1563848D-395C-486D-8450-F53BC3229172}" ShortID="680877201">
+													<Language>SFX</Language>
+													<AudioFile>OGProd_Sting2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="OGProd_Sting2" ID="{1563848D-395C-486D-8450-F53BC3229172}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="OGProd_Sting3" ID="{4F81D4A9-4355-4FB9-AD65-BAFC8C80C076}" ShortID="270617098">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OGProd_Sting3" ID="{76690397-BD4A-4B63-9650-C8F34835F2E0}" ShortID="977565527">
+													<Language>SFX</Language>
+													<AudioFile>OGProd_Sting3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="OGProd_Sting3" ID="{76690397-BD4A-4B63-9650-C8F34835F2E0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="OGProd_Sting4" ID="{502791C8-CE0B-4954-AD8A-28A4ECB2507B}" ShortID="608198727">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OGProd_Sting4" ID="{94D4C270-D5CA-4E85-BF4A-FE8ED1F1C893}" ShortID="134475039">
+													<Language>SFX</Language>
+													<AudioFile>OGProd_Sting4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="OGProd_Sting4" ID="{94D4C270-D5CA-4E85-BF4A-FE8ED1F1C893}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="OGProd_Sting5" ID="{51DB062B-F800-4909-99FA-31537EB1A298}" ShortID="425828604">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OGProd_Sting5" ID="{50285AB1-98BB-4270-8527-BBEA091BB424}" ShortID="359628687">
+													<Language>SFX</Language>
+													<AudioFile>OGProd_Sting5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="OGProd_Sting5" ID="{50285AB1-98BB-4270-8527-BBEA091BB424}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="OGProd_Sting6" ID="{C5778A5A-CE2D-45BD-8185-54567C1ABBDB}" ShortID="456772615">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OGProd_Sting6" ID="{ABEFAF0D-BCF5-46E6-99F9-5A15F0995AF6}" ShortID="386314665">
+													<Language>SFX</Language>
+													<AudioFile>OGProd_Sting6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="OGProd_Sting6" ID="{ABEFAF0D-BCF5-46E6-99F9-5A15F0995AF6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SniperStinger" ID="{0EAA5D0C-E890-46FC-8BDD-49CBD546BC25}" ShortID="1066489613">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{6A03222E-D09C-4E70-A3E4-C8D03F8BB6D5}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{78D8E322-809C-434B-A9B2-62ECCBEC09C1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Sniper_Sting1" ID="{FD7761AD-E868-4368-BF74-C5447CCCE429}" ShortID="986043184">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sniper_Sting1" ID="{9BF57BFF-B5CA-49D4-A602-09C9EA3DDB9F}" ShortID="26430334">
+													<Language>SFX</Language>
+													<AudioFile>Sniper_Sting1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sniper_Sting1" ID="{9BF57BFF-B5CA-49D4-A602-09C9EA3DDB9F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sniper_Sting2" ID="{474293A7-27DE-4DEF-9937-40E07A320B84}" ShortID="324881266">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sniper_Sting2" ID="{6C244918-1039-4FA2-96EE-D437A5DF8A5A}" ShortID="81898417">
+													<Language>SFX</Language>
+													<AudioFile>Sniper_Sting2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sniper_Sting2" ID="{6C244918-1039-4FA2-96EE-D437A5DF8A5A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sniper_Sting3" ID="{CD999A05-A4E9-4FDE-AA4A-B961B84A2250}" ShortID="45636800">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sniper_Sting3" ID="{4FA3D03A-FB8D-426A-B14D-A45F3849B0E5}" ShortID="255973731">
+													<Language>SFX</Language>
+													<AudioFile>Sniper_Sting3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sniper_Sting3" ID="{4FA3D03A-FB8D-426A-B14D-A45F3849B0E5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sniper_Sting4" ID="{E7CF009D-116C-4F3B-9601-AD80482755E2}" ShortID="83697682">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sniper_Sting4" ID="{797DD47E-5289-481E-B1D7-F25E32E8B95F}" ShortID="957758910">
+													<Language>SFX</Language>
+													<AudioFile>Sniper_Sting4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sniper_Sting4" ID="{797DD47E-5289-481E-B1D7-F25E32E8B95F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sniper_Sting5" ID="{F139E021-00BD-43CF-87B8-13BF733DFBB1}" ShortID="697745078">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sniper_Sting5" ID="{227B3E46-B5DF-48D8-8B31-44A6EEE5A1FE}" ShortID="423287213">
+													<Language>SFX</Language>
+													<AudioFile>Sniper_Sting5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sniper_Sting5" ID="{227B3E46-B5DF-48D8-8B31-44A6EEE5A1FE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Sniper_Sting6" ID="{C14D315B-329E-4FE1-9A64-52FCAE83D939}" ShortID="1060302620">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Sniper_Sting6" ID="{408F253A-A98F-4B2E-89A3-3B87782D5EBB}" ShortID="741214201">
+													<Language>SFX</Language>
+													<AudioFile>Sniper_Sting6.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Sniper_Sting6" ID="{408F253A-A98F-4B2E-89A3-3B87782D5EBB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SqueakerStinger" ID="{3948A1B6-E4FD-4A35-B34D-C9004609AA48}" ShortID="343917607">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DB40EE6B-ED23-4088-93BD-A2B2E28418DA}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3AEE3651-BD8F-4FA6-9E62-C416751F6BF1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Squeaker_Sting1" ID="{4CE3E179-D652-4C24-8521-DA9EF6913D89}" ShortID="386886093">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Squeaker_Sting1" ID="{10D2457A-82D1-4773-A5CC-EC94B9EC3A3F}" ShortID="15843995">
+													<Language>SFX</Language>
+													<AudioFile>Squeaker_Sting1.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Squeaker_Sting1" ID="{10D2457A-82D1-4773-A5CC-EC94B9EC3A3F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Squeaker_Sting2" ID="{1373F8D6-D409-41C1-BF54-5F3805B9777F}" ShortID="1009492829">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Squeaker_Sting2" ID="{737D5AC0-DC08-4850-A591-CD74F7279C0B}" ShortID="43306733">
+													<Language>SFX</Language>
+													<AudioFile>Squeaker_Sting2.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Squeaker_Sting2" ID="{737D5AC0-DC08-4850-A591-CD74F7279C0B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Squeaker_Sting3" ID="{71D39EB4-2781-4CCA-A29E-7D559179A4A3}" ShortID="670774799">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Squeaker_Sting3" ID="{71065772-0361-4FAF-B5E6-9BA42A99C82D}" ShortID="547113355">
+													<Language>SFX</Language>
+													<AudioFile>Squeaker_Sting3.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Squeaker_Sting3" ID="{71065772-0361-4FAF-B5E6-9BA42A99C82D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Squeaker_Sting4" ID="{D64295A0-7AAA-482E-8A9A-85BE887B2CD2}" ShortID="319320168">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Squeaker_Sting4" ID="{631C6749-EECF-4EAE-A529-6226EB127C32}" ShortID="901482658">
+													<Language>SFX</Language>
+													<AudioFile>Squeaker_Sting4.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Squeaker_Sting4" ID="{631C6749-EECF-4EAE-A529-6226EB127C32}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Squeaker_Sting5" ID="{C0138EF6-7D2B-42C5-904F-0495B79A0228}" ShortID="761578031">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Squeaker_Sting5" ID="{8883DEF4-849B-4660-B328-DE681EFFA9C3}" ShortID="2200512">
+													<Language>SFX</Language>
+													<AudioFile>Squeaker_Sting5.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Squeaker_Sting5" ID="{8883DEF4-849B-4660-B328-DE681EFFA9C3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="CharlestonStinger" ID="{9BD9BF07-C01F-42A8-8042-1667D63ADF7B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SniperStinger" ID="{0EAA5D0C-E890-46FC-8BDD-49CBD546BC25}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="OGProdStinger" ID="{02E33B71-64B8-4390-8C92-5E4BED1C4973}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="FunkStinger" ID="{6DC63D85-FD0E-475B-A767-9A38191CE4A1}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="SqueakerStinger" ID="{3948A1B6-E4FD-4A35-B34D-C9004609AA48}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="DholakStinger" ID="{F670DECB-9F18-4B86-85E8-57BBDCBAD0C9}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="OGProd" ID="{0455574C-5DFC-4B83-A88A-D431CDCC20E4}"/>
+										<ItemList>
+											<ItemRef Name="OGProdStinger" ID="{02E33B71-64B8-4390-8C92-5E4BED1C4973}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Squeaker" ID="{B1B85550-B69B-42DE-BA17-1BA806281A46}"/>
+										<ItemList>
+											<ItemRef Name="SqueakerStinger" ID="{3948A1B6-E4FD-4A35-B34D-C9004609AA48}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Dholak" ID="{9A9AC35B-E005-424E-876A-5661E9904094}"/>
+										<ItemList>
+											<ItemRef Name="DholakStinger" ID="{F670DECB-9F18-4B86-85E8-57BBDCBAD0C9}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Charleston" ID="{DE91C07E-5FFF-4619-98B9-DF3576D7EF2D}"/>
+										<ItemList>
+											<ItemRef Name="CharlestonStinger" ID="{9BD9BF07-C01F-42A8-8042-1667D63ADF7B}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Funk" ID="{01711796-F909-44D8-8BF2-D88E92AE0080}"/>
+										<ItemList>
+											<ItemRef Name="FunkStinger" ID="{6DC63D85-FD0E-475B-A767-9A38191CE4A1}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Sniper" ID="{6323ACBC-0106-43B5-A506-E028E73A144B}"/>
+										<ItemList>
+											<ItemRef Name="SniperStinger" ID="{0EAA5D0C-E890-46FC-8BDD-49CBD546BC25}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<RandomSequenceContainer Name="RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}" ShortID="498271904">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{87C70D61-3282-46CF-AE3D-42E15AC99D8F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Hat1" ID="{A075E463-301E-4AE7-AEB6-2229EBF137CC}" ShortID="269584452">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hat1" ID="{2A923393-822D-4180-9D64-3907586174C0}" ShortID="278935672">
+											<Language>SFX</Language>
+											<AudioFile>Hat1.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hat1" ID="{2A923393-822D-4180-9D64-3907586174C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hat2" ID="{3B46DB38-D755-40AB-9426-407810496DC9}" ShortID="964391776">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hat2" ID="{6995F475-D891-4A04-9CBD-7E6FAB540C82}" ShortID="11133192">
+											<Language>SFX</Language>
+											<AudioFile>Hat2.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hat2" ID="{6995F475-D891-4A04-9CBD-7E6FAB540C82}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hat3" ID="{41242464-6D0A-4AF5-8E85-728A5A3C46FC}" ShortID="366271254">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hat3" ID="{3DEEDE24-7238-4FAE-9A5B-08864C604DCF}" ShortID="277412915">
+											<Language>SFX</Language>
+											<AudioFile>Hat3.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hat3" ID="{3DEEDE24-7238-4FAE-9A5B-08864C604DCF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hat4" ID="{17BE10BB-7AFD-49A2-82EF-709FCDDF62DE}" ShortID="920308821">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hat4" ID="{EDAB22A1-4D1E-4EAE-A404-B95D62F69705}" ShortID="589924819">
+											<Language>SFX</Language>
+											<AudioFile>Hat4.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hat4" ID="{EDAB22A1-4D1E-4EAE-A404-B95D62F69705}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hat5" ID="{248AD022-2829-4430-AD95-B7746DB5CD58}" ShortID="904201405">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hat5" ID="{FF65172E-85F0-4444-A292-C7994F4A37B2}" ShortID="386490265">
+											<Language>SFX</Language>
+											<AudioFile>Hat5.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hat5" ID="{FF65172E-85F0-4444-A292-C7994F4A37B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hat6" ID="{574B8797-0BDE-4660-B236-86E86A1E2A32}" ShortID="70689904">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hat6" ID="{FE03594B-0C36-4F57-8C8A-82CDEE8FA0B8}" ShortID="1059073170">
+											<Language>SFX</Language>
+											<AudioFile>Hat6.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hat6" ID="{FE03594B-0C36-4F57-8C8A-82CDEE8FA0B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Hat7" ID="{D22472EB-F980-4185-B879-9B78E9204302}" ShortID="288578911">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hat7" ID="{33BD3511-2596-418E-88C4-DA08CF6FD1F2}" ShortID="1033383895">
+											<Language>SFX</Language>
+											<AudioFile>Hat7.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Hat7" ID="{33BD3511-2596-418E-88C4-DA08CF6FD1F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
