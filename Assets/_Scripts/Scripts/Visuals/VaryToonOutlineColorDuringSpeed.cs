@@ -22,12 +22,12 @@ public class VaryToonOutlineColorDuringSpeed : MonoBehaviour
     {
         if (mimicColorScript.currentlyShifting)
         {
-            rend.sharedMaterial.SetColor("_OutlineColor", mimicColorScript.currentColor);
+            rend.sharedMaterial.SetColor("_EmissionColor", mimicColorScript.currentColor);
             returnedToDefault = false;
         }
         else if (!returnedToDefault)
         {
-            rend.sharedMaterial.SetColor("_OutlineColor", defaultOutlineColor);
+            rend.sharedMaterial.SetColor("_EmissionColor", defaultOutlineColor);
             returnedToDefault = true;
         }
     }

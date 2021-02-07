@@ -105,7 +105,7 @@ public class VaryMaterialDuringSpeed : MonoBehaviour
         {
             rend.sharedMaterial.color = Color.Lerp(startingColor, returnColor, (float)i/returnToNormalFrames);
             currentColor = rend.sharedMaterial.color;
-            //rend.sharedMaterial.SetColor("_EmissionColor", currentColor);
+            rend.sharedMaterial.SetColor("_EmissionColor", currentColor);
 
             //Debug.Log(rend.sharedMaterial.color + " with " + (float)i/returnToNormalFrames);
             yield return null;

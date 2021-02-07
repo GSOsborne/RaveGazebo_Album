@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6269606786672419963}
   - component: {fileID: 6269606786672419962}
   - component: {fileID: 6269606786672419965}
-  m_Layer: 2
+  m_Layer: 0
   m_Name: SongNameText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28,7 +28,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6269606786672419967}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0.556}
+  m_LocalPosition: {x: 0, y: 0, z: 0.55599993}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6269606788254525855}
@@ -36,7 +36,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.000091552734, y: 0.00010681152}
   m_SizeDelta: {x: 1, y: 0.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!23 &6269606786672419960
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 6269606788254525850}
   - component: {fileID: 6269606788254525853}
   - component: {fileID: 6269606788254525852}
-  m_Layer: 11
+  m_Layer: 0
   m_Name: Song2Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -270,7 +270,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b9d65813475f4c24a86fb7657c7f3635, type: 2}
+  - {fileID: 2100000, guid: 04a0abe20ebac1f4aac646cfa6e46e45, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

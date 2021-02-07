@@ -98,6 +98,7 @@ Material:
     m_Colors:
     - Color_4143804D: {r: 1, g: 1, b: 1, a: 0}
     - Color_CC7E5A82: {r: 1, g: 1, b: 1, a: 0}
+    - OffsetVector2: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_3D094AF0: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_9B8930C2: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_B22F2C32: {r: 1, g: 1, b: 0, a: 0}

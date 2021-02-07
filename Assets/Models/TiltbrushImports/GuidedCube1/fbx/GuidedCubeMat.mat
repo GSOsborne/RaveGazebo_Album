@@ -101,6 +101,7 @@ Material:
     - Color_9274334A: {r: 0.3113208, g: 0.3113208, b: 0.3113208, a: 0}
     - Color_A761A628: {r: 0.9433962, g: 0.9433962, b: 0.9433962, a: 0}
     - Color_CC7E5A82: {r: 0, g: 0, b: 0, a: 0}
+    - OffsetVector2: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_3D094AF0: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_55E8D99F: {r: 1, g: 1, b: 0, a: 0}
     - Vector2_9B8930C2: {r: 1, g: 0, b: 0, a: 0}
