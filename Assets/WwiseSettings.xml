@@ -7,5 +7,6 @@
   <GenerateSoundBanksAsPreBuildStep>false</GenerateSoundBanksAsPreBuildStep>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <SoundbankPath>Audio\GeneratedSoundBanks</SoundbankPath>
+  <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2018.1.7.6880</WwiseInstallationPathWindows>
   <WwiseProjectPath>../RaveGazeboWwise/RaveGazebo.wproj</WwiseProjectPath>
 </WwiseSettings>

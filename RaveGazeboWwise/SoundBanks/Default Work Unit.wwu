@@ -6,7 +6,7 @@
 				<SoundBank Name="Song1" ID="{2220822A-E766-4ED2-886E-292B49967BDF}">
 					<ObjectInclusionList>
 						<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
-						<ObjectRef Name="StartLevel" ID="{D1A5D7B9-A68B-435A-AB81-2D349FCF302D}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StartSong1" ID="{D1A5D7B9-A68B-435A-AB81-2D349FCF302D}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LayerSniper" ID="{124EEE40-12F8-43E6-9FE2-3731D4897C4D}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LayerSqueaker" ID="{01444A25-63FE-44D8-B0F9-D112E162916A}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="LayerOGProd" ID="{8DE4ECA4-22D4-45B3-964B-65C4EF87F24E}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
@@ -16,6 +16,23 @@
 						<ObjectRef Name="LayerDholak" ID="{078E927A-C363-48C8-BBA3-54805E18954B}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="CloseFills" ID="{14C1129F-FAA1-4AC4-BCD4-75CB617A5867}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="DSPTrigger" ID="{C6BD8B28-8706-4EDA-90FE-E545916C693E}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Song2" ID="{29C41A33-7B76-4EA9-A49F-3527611D1286}">
+					<ObjectInclusionList>
+						<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LayerSniper" ID="{124EEE40-12F8-43E6-9FE2-3731D4897C4D}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LayerSqueaker" ID="{01444A25-63FE-44D8-B0F9-D112E162916A}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LayerOGProd" ID="{8DE4ECA4-22D4-45B3-964B-65C4EF87F24E}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LayerCharleston" ID="{B45A8542-7A74-475C-98B0-FECCDD477271}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StopMusic" ID="{380CA887-6520-481A-B4AD-F090C289C6AB}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LayerFunk" ID="{5620CA6C-4A05-4868-B3DE-89F041FAE4BD}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="LayerDholak" ID="{078E927A-C363-48C8-BBA3-54805E18954B}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="CloseFills" ID="{14C1129F-FAA1-4AC4-BCD4-75CB617A5867}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="DSPTrigger" ID="{C6BD8B28-8706-4EDA-90FE-E545916C693E}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="StartSong2" ID="{BCF67112-E2A9-4FE4-AC6C-BB3E662AC829}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

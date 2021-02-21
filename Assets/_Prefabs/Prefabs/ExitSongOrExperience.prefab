@@ -194,6 +194,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Song4Sphere
       objectReference: {fileID: 0}
+    - target: {fileID: 6269606788254525854, guid: 675e347a0e8cef048977f17e0ed2f8cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6269606788254525855, guid: 675e347a0e8cef048977f17e0ed2f8cd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -354,6 +359,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Song5Sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269606788254525854, guid: 675e347a0e8cef048977f17e0ed2f8cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6269606788254525855, guid: 675e347a0e8cef048977f17e0ed2f8cd,
         type: 3}
@@ -784,6 +794,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Song3Sphere
       objectReference: {fileID: 0}
+    - target: {fileID: 6269606788254525854, guid: 675e347a0e8cef048977f17e0ed2f8cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6269606788254525855, guid: 675e347a0e8cef048977f17e0ed2f8cd,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -949,6 +964,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Song6Sphere
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269606788254525854, guid: 675e347a0e8cef048977f17e0ed2f8cd,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6269606788254525855, guid: 675e347a0e8cef048977f17e0ed2f8cd,
         type: 3}

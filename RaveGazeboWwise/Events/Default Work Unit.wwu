@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="StartLevel" ID="{D1A5D7B9-A68B-435A-AB81-2D349FCF302D}">
+				<Event Name="StartSong1" ID="{D1A5D7B9-A68B-435A-AB81-2D349FCF302D}">
 					<ChildrenList>
 						<Action Name="" ID="{ECB698E5-5870-4353-9523-E2389C75FB01}" ShortID="697997783">
 							<PropertyList>
@@ -259,6 +259,40 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Sniper" ID="{6323ACBC-0106-43B5-A506-E028E73A144B}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartSong2" ID="{BCF67112-E2A9-4FE4-AC6C-BB3E662AC829}">
+					<ChildrenList>
+						<Action Name="" ID="{5F60A4B2-05B7-4454-B8D0-4DA9870EE918}" ShortID="342669771">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Song2Switch" ID="{33AE31FD-1AB2-4083-9325-982FF517BBF1}" WorkUnitID="{7D79D512-1B97-4816-8759-37707A740E36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5FB14D66-F945-4579-918D-7C578AF418FF}" ShortID="722088955">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CloseFill" ID="{BA748834-D2BD-437F-B2B6-691109D700EB}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{43E949D9-D494-43DB-9A9F-1C96F35A4249}" ShortID="465862837">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

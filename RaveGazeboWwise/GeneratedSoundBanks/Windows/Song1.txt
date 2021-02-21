@@ -1,11 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
 	189758730	LayerFunk			\Default Work Unit\LayerFunk	
 	323477279	LayerSqueaker			\Default Work Unit\LayerSqueaker	
+	974193269	StartSong1			\Default Work Unit\StartSong1	
 	1154343441	LayerDholak			\Default Work Unit\LayerDholak	
 	1917263390	StopMusic			\Default Work Unit\StopMusic	
 	2658066811	CloseFills			\Default Work Unit\CloseFills	
 	2774025313	LayerOGProd			\Default Work Unit\LayerOGProd	
-	3385657599	StartLevel			\Default Work Unit\StartLevel	
 	3391767169	OpenFills			\Default Work Unit\OpenFills	
 	3556790691	LayerCharleston			\Default Work Unit\LayerCharleston	
 	4001994617	LayerSniper			\Default Work Unit\LayerSniper	

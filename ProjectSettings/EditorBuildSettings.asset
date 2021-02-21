@@ -6,10 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/RaveGazebo_PostFeedback.unity
+    path: Assets/_Scenes/RaveGazebo_PostFeedback.unity
     guid: 304cb7e45cdb613428d035eaa6954152
   - enabled: 1
-    path: Assets/Scenes/Song2.unity
+    path: Assets/_Scenes/Song2.unity
     guid: c4e34ef06f1d1e247b8c4d1b009683f6
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c1b46bea0443b144a8886e13e6beb82e,

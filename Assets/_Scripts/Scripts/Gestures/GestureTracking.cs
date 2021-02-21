@@ -10,6 +10,7 @@ public class GestureTracking : MonoBehaviour
     public float triggerSpeed;
     public float cooldownTime;
     bool resetting;
+    int layerMask;
 
     public Vector3 currentVelocity;
 
@@ -22,6 +23,8 @@ public class GestureTracking : MonoBehaviour
     {
         //xrController = GetComponent<ActionBasedController>();
         lastFramePos = xrController.gameObject.transform.position;
+        layerMask = LayerMask.GetMask("WallTrigger");
+        //Debug.Log(layerMask + " was the int you were looking for, dumbass");
     }
 
 
@@ -34,6 +37,7 @@ public class GestureTracking : MonoBehaviour
 
         if (controllerSpeed > triggerSpeed && !resetting)
         {
+            //Debug.Log("Sending the gesture raycast check.");
             RevealWalls(currentPosition, currentVelocity);
 
         }
@@ -43,7 +47,7 @@ public class GestureTracking : MonoBehaviour
     void RevealWalls(Vector3 controllerPosition, Vector3 controllerVelocity)
     {
         Ray checkForWall = new Ray(controllerPosition, controllerVelocity);
-        if (Physics.Raycast(checkForWall, out hit, 20f))
+        if (Physics.Raycast(checkForWall, out hit, 20f, layerMask))
         {
             Debug.DrawRay(controllerPosition, controllerVelocity, Color.green, 2f);
             if (hit.transform.gameObject.CompareTag("GestureWall"))

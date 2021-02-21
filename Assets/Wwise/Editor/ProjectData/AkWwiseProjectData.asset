@@ -31,7 +31,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 51d89e9640a6984dae05eef7a3a37551
     GuidInternal: 
-    m_lastTime: -8585909376814775808
+    m_lastTime: -8585883684614775808
     List:
     - name: Song1
       guid: 2a82202266e7d24e886e292b49967bdf
@@ -42,12 +42,21 @@ MonoBehaviour:
       - ElementName: Song1
         ObjectType: 7
       Path: Default Work Unit\Song1
+    - name: Song2
+      guid: 331ac429767ba94ea49f3527611d1286
+      id: 778469036
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Song2
+        ObjectType: 7
+      Path: Default Work Unit\Song2
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 0665b86bd814b244a7429e3fc0ea34b9
     GuidInternal: 
-    m_lastTime: -8586071035274775808
+    m_lastTime: -8585883706534775808
     List:
     - name: CloseFills
       guid: 9f12c114a1fac44abcd475cb617a5867
@@ -157,15 +166,27 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
-    - name: StartLevel
+    - name: StartSong1
       guid: b9d7a5d18ba65a43ab812d349fcf302d
-      id: 3385657599
+      id: 974193269
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
-      - ElementName: StartLevel
+      - ElementName: StartSong1
         ObjectType: 3
-      Path: Default Work Unit\StartLevel
+      Path: Default Work Unit\StartSong1
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StartSong2
+      guid: 1271f6bca9e2e44fac6cbb3e662ac829
+      id: 974193270
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StartSong2
+        ObjectType: 3
+      Path: Default Work Unit\StartSong2
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -563,6 +584,11 @@ MonoBehaviour:
       - ElementName: WallEventStinger
         ObjectType: 14
       Path: Default Work Unit\WallEventStinger
-  ExpandedItems: []
+  ExpandedItems:
+  - /RaveGazebo
+  - /RaveGazebo/Events
+  - /RaveGazebo/Events/Default Work Unit
+  - /RaveGazebo/SoundBanks
+  - /RaveGazebo/SoundBanks/Default Work Unit
   autoPopulateEnabled: 1
   CurrentPluginConfig: 

@@ -22,7 +22,8 @@ namespace AK
         static const AkUniqueID LAYERSNIPER = 4001994617U;
         static const AkUniqueID LAYERSQUEAKER = 323477279U;
         static const AkUniqueID OPENFILLS = 3391767169U;
-        static const AkUniqueID STARTLEVEL = 3385657599U;
+        static const AkUniqueID STARTSONG1 = 974193269U;
+        static const AkUniqueID STARTSONG2 = 974193270U;
         static const AkUniqueID STOPMUSIC = 1917263390U;
     } // namespace EVENTS
 
@@ -104,6 +105,7 @@ namespace AK
     {
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID SONG1 = 778469039U;
+        static const AkUniqueID SONG2 = 778469036U;
     } // namespace BANKS
 
     namespace BUSSES

@@ -6,7 +6,7 @@
 				<SoundcasterSession Name="TestCube" ID="{F779B93A-1C36-401D-9420-7C8A6A0AC895}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="StartLevel" ID="{D1A5D7B9-A68B-435A-AB81-2D349FCF302D}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
+							<ObjectRef Name="StartSong1" ID="{D1A5D7B9-A68B-435A-AB81-2D349FCF302D}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>

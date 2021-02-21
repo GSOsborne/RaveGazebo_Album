@@ -85,7 +85,7 @@ public class SceneChangeSphere : MonoBehaviour
             {
                 transparencyFloat = 0;
             }
-            Debug.Log("a value is: " + transparencyFloat);
+            //Debug.Log("a value is: " + transparencyFloat);
             rend.material.SetColor("_Color", new Color(sphereColor.r, sphereColor.g, sphereColor.b, transparencyFloat));
             //rend.material.SetColor("_OutlineColor", new Color(0f, 0f, 0f, transparencyFloat));
             tmpText.faceColor = new Color32(tmpColor.r, tmpColor.g, tmpColor.b, (byte)(Mathf.FloorToInt(transparencyFloat * 255)));
@@ -120,7 +120,7 @@ public class SceneChangeSphere : MonoBehaviour
             tmpText.outlineColor = new Color32(tmpOutlineColor.r, tmpOutlineColor.g, tmpOutlineColor.b, (byte)(Mathf.FloorToInt(transparencyFloat * 255)));
             yield return null;
         }
-        Debug.Log("End of fade to opaque");
+        //Debug.Log("End of fade to opaque");
         rend.material.SetColor("_Color", new Color(sphereColor.r, sphereColor.g, sphereColor.b, 1f));
         //rend.material.SetColor("_OutlineColor", new Color(0f, 0f, 0f, 1f));
         tmpText.faceColor = new Color32(tmpColor.r, tmpColor.g, tmpColor.b, 255);
