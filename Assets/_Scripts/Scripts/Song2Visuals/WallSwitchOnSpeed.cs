@@ -14,6 +14,11 @@ public class WallSwitchOnSpeed : MonoBehaviour
         
     }
 
+    private void OnDestroy()
+    {
+        DavisDnB_AudioManager.PlaybackSpeedChange -= ChangeWalls;
+    }
+
     void ChangeWalls(PlaybackSpeed speed)
     {
         switch (speed)

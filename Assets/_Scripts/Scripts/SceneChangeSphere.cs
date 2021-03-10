@@ -67,6 +67,7 @@ public class SceneChangeSphere : MonoBehaviour
     {
         if (other.tag == "Controller" && readyToChangeScene)
         {
+            AkSoundEngine.StopAll();
             SceneChangeManager.Instance.LoadNewScene(sceneName);
         }
     }
