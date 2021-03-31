@@ -17599,7 +17599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xrController: {fileID: 257076157}
-  triggerSpeed: 2
+  triggerSpeed: 0.9
   cooldownTime: 0.3
   currentVelocity: {x: 0, y: 0, z: 0}
 --- !u!65 &186659707
@@ -40102,39 +40102,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1936370487}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &706034011
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Default UI Material
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &707559427
 GameObject:
   m_ObjectHideFlags: 0
@@ -45305,7 +45272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xrController: {fileID: 714079164}
-  triggerSpeed: 2
+  triggerSpeed: 0.9
   cooldownTime: 0.3
   currentVelocity: {x: 0, y: 0, z: 0}
 --- !u!65 &707559438
@@ -67113,6 +67080,7 @@ GameObject:
   - component: {fileID: 1233255627}
   - component: {fileID: 1233255626}
   - component: {fileID: 1233255625}
+  - component: {fileID: 1233255630}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -67219,6 +67187,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1233255630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233255624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac7744568f86be4d91ac6caa4a79b06, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerObject: {fileID: 0}
 --- !u!1 &1234108325
 GameObject:
   m_ObjectHideFlags: 0
@@ -87773,6 +87754,39 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mimicColorScript: {fileID: 306663110}
   defaultOutlineColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!21 &1598133810
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Default UI Material
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1602474822
 GameObject:
   m_ObjectHideFlags: 0

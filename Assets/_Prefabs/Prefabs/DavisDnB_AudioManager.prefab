@@ -51,7 +51,7 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: 8a38d87128110af4f978804c1e1059b4,
       type: 2}
   chargeLevel: 0
-  chargeFadeMultiplier: 6
+  chargeFadeMultiplier: 12
   chargeBoostValue: 15
   currentPlaybackSpeed: 0
   songPlaying: 0
