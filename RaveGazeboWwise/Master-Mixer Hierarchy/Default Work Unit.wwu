@@ -206,6 +206,9 @@
 									<ObjectRef Name="TurnThatShitDown" ID="{DA042272-DE7A-4C4C-9846-E181CDB5AB3C}" WorkUnitID="{4E79DDF1-2E87-4B5E-AABB-3216984F6CC1}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AuxBus Name="FeedFromReaktion" ID="{8EC9A0F6-A52F-45FC-8393-2F1EA3EC4F18}"/>
+							</ChildrenList>
 						</Bus>
 						<Bus Name="MutedDSP" ID="{FC0608D5-B7B6-48B7-B2C5-3C9012D7E07E}">
 							<ReferenceList>

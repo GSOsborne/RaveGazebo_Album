@@ -45,49 +45,65 @@
 					<ShortName>#16Flat.mid</ShortName>
 					<Path>SFX\#16Flat_00000000.wem</Path>
 				</File>
-				<File Id="18518212" Language="SFX">
-					<ShortName>sniper drums fills.wav</ShortName>
-					<Path>SFX\sniper drums fills_8956FC97.wem</Path>
-				</File>
-				<File Id="23240838" Language="SFX">
-					<ShortName>Funk_SnareMIDI.mid</ShortName>
-					<Path>SFX\Funk_SnareMIDI_00000000.wem</Path>
-				</File>
 				<File Id="26430334" Language="SFX">
 					<ShortName>Sniper_Sting1.wav</ShortName>
 					<Path>SFX\Sniper_Sting1_56D34C19.wem</Path>
 				</File>
-				<File Id="42248649" Language="SFX">
-					<ShortName>SidechainMIDI_Sniper.mid</ShortName>
-					<Path>SFX\SidechainMIDI_Sniper_00000000.wem</Path>
+				<File Id="42080067" Language="SFX">
+					<ShortName>CTD_Wall4_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall4_SidechainKick_00000000.wem</Path>
 				</File>
 				<File Id="43306733" Language="SFX">
 					<ShortName>Squeaker_Sting2.wav</ShortName>
 					<Path>SFX\Squeaker_Sting2_56D34C19.wem</Path>
 				</File>
+				<File Id="57048353" Language="SFX">
+					<ShortName>CTD_Riser3.wav</ShortName>
+					<Path>SFX\CTD_Riser3_8956FC97.wem</Path>
+				</File>
 				<File Id="57323775" Language="SFX">
 					<ShortName>#21RampUp.mid</ShortName>
 					<Path>SFX\#21RampUp_00000000.wem</Path>
 				</File>
-				<File Id="62100216" Language="SFX">
-					<ShortName>DavisDnB_OGProd_Layer2.wav</ShortName>
-					<Path>SFX\DavisDnB_OGProd_Layer2_8956FC97.wem</Path>
-				</File>
-				<File Id="62485475" Language="SFX">
-					<ShortName>SidechainMIDI_OGProd.mid</ShortName>
-					<Path>SFX\SidechainMIDI_OGProd_00000000.wem</Path>
+				<File Id="62224334" Language="SFX">
+					<ShortName>CTD_Riser4.wav</ShortName>
+					<Path>SFX\CTD_Riser4_8956FC97.wem</Path>
 				</File>
 				<File Id="69731098" Language="SFX">
 					<ShortName>#16Triangle.mid</ShortName>
 					<Path>SFX\#16Triangle_00000000.wem</Path>
 				</File>
+				<File Id="80605456" Language="SFX">
+					<ShortName>CTD_Wall4_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall4_SidechainKick_00000000.wem</Path>
+				</File>
 				<File Id="81898417" Language="SFX">
 					<ShortName>Sniper_Sting2.wav</ShortName>
 					<Path>SFX\Sniper_Sting2_56D34C19.wem</Path>
 				</File>
-				<File Id="130871908" Language="SFX">
-					<ShortName>DavisDnB_Funk_Layer2.wav</ShortName>
-					<Path>SFX\DavisDnB_Funk_Layer2_8956FC97.wem</Path>
+				<File Id="92453806" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="104143595" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="109047824" Language="SFX">
+					<ShortName>CTD_Wall4_Layer1.wav</ShortName>
+					<Path>SFX\CTD_Wall4_Layer1_8956FC97.wem</Path>
+				</File>
+				<File Id="116240217" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="119640117" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="128851163" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
 				</File>
 				<File Id="132468760" Language="SFX">
 					<ShortName>Funk_Sting5.wav</ShortName>
@@ -105,9 +121,21 @@
 					<ShortName>#20Triangle.mid</ShortName>
 					<Path>SFX\#20Triangle_00000000.wem</Path>
 				</File>
+				<File Id="162542203" Language="SFX">
+					<ShortName>CTD_Wall6_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall6_SidechainKick_00000000.wem</Path>
+				</File>
 				<File Id="163792164" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
 					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="163826629" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="174208360" Language="SFX">
+					<ShortName>CTD_Wall4_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall4_SidechainSnare_00000000.wem</Path>
 				</File>
 				<File Id="181100517" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
@@ -117,25 +145,37 @@
 					<ShortName>Funk_Sting3.wav</ShortName>
 					<Path>SFX\Funk_Sting3_56D34C19.wem</Path>
 				</File>
-				<File Id="195749766" Language="SFX">
-					<ShortName>DavisDnB_OGProd_Layer3.wav</ShortName>
-					<Path>SFX\DavisDnB_OGProd_Layer3_8956FC97.wem</Path>
-				</File>
 				<File Id="196286279" Language="SFX">
 					<ShortName>#17Triangle.mid</ShortName>
 					<Path>SFX\#17Triangle_00000000.wem</Path>
 				</File>
-				<File Id="197637992" Language="SFX">
-					<ShortName>SidechainMIDI_Funk.mid</ShortName>
-					<Path>SFX\SidechainMIDI_Funk_00000000.wem</Path>
+				<File Id="200081458" Language="SFX">
+					<ShortName>CTD_Wall2_Fills.wav</ShortName>
+					<Path>SFX\CTD_Wall2_Fills_8956FC97.wem</Path>
 				</File>
 				<File Id="203845955" Language="SFX">
 					<ShortName>Funk_Sting7.wav</ShortName>
 					<Path>SFX\Funk_Sting7_56D34C19.wem</Path>
 				</File>
-				<File Id="213417481" Language="SFX">
-					<ShortName>Charlie_Layer1.wav</ShortName>
-					<Path>SFX\Charlie_Layer1_8956FC97.wem</Path>
+				<File Id="205373847" Language="SFX">
+					<ShortName>CTD_Wall6_Layer2.wav</ShortName>
+					<Path>SFX\CTD_Wall6_Layer2_8956FC97.wem</Path>
+				</File>
+				<File Id="214582233" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="218626797" Language="SFX">
+					<ShortName>CTD_Riser1.wav</ShortName>
+					<Path>SFX\CTD_Riser1_8956FC97.wem</Path>
+				</File>
+				<File Id="222888698" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="226993428" Language="SFX">
+					<ShortName>CTD_Wall5_Layer3.wav</ShortName>
+					<Path>SFX\CTD_Wall5_Layer3_8956FC97.wem</Path>
 				</File>
 				<File Id="229705138" Language="SFX">
 					<ShortName>#19Triangle.mid</ShortName>
@@ -145,25 +185,33 @@
 					<ShortName>Funk_Sting4.wav</ShortName>
 					<Path>SFX\Funk_Sting4_56D34C19.wem</Path>
 				</File>
-				<File Id="249448556" Language="SFX">
-					<ShortName>DavisDnB_Dholak_Layer4.wav</ShortName>
-					<Path>SFX\DavisDnB_Dholak_Layer4_8956FC97.wem</Path>
-				</File>
-				<File Id="255620867" Language="SFX">
-					<ShortName>Squeaker_KickMIDI.mid</ShortName>
-					<Path>SFX\Squeaker_KickMIDI_00000000.wem</Path>
+				<File Id="245830882" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
 				</File>
 				<File Id="255973731" Language="SFX">
 					<ShortName>Sniper_Sting3.wav</ShortName>
 					<Path>SFX\Sniper_Sting3_56D34C19.wem</Path>
 				</File>
+				<File Id="256194487" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
 				<File Id="256316505" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
 					<Path>SFX\#19Flat_00000000.wem</Path>
 				</File>
-				<File Id="261704702" Language="SFX">
-					<ShortName>DavisDnB_Squeaker_Layer1.wav</ShortName>
-					<Path>SFX\DavisDnB_Squeaker_Layer1_8956FC97.wem</Path>
+				<File Id="258507646" Language="SFX">
+					<ShortName>CTD_Wall2_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall2_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="262985789" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="272227330" Language="SFX">
+					<ShortName>CTD_Wall1_Fills.wav</ShortName>
+					<Path>SFX\CTD_Wall1_Fills_8956FC97.wem</Path>
 				</File>
 				<File Id="277412915" Language="SFX">
 					<ShortName>Hat3.wav</ShortName>
@@ -173,21 +221,33 @@
 					<ShortName>Hat1.wav</ShortName>
 					<Path>SFX\Hat1_56D34C19.wem</Path>
 				</File>
-				<File Id="286058808" Language="SFX">
-					<ShortName>Charlie_Fills_Updated.wav</ShortName>
-					<Path>SFX\Charlie_Fills_Updated_8956FC97.wem</Path>
+				<File Id="288739301" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="290016873" Language="SFX">
+					<ShortName>CTD_Wall6_Layer1.wav</ShortName>
+					<Path>SFX\CTD_Wall6_Layer1_8956FC97.wem</Path>
+				</File>
+				<File Id="290510014" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
 				</File>
 				<File Id="296813834" Language="SFX">
 					<ShortName>#18Flat.mid</ShortName>
 					<Path>SFX\#18Flat_00000000.wem</Path>
 				</File>
-				<File Id="315644536" Language="SFX">
-					<ShortName>OG drum fills.wav</ShortName>
-					<Path>SFX\OG drum fills_8956FC97.wem</Path>
+				<File Id="301122420" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
 				</File>
-				<File Id="356205975" Language="SFX">
-					<ShortName>DavisDnB_OGProd_Layer1.wav</ShortName>
-					<Path>SFX\DavisDnB_OGProd_Layer1_8956FC97.wem</Path>
+				<File Id="328132100" Language="SFX">
+					<ShortName>CTD_Wall6_Layer3.wav</ShortName>
+					<Path>SFX\CTD_Wall6_Layer3_8956FC97.wem</Path>
+				</File>
+				<File Id="338814267" Language="SFX">
+					<ShortName>CTD_Wall4_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall4_SidechainSnare_00000000.wem</Path>
 				</File>
 				<File Id="359628687" Language="SFX">
 					<ShortName>OGProd_Sting5.wav</ShortName>
@@ -201,13 +261,645 @@
 					<ShortName>#17RampUp.mid</ShortName>
 					<Path>SFX\#17RampUp_00000000.wem</Path>
 				</File>
-				<File Id="365429314" Language="SFX">
-					<ShortName>Charlie_Sidechain_Snare.mid</ShortName>
-					<Path>SFX\Charlie_Sidechain_Snare_00000000.wem</Path>
+				<File Id="366827130" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
 				</File>
-				<File Id="366621796" Language="SFX">
-					<ShortName>DavisDnB_Squeaker_Fills.wav</ShortName>
-					<Path>SFX\DavisDnB_Squeaker_Fills_8956FC97.wem</Path>
+				<File Id="369981263" Language="SFX">
+					<ShortName>#16RampDown.mid</ShortName>
+					<Path>SFX\#16RampDown_00000000.wem</Path>
+				</File>
+				<File Id="386314665" Language="SFX">
+					<ShortName>OGProd_Sting6.wav</ShortName>
+					<Path>SFX\OGProd_Sting6_56D34C19.wem</Path>
+				</File>
+				<File Id="386490265" Language="SFX">
+					<ShortName>Hat5.wav</ShortName>
+					<Path>SFX\Hat5_56D34C19.wem</Path>
+				</File>
+				<File Id="393987417" Language="SFX">
+					<ShortName>CTD_Wall1_Layer1.wav</ShortName>
+					<Path>SFX\CTD_Wall1_Layer1_8956FC97.wem</Path>
+				</File>
+				<File Id="394441383" Language="SFX">
+					<ShortName>CTD_Wall2_Layer1.wav</ShortName>
+					<Path>SFX\CTD_Wall2_Layer1_8956FC97.wem</Path>
+				</File>
+				<File Id="396156328" Language="SFX">
+					<ShortName>#16RampUp.mid</ShortName>
+					<Path>SFX\#16RampUp_00000000.wem</Path>
+				</File>
+				<File Id="403825601" Language="SFX">
+					<ShortName>#20Triangle.mid</ShortName>
+					<Path>SFX\#20Triangle_00000000.wem</Path>
+				</File>
+				<File Id="407510620" Language="SFX">
+					<ShortName>CTD_Wall2_Layer3.wav</ShortName>
+					<Path>SFX\CTD_Wall2_Layer3_8956FC97.wem</Path>
+				</File>
+				<File Id="411493012" Language="SFX">
+					<ShortName>#21Triangle.mid</ShortName>
+					<Path>SFX\#21Triangle_00000000.wem</Path>
+				</File>
+				<File Id="415321835" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="417780640" Language="SFX">
+					<ShortName>#21Flat.mid</ShortName>
+					<Path>SFX\#21Flat_00000000.wem</Path>
+				</File>
+				<File Id="419963691" Language="SFX">
+					<ShortName>CTD_Wall5_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall5_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="423287213" Language="SFX">
+					<ShortName>Sniper_Sting5.wav</ShortName>
+					<Path>SFX\Sniper_Sting5_56D34C19.wem</Path>
+				</File>
+				<File Id="450861213" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="451414641" Language="SFX">
+					<ShortName>CTD_Wall2_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall2_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="453176476" Language="SFX">
+					<ShortName>#18Triangle.mid</ShortName>
+					<Path>SFX\#18Triangle_00000000.wem</Path>
+				</File>
+				<File Id="470396539" Language="SFX">
+					<ShortName>CTD_Bass2_Multiplex.wav</ShortName>
+					<Path>SFX\CTD_Bass2_Multiplex_8956FC97.wem</Path>
+				</File>
+				<File Id="482024600" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="490796889" Language="SFX">
+					<ShortName>CTD_Wall1_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall1_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="493653779" Language="SFX">
+					<ShortName>#17RampDown.mid</ShortName>
+					<Path>SFX\#17RampDown_00000000.wem</Path>
+				</File>
+				<File Id="498472385" Language="SFX">
+					<ShortName>CTD_Wall4_Layer3.wav</ShortName>
+					<Path>SFX\CTD_Wall4_Layer3_8956FC97.wem</Path>
+				</File>
+				<File Id="511470018" Language="SFX">
+					<ShortName>#21Flat.mid</ShortName>
+					<Path>SFX\#21Flat_00000000.wem</Path>
+				</File>
+				<File Id="511594797" Language="SFX">
+					<ShortName>#20RampDown.mid</ShortName>
+					<Path>SFX\#20RampDown_00000000.wem</Path>
+				</File>
+				<File Id="511791468" Language="SFX">
+					<ShortName>CTD_Wall5_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall5_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="514573673" Language="SFX">
+					<ShortName>Funk_Sting6.wav</ShortName>
+					<Path>SFX\Funk_Sting6_56D34C19.wem</Path>
+				</File>
+				<File Id="528777307" Language="SFX">
+					<ShortName>CTD_Wall6_Fills.wav</ShortName>
+					<Path>SFX\CTD_Wall6_Fills_8956FC97.wem</Path>
+				</File>
+				<File Id="534310312" Language="SFX">
+					<ShortName>CTD_Bass1_Chainsaw.wav</ShortName>
+					<Path>SFX\CTD_Bass1_Chainsaw_8956FC97.wem</Path>
+				</File>
+				<File Id="536141369" Language="SFX">
+					<ShortName>#21Flat.mid</ShortName>
+					<Path>SFX\#21Flat_00000000.wem</Path>
+				</File>
+				<File Id="541518634" Language="SFX">
+					<ShortName>CTD_Riser6.wav</ShortName>
+					<Path>SFX\CTD_Riser6_8956FC97.wem</Path>
+				</File>
+				<File Id="543447063" Language="SFX">
+					<ShortName>#17Triangle.mid</ShortName>
+					<Path>SFX\#17Triangle_00000000.wem</Path>
+				</File>
+				<File Id="547113355" Language="SFX">
+					<ShortName>Squeaker_Sting3.wav</ShortName>
+					<Path>SFX\Squeaker_Sting3_56D34C19.wem</Path>
+				</File>
+				<File Id="551940536" Language="SFX">
+					<ShortName>Kooman KUSH crash (55).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (55)_56D34C19.wem</Path>
+				</File>
+				<File Id="558876200" Language="SFX">
+					<ShortName>#19Flat.mid</ShortName>
+					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="560288039" Language="SFX">
+					<ShortName>CTD_Wall5_Fills.wav</ShortName>
+					<Path>SFX\CTD_Wall5_Fills_8956FC97.wem</Path>
+				</File>
+				<File Id="569728116" Language="SFX">
+					<ShortName>Charleston_Sting5.wav</ShortName>
+					<Path>SFX\Charleston_Sting5_56D34C19.wem</Path>
+				</File>
+				<File Id="576606435" Language="SFX">
+					<ShortName>Charleston_Sting2.wav</ShortName>
+					<Path>SFX\Charleston_Sting2_56D34C19.wem</Path>
+				</File>
+				<File Id="581319617" Language="SFX">
+					<ShortName>Kooman KUSH crash (50).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (50)_56D34C19.wem</Path>
+				</File>
+				<File Id="581695431" Language="SFX">
+					<ShortName>#17RampDown.mid</ShortName>
+					<Path>SFX\#17RampDown_00000000.wem</Path>
+				</File>
+				<File Id="589924819" Language="SFX">
+					<ShortName>Hat4.wav</ShortName>
+					<Path>SFX\Hat4_56D34C19.wem</Path>
+				</File>
+				<File Id="591159828" Language="SFX">
+					<ShortName>#19RampUp.mid</ShortName>
+					<Path>SFX\#19RampUp_00000000.wem</Path>
+				</File>
+				<File Id="598106935" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="598233438" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="600017824" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="600456504" Language="SFX">
+					<ShortName>#17Flat.mid</ShortName>
+					<Path>SFX\#17Flat_00000000.wem</Path>
+				</File>
+				<File Id="603626499" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="606072574" Language="SFX">
+					<ShortName>Dholak_Sting2.wav</ShortName>
+					<Path>SFX\Dholak_Sting2_56D34C19.wem</Path>
+				</File>
+				<File Id="616947856" Language="SFX">
+					<ShortName>CTD_Bass3_SquishWet.wav</ShortName>
+					<Path>SFX\CTD_Bass3_SquishWet_8956FC97.wem</Path>
+				</File>
+				<File Id="617672034" Language="SFX">
+					<ShortName>#18Flat.mid</ShortName>
+					<Path>SFX\#18Flat_00000000.wem</Path>
+				</File>
+				<File Id="623035860" Language="SFX">
+					<ShortName>Kooman KUSH crash (52).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (52)_56D34C19.wem</Path>
+				</File>
+				<File Id="627398414" Language="SFX">
+					<ShortName>CTD_Wall5_Layer1.wav</ShortName>
+					<Path>SFX\CTD_Wall5_Layer1_8956FC97.wem</Path>
+				</File>
+				<File Id="628390883" Language="SFX">
+					<ShortName>Kooman KUSH crash (53).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (53)_56D34C19.wem</Path>
+				</File>
+				<File Id="630949015" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="638685664" Language="SFX">
+					<ShortName>#16RampDown.mid</ShortName>
+					<Path>SFX\#16RampDown_00000000.wem</Path>
+				</File>
+				<File Id="649239353" Language="SFX">
+					<ShortName>Charleston_Sting1.wav</ShortName>
+					<Path>SFX\Charleston_Sting1_56D34C19.wem</Path>
+				</File>
+				<File Id="651026468" Language="SFX">
+					<ShortName>CTD_Wall4_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall4_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="655882260" Language="SFX">
+					<ShortName>CTD_Wall5_Layer2.wav</ShortName>
+					<Path>SFX\CTD_Wall5_Layer2_8956FC97.wem</Path>
+				</File>
+				<File Id="657931159" Language="SFX">
+					<ShortName>#18Flat.mid</ShortName>
+					<Path>SFX\#18Flat_00000000.wem</Path>
+				</File>
+				<File Id="676492358" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="680877201" Language="SFX">
+					<ShortName>OGProd_Sting2.wav</ShortName>
+					<Path>SFX\OGProd_Sting2_56D34C19.wem</Path>
+				</File>
+				<File Id="689933823" Language="SFX">
+					<ShortName>CTD_Wall6_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall6_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="719219164" Language="SFX">
+					<ShortName>CTD_Wall3_Layer2.wav</ShortName>
+					<Path>SFX\CTD_Wall3_Layer2_8956FC97.wem</Path>
+				</File>
+				<File Id="720437376" Language="SFX">
+					<ShortName>#20RampUp.mid</ShortName>
+					<Path>SFX\#20RampUp_00000000.wem</Path>
+				</File>
+				<File Id="722996484" Language="SFX">
+					<ShortName>Charleston_Sting3.wav</ShortName>
+					<Path>SFX\Charleston_Sting3_56D34C19.wem</Path>
+				</File>
+				<File Id="734349865" Language="SFX">
+					<ShortName>CTD_Wall1_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall1_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="741214201" Language="SFX">
+					<ShortName>Sniper_Sting6.wav</ShortName>
+					<Path>SFX\Sniper_Sting6_56D34C19.wem</Path>
+				</File>
+				<File Id="749116649" Language="SFX">
+					<ShortName>#16Triangle.mid</ShortName>
+					<Path>SFX\#16Triangle_00000000.wem</Path>
+				</File>
+				<File Id="751530816" Language="SFX">
+					<ShortName>CTD_Riser5.wav</ShortName>
+					<Path>SFX\CTD_Riser5_8956FC97.wem</Path>
+				</File>
+				<File Id="753228262" Language="SFX">
+					<ShortName>CTD_Wall3_Layer1.wav</ShortName>
+					<Path>SFX\CTD_Wall3_Layer1_8956FC97.wem</Path>
+				</File>
+				<File Id="755210833" Language="SFX">
+					<ShortName>CTD_Riser2.wav</ShortName>
+					<Path>SFX\CTD_Riser2_8956FC97.wem</Path>
+				</File>
+				<File Id="778165503" Language="SFX">
+					<ShortName>#20Flat.mid</ShortName>
+					<Path>SFX\#20Flat_00000000.wem</Path>
+				</File>
+				<File Id="785679559" Language="SFX">
+					<ShortName>#21Flat.mid</ShortName>
+					<Path>SFX\#21Flat_00000000.wem</Path>
+				</File>
+				<File Id="799979159" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="801217734" Language="SFX">
+					<ShortName>OGProd_Sting1.wav</ShortName>
+					<Path>SFX\OGProd_Sting1_56D34C19.wem</Path>
+				</File>
+				<File Id="801380981" Language="SFX">
+					<ShortName>CTD_Wall4_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall4_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="807260762" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="811015614" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="811648600" Language="SFX">
+					<ShortName>#17RampUp.mid</ShortName>
+					<Path>SFX\#17RampUp_00000000.wem</Path>
+				</File>
+				<File Id="813212623" Language="SFX">
+					<ShortName>#21RampDown.mid</ShortName>
+					<Path>SFX\#21RampDown_00000000.wem</Path>
+				</File>
+				<File Id="816968227" Language="SFX">
+					<ShortName>Kooman KUSH crash (51).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (51)_56D34C19.wem</Path>
+				</File>
+				<File Id="827257653" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="828147351" Language="SFX">
+					<ShortName>#17RampUp.mid</ShortName>
+					<Path>SFX\#17RampUp_00000000.wem</Path>
+				</File>
+				<File Id="837233555" Language="SFX">
+					<ShortName>#18Flat.mid</ShortName>
+					<Path>SFX\#18Flat_00000000.wem</Path>
+				</File>
+				<File Id="852460058" Language="SFX">
+					<ShortName>CTD_Wall4_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall4_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="859545496" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="868498722" Language="SFX">
+					<ShortName>CTD_Wall2_Layer2.wav</ShortName>
+					<Path>SFX\CTD_Wall2_Layer2_8956FC97.wem</Path>
+				</File>
+				<File Id="870660809" Language="SFX">
+					<ShortName>#19RampDown.mid</ShortName>
+					<Path>SFX\#19RampDown_00000000.wem</Path>
+				</File>
+				<File Id="880202930" Language="SFX">
+					<ShortName>CTD_Wall3_Layer3.wav</ShortName>
+					<Path>SFX\CTD_Wall3_Layer3_8956FC97.wem</Path>
+				</File>
+				<File Id="888880840" Language="SFX">
+					<ShortName>CTD_Wall4_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall4_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="889169828" Language="SFX">
+					<ShortName>Funk_Sting1.wav</ShortName>
+					<Path>SFX\Funk_Sting1_56D34C19.wem</Path>
+				</File>
+				<File Id="890559297" Language="SFX">
+					<ShortName>#16Triangle.mid</ShortName>
+					<Path>SFX\#16Triangle_00000000.wem</Path>
+				</File>
+				<File Id="901482658" Language="SFX">
+					<ShortName>Squeaker_Sting4.wav</ShortName>
+					<Path>SFX\Squeaker_Sting4_56D34C19.wem</Path>
+				</File>
+				<File Id="902298130" Language="SFX">
+					<ShortName>#16RampDown.mid</ShortName>
+					<Path>SFX\#16RampDown_00000000.wem</Path>
+				</File>
+				<File Id="906568587" Language="SFX">
+					<ShortName>#18RampDown.mid</ShortName>
+					<Path>SFX\#18RampDown_00000000.wem</Path>
+				</File>
+				<File Id="906824125" Language="SFX">
+					<ShortName>Funk_Sting2.wav</ShortName>
+					<Path>SFX\Funk_Sting2_56D34C19.wem</Path>
+				</File>
+				<File Id="907725728" Language="SFX">
+					<ShortName>CTD_Wall3_Fills.wav</ShortName>
+					<Path>SFX\CTD_Wall3_Fills_8956FC97.wem</Path>
+				</File>
+				<File Id="918931925" Language="SFX">
+					<ShortName>#19Flat.mid</ShortName>
+					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="921212772" Language="SFX">
+					<ShortName>CTD_Wall1_Layer2.wav</ShortName>
+					<Path>SFX\CTD_Wall1_Layer2_8956FC97.wem</Path>
+				</File>
+				<File Id="922149693" Language="SFX">
+					<ShortName>CTD_Wall4_Fills.wav</ShortName>
+					<Path>SFX\CTD_Wall4_Fills_8956FC97.wem</Path>
+				</File>
+				<File Id="934970204" Language="SFX">
+					<ShortName>#17Flat.mid</ShortName>
+					<Path>SFX\#17Flat_00000000.wem</Path>
+				</File>
+				<File Id="951639129" Language="SFX">
+					<ShortName>Charleston_Sting4.wav</ShortName>
+					<Path>SFX\Charleston_Sting4_56D34C19.wem</Path>
+				</File>
+				<File Id="957758910" Language="SFX">
+					<ShortName>Sniper_Sting4.wav</ShortName>
+					<Path>SFX\Sniper_Sting4_56D34C19.wem</Path>
+				</File>
+				<File Id="974348426" Language="SFX">
+					<ShortName>#18RampUp.mid</ShortName>
+					<Path>SFX\#18RampUp_00000000.wem</Path>
+				</File>
+				<File Id="977278617" Language="SFX">
+					<ShortName>Kooman KUSH crash (54).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (54)_56D34C19.wem</Path>
+				</File>
+				<File Id="977565527" Language="SFX">
+					<ShortName>OGProd_Sting3.wav</ShortName>
+					<Path>SFX\OGProd_Sting3_56D34C19.wem</Path>
+				</File>
+				<File Id="977892386" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+				<File Id="983661850" Language="SFX">
+					<ShortName>#20RampUp.mid</ShortName>
+					<Path>SFX\#20RampUp_00000000.wem</Path>
+				</File>
+				<File Id="986239228" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainSnare.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainSnare_00000000.wem</Path>
+				</File>
+				<File Id="1027088030" Language="SFX">
+					<ShortName>#18Flat.mid</ShortName>
+					<Path>SFX\#18Flat_00000000.wem</Path>
+				</File>
+				<File Id="1031498411" Language="SFX">
+					<ShortName>#20RampDown.mid</ShortName>
+					<Path>SFX\#20RampDown_00000000.wem</Path>
+				</File>
+				<File Id="1033383895" Language="SFX">
+					<ShortName>Hat7.wav</ShortName>
+					<Path>SFX\Hat7_56D34C19.wem</Path>
+				</File>
+				<File Id="1039274912" Language="SFX">
+					<ShortName>Charleston_Sting6.wav</ShortName>
+					<Path>SFX\Charleston_Sting6_56D34C19.wem</Path>
+				</File>
+				<File Id="1049688030" Language="SFX">
+					<ShortName>CTD_Wall1_Layer3.wav</ShortName>
+					<Path>SFX\CTD_Wall1_Layer3_8956FC97.wem</Path>
+				</File>
+				<File Id="1053127628" Language="SFX">
+					<ShortName>Dholak_Sting1.wav</ShortName>
+					<Path>SFX\Dholak_Sting1_56D34C19.wem</Path>
+				</File>
+				<File Id="1059073170" Language="SFX">
+					<ShortName>Hat6.wav</ShortName>
+					<Path>SFX\Hat6_56D34C19.wem</Path>
+				</File>
+				<File Id="1064316419" Language="SFX">
+					<ShortName>CTD_Wall4_Layer2.wav</ShortName>
+					<Path>SFX\CTD_Wall4_Layer2_8956FC97.wem</Path>
+				</File>
+				<File Id="1072071558" Language="SFX">
+					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
+					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="778469037" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Song3</ObjectPath>
+			<ShortName>Song3</ShortName>
+			<Path>Song3.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2658066811" Name="CloseFills" ObjectPath="\Events\Default Work Unit\CloseFills" MaxAttenuation="0.000000"/>
+				<Event Id="4286046374" Name="DSPTrigger" ObjectPath="\Events\Default Work Unit\DSPTrigger" MaxAttenuation="0.000000"/>
+				<Event Id="3556790691" Name="LayerCharleston" ObjectPath="\Events\Default Work Unit\LayerCharleston" MaxAttenuation="0.000000"/>
+				<Event Id="1154343441" Name="LayerDholak" ObjectPath="\Events\Default Work Unit\LayerDholak" MaxAttenuation="0.000000"/>
+				<Event Id="189758730" Name="LayerFunk" ObjectPath="\Events\Default Work Unit\LayerFunk" MaxAttenuation="0.000000"/>
+				<Event Id="2774025313" Name="LayerOGProd" ObjectPath="\Events\Default Work Unit\LayerOGProd" MaxAttenuation="0.000000"/>
+				<Event Id="4001994617" Name="LayerSniper" ObjectPath="\Events\Default Work Unit\LayerSniper" MaxAttenuation="0.000000"/>
+				<Event Id="323477279" Name="LayerSqueaker" ObjectPath="\Events\Default Work Unit\LayerSqueaker" MaxAttenuation="0.000000"/>
+				<Event Id="3391767169" Name="OpenFills" ObjectPath="\Events\Default Work Unit\OpenFills"/>
+				<Event Id="974193271" Name="StartSong3" ObjectPath="\Events\Default Work Unit\StartSong3"/>
+				<Event Id="1917263390" Name="StopMusic" ObjectPath="\Events\Default Work Unit\StopMusic" MaxAttenuation="0.000000"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="2200512" Language="SFX">
+					<ShortName>Squeaker_Sting5.wav</ShortName>
+					<Path>SFX\Squeaker_Sting5_56D34C19.wem</Path>
+				</File>
+				<File Id="11133192" Language="SFX">
+					<ShortName>Hat2.wav</ShortName>
+					<Path>SFX\Hat2_56D34C19.wem</Path>
+				</File>
+				<File Id="15843995" Language="SFX">
+					<ShortName>Squeaker_Sting1.wav</ShortName>
+					<Path>SFX\Squeaker_Sting1_56D34C19.wem</Path>
+				</File>
+				<File Id="16664386" Language="SFX">
+					<ShortName>#16Flat.mid</ShortName>
+					<Path>SFX\#16Flat_00000000.wem</Path>
+				</File>
+				<File Id="26430334" Language="SFX">
+					<ShortName>Sniper_Sting1.wav</ShortName>
+					<Path>SFX\Sniper_Sting1_56D34C19.wem</Path>
+				</File>
+				<File Id="43306733" Language="SFX">
+					<ShortName>Squeaker_Sting2.wav</ShortName>
+					<Path>SFX\Squeaker_Sting2_56D34C19.wem</Path>
+				</File>
+				<File Id="49784423" Language="SFX">
+					<ShortName>bassline #1 v1 layer #3 (pizz fast pluck).wav</ShortName>
+					<Path>SFX\bassline #1 v1 layer #3 (pizz fast pluck)_8956FC97.wem</Path>
+				</File>
+				<File Id="57323775" Language="SFX">
+					<ShortName>#21RampUp.mid</ShortName>
+					<Path>SFX\#21RampUp_00000000.wem</Path>
+				</File>
+				<File Id="69731098" Language="SFX">
+					<ShortName>#16Triangle.mid</ShortName>
+					<Path>SFX\#16Triangle_00000000.wem</Path>
+				</File>
+				<File Id="81898417" Language="SFX">
+					<ShortName>Sniper_Sting2.wav</ShortName>
+					<Path>SFX\Sniper_Sting2_56D34C19.wem</Path>
+				</File>
+				<File Id="87773612" Language="SFX">
+					<ShortName>bassline #2 v2 layer #1  drums (d2).wav</ShortName>
+					<Path>SFX\bassline #2 v2 layer #1  drums (d2)_8956FC97.wem</Path>
+				</File>
+				<File Id="90944284" Language="SFX">
+					<ShortName>bassline #1 v2 snare midi.mid</ShortName>
+					<Path>SFX\bassline #1 v2 snare midi_00000000.wem</Path>
+				</File>
+				<File Id="123620592" Language="SFX">
+					<ShortName>drum fill 4 measure loop.wav</ShortName>
+					<Path>SFX\drum fill 4 measure loop_8956FC97.wem</Path>
+				</File>
+				<File Id="132468760" Language="SFX">
+					<ShortName>Funk_Sting5.wav</ShortName>
+					<Path>SFX\Funk_Sting5_56D34C19.wem</Path>
+				</File>
+				<File Id="133227293" Language="SFX">
+					<ShortName>bassline #3 (with sub) (d3).wav</ShortName>
+					<Path>SFX\bassline #3 (with sub) (d3)_8956FC97.wem</Path>
+				</File>
+				<File Id="134475039" Language="SFX">
+					<ShortName>OGProd_Sting4.wav</ShortName>
+					<Path>SFX\OGProd_Sting4_56D34C19.wem</Path>
+				</File>
+				<File Id="139717815" Language="SFX">
+					<ShortName>bassline #1 v1 kick midi.mid</ShortName>
+					<Path>SFX\bassline #1 v1 kick midi_00000000.wem</Path>
+				</File>
+				<File Id="146157739" Language="SFX">
+					<ShortName>#20Flat.mid</ShortName>
+					<Path>SFX\#20Flat_00000000.wem</Path>
+				</File>
+				<File Id="148469304" Language="SFX">
+					<ShortName>#20Triangle.mid</ShortName>
+					<Path>SFX\#20Triangle_00000000.wem</Path>
+				</File>
+				<File Id="163792164" Language="SFX">
+					<ShortName>#19Flat.mid</ShortName>
+					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="181100517" Language="SFX">
+					<ShortName>#19Flat.mid</ShortName>
+					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="184089233" Language="SFX">
+					<ShortName>bassline #2 v2 kick midi.mid</ShortName>
+					<Path>SFX\bassline #2 v2 kick midi_00000000.wem</Path>
+				</File>
+				<File Id="186175733" Language="SFX">
+					<ShortName>Funk_Sting3.wav</ShortName>
+					<Path>SFX\Funk_Sting3_56D34C19.wem</Path>
+				</File>
+				<File Id="196286279" Language="SFX">
+					<ShortName>#17Triangle.mid</ShortName>
+					<Path>SFX\#17Triangle_00000000.wem</Path>
+				</File>
+				<File Id="201372105" Language="SFX">
+					<ShortName>bassline #3 v2 layer  #3 plucks (high end reduced) (d3).wav</ShortName>
+					<Path>SFX\bassline #3 v2 layer  #3 plucks (high end reduced) (d3)_8956FC97.wem</Path>
+				</File>
+				<File Id="203845955" Language="SFX">
+					<ShortName>Funk_Sting7.wav</ShortName>
+					<Path>SFX\Funk_Sting7_56D34C19.wem</Path>
+				</File>
+				<File Id="229705138" Language="SFX">
+					<ShortName>#19Triangle.mid</ShortName>
+					<Path>SFX\#19Triangle_00000000.wem</Path>
+				</File>
+				<File Id="245042619" Language="SFX">
+					<ShortName>Funk_Sting4.wav</ShortName>
+					<Path>SFX\Funk_Sting4_56D34C19.wem</Path>
+				</File>
+				<File Id="255973731" Language="SFX">
+					<ShortName>Sniper_Sting3.wav</ShortName>
+					<Path>SFX\Sniper_Sting3_56D34C19.wem</Path>
+				</File>
+				<File Id="256316505" Language="SFX">
+					<ShortName>#19Flat.mid</ShortName>
+					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="277412915" Language="SFX">
+					<ShortName>Hat3.wav</ShortName>
+					<Path>SFX\Hat3_56D34C19.wem</Path>
+				</File>
+				<File Id="278935672" Language="SFX">
+					<ShortName>Hat1.wav</ShortName>
+					<Path>SFX\Hat1_56D34C19.wem</Path>
+				</File>
+				<File Id="296813834" Language="SFX">
+					<ShortName>#18Flat.mid</ShortName>
+					<Path>SFX\#18Flat_00000000.wem</Path>
+				</File>
+				<File Id="332324795" Language="SFX">
+					<ShortName>bassline #3 v1 layer #1 drums (d2).wav</ShortName>
+					<Path>SFX\bassline #3 v1 layer #1 drums (d2)_8956FC97.wem</Path>
+				</File>
+				<File Id="359628687" Language="SFX">
+					<ShortName>OGProd_Sting5.wav</ShortName>
+					<Path>SFX\OGProd_Sting5_56D34C19.wem</Path>
+				</File>
+				<File Id="360199630" Language="SFX">
+					<ShortName>#21Flat.mid</ShortName>
+					<Path>SFX\#21Flat_00000000.wem</Path>
+				</File>
+				<File Id="363742227" Language="SFX">
+					<ShortName>#17RampUp.mid</ShortName>
+					<Path>SFX\#17RampUp_00000000.wem</Path>
+				</File>
+				<File Id="365137137" Language="SFX">
+					<ShortName>bassline #3 v1 kick midi.mid</ShortName>
+					<Path>SFX\bassline #3 v1 kick midi_00000000.wem</Path>
 				</File>
 				<File Id="369981263" Language="SFX">
 					<ShortName>#16RampDown.mid</ShortName>
@@ -225,10 +917,6 @@
 					<ShortName>#16RampUp.mid</ShortName>
 					<Path>SFX\#16RampUp_00000000.wem</Path>
 				</File>
-				<File Id="399991057" Language="SFX">
-					<ShortName>SidechainMIDI_Dholak.mid</ShortName>
-					<Path>SFX\SidechainMIDI_Dholak_00000000.wem</Path>
-				</File>
 				<File Id="403825601" Language="SFX">
 					<ShortName>#20Triangle.mid</ShortName>
 					<Path>SFX\#20Triangle_00000000.wem</Path>
@@ -237,41 +925,33 @@
 					<ShortName>#21Triangle.mid</ShortName>
 					<Path>SFX\#21Triangle_00000000.wem</Path>
 				</File>
-				<File Id="412199558" Language="SFX">
-					<ShortName>DavisDnB_Funk_Layer3.wav</ShortName>
-					<Path>SFX\DavisDnB_Funk_Layer3_8956FC97.wem</Path>
-				</File>
 				<File Id="417780640" Language="SFX">
 					<ShortName>#21Flat.mid</ShortName>
 					<Path>SFX\#21Flat_00000000.wem</Path>
+				</File>
+				<File Id="417790636" Language="SFX">
+					<ShortName>bassline #3 v2 layer #1 drums (d2).wav</ShortName>
+					<Path>SFX\bassline #3 v2 layer #1 drums (d2)_8956FC97.wem</Path>
 				</File>
 				<File Id="423287213" Language="SFX">
 					<ShortName>Sniper_Sting5.wav</ShortName>
 					<Path>SFX\Sniper_Sting5_56D34C19.wem</Path>
 				</File>
-				<File Id="430788549" Language="SFX">
-					<ShortName>Dholak_SnareMIDI.mid</ShortName>
-					<Path>SFX\Dholak_SnareMIDI_00000000.wem</Path>
-				</File>
-				<File Id="450625957" Language="SFX">
-					<ShortName>DavisDnB_Bass_v1.wav</ShortName>
-					<Path>SFX\DavisDnB_Bass_v1_8956FC97.wem</Path>
-				</File>
 				<File Id="453176476" Language="SFX">
 					<ShortName>#18Triangle.mid</ShortName>
 					<Path>SFX\#18Triangle_00000000.wem</Path>
-				</File>
-				<File Id="469924786" Language="SFX">
-					<ShortName>SidechainMIDI_Sniper.mid</ShortName>
-					<Path>SFX\SidechainMIDI_Sniper_00000000.wem</Path>
 				</File>
 				<File Id="493653779" Language="SFX">
 					<ShortName>#17RampDown.mid</ShortName>
 					<Path>SFX\#17RampDown_00000000.wem</Path>
 				</File>
-				<File Id="508746534" Language="SFX">
-					<ShortName>RaveGazebo_SlowBass_v1.wav</ShortName>
-					<Path>SFX\RaveGazebo_SlowBass_v1_8956FC97.wem</Path>
+				<File Id="500355630" Language="SFX">
+					<ShortName>bassline #2 v1 layer #1 drums (d2).wav</ShortName>
+					<Path>SFX\bassline #2 v1 layer #1 drums (d2)_8956FC97.wem</Path>
+				</File>
+				<File Id="511204238" Language="SFX">
+					<ShortName>bassline #1 v2 layer #3 (cool blip).wav</ShortName>
+					<Path>SFX\bassline #1 v2 layer #3 (cool blip)_8956FC97.wem</Path>
 				</File>
 				<File Id="511470018" Language="SFX">
 					<ShortName>#21Flat.mid</ShortName>
@@ -285,13 +965,13 @@
 					<ShortName>Funk_Sting6.wav</ShortName>
 					<Path>SFX\Funk_Sting6_56D34C19.wem</Path>
 				</File>
-				<File Id="515381447" Language="SFX">
-					<ShortName>Charlie_Layer3.wav</ShortName>
-					<Path>SFX\Charlie_Layer3_8956FC97.wem</Path>
+				<File Id="514912076" Language="SFX">
+					<ShortName>bassline #3 v2 snare midi.mid</ShortName>
+					<Path>SFX\bassline #3 v2 snare midi_00000000.wem</Path>
 				</File>
-				<File Id="535959259" Language="SFX">
-					<ShortName>SidechainMIDI_Squeaker.mid</ShortName>
-					<Path>SFX\SidechainMIDI_Squeaker_00000000.wem</Path>
+				<File Id="533068987" Language="SFX">
+					<ShortName>bassline #1 v2 layer #2 (neuro pluck).wav</ShortName>
+					<Path>SFX\bassline #1 v2 layer #2 (neuro pluck)_8956FC97.wem</Path>
 				</File>
 				<File Id="536141369" Language="SFX">
 					<ShortName>#21Flat.mid</ShortName>
@@ -305,9 +985,17 @@
 					<ShortName>Squeaker_Sting3.wav</ShortName>
 					<Path>SFX\Squeaker_Sting3_56D34C19.wem</Path>
 				</File>
+				<File Id="551940536" Language="SFX">
+					<ShortName>Kooman KUSH crash (55).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (55)_56D34C19.wem</Path>
+				</File>
 				<File Id="558876200" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
 					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="567443484" Language="SFX">
+					<ShortName>bassline #3 v2 kick midi.mid</ShortName>
+					<Path>SFX\bassline #3 v2 kick midi_00000000.wem</Path>
 				</File>
 				<File Id="569728116" Language="SFX">
 					<ShortName>Charleston_Sting5.wav</ShortName>
@@ -317,9 +1005,9 @@
 					<ShortName>Charleston_Sting2.wav</ShortName>
 					<Path>SFX\Charleston_Sting2_56D34C19.wem</Path>
 				</File>
-				<File Id="576766306" Language="SFX">
-					<ShortName>sniper arp.wav</ShortName>
-					<Path>SFX\sniper arp_8956FC97.wem</Path>
+				<File Id="581319617" Language="SFX">
+					<ShortName>Kooman KUSH crash (50).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (50)_56D34C19.wem</Path>
 				</File>
 				<File Id="581695431" Language="SFX">
 					<ShortName>#17RampDown.mid</ShortName>
@@ -333,69 +1021,61 @@
 					<ShortName>#19RampUp.mid</ShortName>
 					<Path>SFX\#19RampUp_00000000.wem</Path>
 				</File>
+				<File Id="594609099" Language="SFX">
+					<ShortName>bassline #3 v1 snare midi.mid</ShortName>
+					<Path>SFX\bassline #3 v1 snare midi_00000000.wem</Path>
+				</File>
 				<File Id="600456504" Language="SFX">
 					<ShortName>#17Flat.mid</ShortName>
 					<Path>SFX\#17Flat_00000000.wem</Path>
-				</File>
-				<File Id="605261314" Language="SFX">
-					<ShortName>DavisDnB_Funk_Layer1.wav</ShortName>
-					<Path>SFX\DavisDnB_Funk_Layer1_8956FC97.wem</Path>
 				</File>
 				<File Id="606072574" Language="SFX">
 					<ShortName>Dholak_Sting2.wav</ShortName>
 					<Path>SFX\Dholak_Sting2_56D34C19.wem</Path>
 				</File>
-				<File Id="617158350" Language="SFX">
-					<ShortName>Sniper_KickMIDI.mid</ShortName>
-					<Path>SFX\Sniper_KickMIDI_00000000.wem</Path>
-				</File>
 				<File Id="617672034" Language="SFX">
 					<ShortName>#18Flat.mid</ShortName>
 					<Path>SFX\#18Flat_00000000.wem</Path>
 				</File>
-				<File Id="625825781" Language="SFX">
-					<ShortName>OGProd_KickMIDI.mid</ShortName>
-					<Path>SFX\OGProd_KickMIDI_00000000.wem</Path>
+				<File Id="623035860" Language="SFX">
+					<ShortName>Kooman KUSH crash (52).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (52)_56D34C19.wem</Path>
 				</File>
-				<File Id="632211251" Language="SFX">
-					<ShortName>DavisDnB_Squeaker_Layer4.wav</ShortName>
-					<Path>SFX\DavisDnB_Squeaker_Layer4_8956FC97.wem</Path>
+				<File Id="628390883" Language="SFX">
+					<ShortName>Kooman KUSH crash (53).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (53)_56D34C19.wem</Path>
+				</File>
+				<File Id="635553040" Language="SFX">
+					<ShortName>bassline #3 v2 layer #2 (pads) (d2).wav</ShortName>
+					<Path>SFX\bassline #3 v2 layer #2 (pads) (d2)_8956FC97.wem</Path>
 				</File>
 				<File Id="638685664" Language="SFX">
 					<ShortName>#16RampDown.mid</ShortName>
 					<Path>SFX\#16RampDown_00000000.wem</Path>
 				</File>
-				<File Id="639886913" Language="SFX">
-					<ShortName>Squeaker_SnareMIDI.mid</ShortName>
-					<Path>SFX\Squeaker_SnareMIDI_00000000.wem</Path>
-				</File>
-				<File Id="647166892" Language="SFX">
-					<ShortName>SidechainMIDI_Sniper.mid</ShortName>
-					<Path>SFX\SidechainMIDI_Sniper_00000000.wem</Path>
-				</File>
 				<File Id="649239353" Language="SFX">
 					<ShortName>Charleston_Sting1.wav</ShortName>
 					<Path>SFX\Charleston_Sting1_56D34C19.wem</Path>
-				</File>
-				<File Id="649793331" Language="SFX">
-					<ShortName>DavisDnB_Dholak_Layer3.wav</ShortName>
-					<Path>SFX\DavisDnB_Dholak_Layer3_8956FC97.wem</Path>
 				</File>
 				<File Id="657931159" Language="SFX">
 					<ShortName>#18Flat.mid</ShortName>
 					<Path>SFX\#18Flat_00000000.wem</Path>
 				</File>
-				<File Id="676768986" Language="SFX">
-					<ShortName>DavisDnB_Dholak_Fills.wav</ShortName>
-					<Path>SFX\DavisDnB_Dholak_Fills_8956FC97.wem</Path>
+				<File Id="668338464" Language="SFX">
+					<ShortName>bassline #1 v1 layer #2 pads.wav</ShortName>
+					<Path>SFX\bassline #1 v1 layer #2 pads_8956FC97.wem</Path>
+				</File>
+				<File Id="668814925" Language="SFX">
+					<ShortName>bassline #2 v2 snare midi.mid</ShortName>
+					<Path>SFX\bassline #2 v2 snare midi_00000000.wem</Path>
 				</File>
 				<File Id="680877201" Language="SFX">
 					<ShortName>OGProd_Sting2.wav</ShortName>
 					<Path>SFX\OGProd_Sting2_56D34C19.wem</Path>
 				</File>
-				<File Id="708668464" Language="SFX">
-					<ShortName>SidechainMIDI_Sniper.mid</ShortName>
-					<Path>SFX\SidechainMIDI_Sniper_00000000.wem</Path>
+				<File Id="682283725" Language="SFX">
+					<ShortName>bassline #2 v2 layer #3 (pluck) (d2).wav</ShortName>
+					<Path>SFX\bassline #2 v2 layer #3 (pluck) (d2)_8956FC97.wem</Path>
 				</File>
 				<File Id="720437376" Language="SFX">
 					<ShortName>#20RampUp.mid</ShortName>
@@ -405,9 +1085,9 @@
 					<ShortName>Charleston_Sting3.wav</ShortName>
 					<Path>SFX\Charleston_Sting3_56D34C19.wem</Path>
 				</File>
-				<File Id="728625553" Language="SFX">
-					<ShortName>RaveGazebo_FastBass_v1.wav</ShortName>
-					<Path>SFX\RaveGazebo_FastBass_v1_8956FC97.wem</Path>
+				<File Id="735000557" Language="SFX">
+					<ShortName>bassline #2 v1 snare midi.mid</ShortName>
+					<Path>SFX\bassline #2 v1 snare midi_00000000.wem</Path>
 				</File>
 				<File Id="741214201" Language="SFX">
 					<ShortName>Sniper_Sting6.wav</ShortName>
@@ -417,21 +1097,25 @@
 					<ShortName>#16Triangle.mid</ShortName>
 					<Path>SFX\#16Triangle_00000000.wem</Path>
 				</File>
+				<File Id="776351060" Language="SFX">
+					<ShortName>bassline #1 v2 layer #1 drums (d2).wav</ShortName>
+					<Path>SFX\bassline #1 v2 layer #1 drums (d2)_8956FC97.wem</Path>
+				</File>
 				<File Id="778165503" Language="SFX">
 					<ShortName>#20Flat.mid</ShortName>
 					<Path>SFX\#20Flat_00000000.wem</Path>
 				</File>
-				<File Id="783208714" Language="SFX">
-					<ShortName>Funk_KickMIDI.mid</ShortName>
-					<Path>SFX\Funk_KickMIDI_00000000.wem</Path>
+				<File Id="780752212" Language="SFX">
+					<ShortName>bassline #2 v2 layer #2 (pads) (d2).wav</ShortName>
+					<Path>SFX\bassline #2 v2 layer #2 (pads) (d2)_8956FC97.wem</Path>
+				</File>
+				<File Id="784992417" Language="SFX">
+					<ShortName>bassline #1 v1 layer #1 (drums+pluck).wav</ShortName>
+					<Path>SFX\bassline #1 v1 layer #1 (drums+pluck)_8956FC97.wem</Path>
 				</File>
 				<File Id="785679559" Language="SFX">
 					<ShortName>#21Flat.mid</ShortName>
 					<Path>SFX\#21Flat_00000000.wem</Path>
-				</File>
-				<File Id="788270830" Language="SFX">
-					<ShortName>Sniper_SnareMIDI.mid</ShortName>
-					<Path>SFX\Sniper_SnareMIDI_00000000.wem</Path>
 				</File>
 				<File Id="801217734" Language="SFX">
 					<ShortName>OGProd_Sting1.wav</ShortName>
@@ -445,6 +1129,14 @@
 					<ShortName>#21RampDown.mid</ShortName>
 					<Path>SFX\#21RampDown_00000000.wem</Path>
 				</File>
+				<File Id="814929096" Language="SFX">
+					<ShortName>bass #2 v1 layer 3 plucks (moved up a 3rd) (d3).wav</ShortName>
+					<Path>SFX\bass #2 v1 layer 3 plucks (moved up a 3rd) (d3)_8956FC97.wem</Path>
+				</File>
+				<File Id="816968227" Language="SFX">
+					<ShortName>Kooman KUSH crash (51).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (51)_56D34C19.wem</Path>
+				</File>
 				<File Id="828147351" Language="SFX">
 					<ShortName>#17RampUp.mid</ShortName>
 					<Path>SFX\#17RampUp_00000000.wem</Path>
@@ -453,21 +1145,9 @@
 					<ShortName>#18Flat.mid</ShortName>
 					<Path>SFX\#18Flat_00000000.wem</Path>
 				</File>
-				<File Id="843737051" Language="SFX">
-					<ShortName>Charlie_Layer2.wav</ShortName>
-					<Path>SFX\Charlie_Layer2_8956FC97.wem</Path>
-				</File>
-				<File Id="847862564" Language="SFX">
-					<ShortName>DavisDnB_Dholak_Layer1.wav</ShortName>
-					<Path>SFX\DavisDnB_Dholak_Layer1_8956FC97.wem</Path>
-				</File>
 				<File Id="870660809" Language="SFX">
 					<ShortName>#19RampDown.mid</ShortName>
 					<Path>SFX\#19RampDown_00000000.wem</Path>
-				</File>
-				<File Id="871954658" Language="SFX">
-					<ShortName>DavisDnB_Squeaker_Layer2.wav</ShortName>
-					<Path>SFX\DavisDnB_Squeaker_Layer2_8956FC97.wem</Path>
 				</File>
 				<File Id="889169828" Language="SFX">
 					<ShortName>Funk_Sting1.wav</ShortName>
@@ -477,9 +1157,9 @@
 					<ShortName>#16Triangle.mid</ShortName>
 					<Path>SFX\#16Triangle_00000000.wem</Path>
 				</File>
-				<File Id="895890173" Language="SFX">
-					<ShortName>funk break fills.wav</ShortName>
-					<Path>SFX\funk break fills_8956FC97.wem</Path>
+				<File Id="895289090" Language="SFX">
+					<ShortName>bassline #1 v1 snare midi.mid</ShortName>
+					<Path>SFX\bassline #1 v1 snare midi_00000000.wem</Path>
 				</File>
 				<File Id="901482658" Language="SFX">
 					<ShortName>Squeaker_Sting4.wav</ShortName>
@@ -489,14 +1169,6 @@
 					<ShortName>#16RampDown.mid</ShortName>
 					<Path>SFX\#16RampDown_00000000.wem</Path>
 				</File>
-				<File Id="904195109" Language="SFX">
-					<ShortName>OGProd_SnareMIDI.mid</ShortName>
-					<Path>SFX\OGProd_SnareMIDI_00000000.wem</Path>
-				</File>
-				<File Id="906297892" Language="SFX">
-					<ShortName>DavisDnB_Dholak_Layer2.wav</ShortName>
-					<Path>SFX\DavisDnB_Dholak_Layer2_8956FC97.wem</Path>
-				</File>
 				<File Id="906568587" Language="SFX">
 					<ShortName>#18RampDown.mid</ShortName>
 					<Path>SFX\#18RampDown_00000000.wem</Path>
@@ -505,13 +1177,9 @@
 					<ShortName>Funk_Sting2.wav</ShortName>
 					<Path>SFX\Funk_Sting2_56D34C19.wem</Path>
 				</File>
-				<File Id="908833895" Language="SFX">
-					<ShortName>Charlie_Sidechain_Kick.mid</ShortName>
-					<Path>SFX\Charlie_Sidechain_Kick_00000000.wem</Path>
-				</File>
-				<File Id="909144283" Language="SFX">
-					<ShortName>Dholak_KickMIDI.mid</ShortName>
-					<Path>SFX\Dholak_KickMIDI_00000000.wem</Path>
+				<File Id="915637316" Language="SFX">
+					<ShortName>Bassline #1 (d2).wav</ShortName>
+					<Path>SFX\Bassline #1 (d2)_8956FC97.wem</Path>
 				</File>
 				<File Id="918931925" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
@@ -521,6 +1189,14 @@
 					<ShortName>#17Flat.mid</ShortName>
 					<Path>SFX\#17Flat_00000000.wem</Path>
 				</File>
+				<File Id="941559015" Language="SFX">
+					<ShortName>bassline #2 v1 layer #2 (pads) (d2).wav</ShortName>
+					<Path>SFX\bassline #2 v1 layer #2 (pads) (d2)_8956FC97.wem</Path>
+				</File>
+				<File Id="949052314" Language="SFX">
+					<ShortName>bassline #3 v1 layer #2 (pads) (d2).wav</ShortName>
+					<Path>SFX\bassline #3 v1 layer #2 (pads) (d2)_8956FC97.wem</Path>
+				</File>
 				<File Id="951639129" Language="SFX">
 					<ShortName>Charleston_Sting4.wav</ShortName>
 					<Path>SFX\Charleston_Sting4_56D34C19.wem</Path>
@@ -529,17 +1205,17 @@
 					<ShortName>Sniper_Sting4.wav</ShortName>
 					<Path>SFX\Sniper_Sting4_56D34C19.wem</Path>
 				</File>
-				<File Id="958868619" Language="SFX">
-					<ShortName>SidechainMIDI_Squeaker.mid</ShortName>
-					<Path>SFX\SidechainMIDI_Squeaker_00000000.wem</Path>
-				</File>
-				<File Id="968726663" Language="SFX">
-					<ShortName>sniper drums.wav</ShortName>
-					<Path>SFX\sniper drums_8956FC97.wem</Path>
-				</File>
 				<File Id="974348426" Language="SFX">
 					<ShortName>#18RampUp.mid</ShortName>
 					<Path>SFX\#18RampUp_00000000.wem</Path>
+				</File>
+				<File Id="977069014" Language="SFX">
+					<ShortName>bassline #2 v1 kick midi .mid</ShortName>
+					<Path>SFX\bassline #2 v1 kick midi _00000000.wem</Path>
+				</File>
+				<File Id="977278617" Language="SFX">
+					<ShortName>Kooman KUSH crash (54).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (54)_56D34C19.wem</Path>
 				</File>
 				<File Id="977565527" Language="SFX">
 					<ShortName>OGProd_Sting3.wav</ShortName>
@@ -549,13 +1225,21 @@
 					<ShortName>#20RampUp.mid</ShortName>
 					<Path>SFX\#20RampUp_00000000.wem</Path>
 				</File>
-				<File Id="1005756811" Language="SFX">
-					<ShortName>DavisDnB_Squeaker_Layer3.wav</ShortName>
-					<Path>SFX\DavisDnB_Squeaker_Layer3_8956FC97.wem</Path>
+				<File Id="1006799579" Language="SFX">
+					<ShortName>bassline #3 v1 layer #3 (plucks) (d2).wav</ShortName>
+					<Path>SFX\bassline #3 v1 layer #3 (plucks) (d2)_8956FC97.wem</Path>
+				</File>
+				<File Id="1023102420" Language="SFX">
+					<ShortName>bassline #2 (d3) (with gate).wav</ShortName>
+					<Path>SFX\bassline #2 (d3) (with gate)_8956FC97.wem</Path>
 				</File>
 				<File Id="1027088030" Language="SFX">
 					<ShortName>#18Flat.mid</ShortName>
 					<Path>SFX\#18Flat_00000000.wem</Path>
+				</File>
+				<File Id="1029857573" Language="SFX">
+					<ShortName>bassline #1 v2 kick midi.mid</ShortName>
+					<Path>SFX\bassline #1 v2 kick midi_00000000.wem</Path>
 				</File>
 				<File Id="1031498411" Language="SFX">
 					<ShortName>#20RampDown.mid</ShortName>
@@ -565,10 +1249,6 @@
 					<ShortName>Hat7.wav</ShortName>
 					<Path>SFX\Hat7_56D34C19.wem</Path>
 				</File>
-				<File Id="1034890421" Language="SFX">
-					<ShortName>sniper ghost drums.wav</ShortName>
-					<Path>SFX\sniper ghost drums_8956FC97.wem</Path>
-				</File>
 				<File Id="1039274912" Language="SFX">
 					<ShortName>Charleston_Sting6.wav</ShortName>
 					<Path>SFX\Charleston_Sting6_56D34C19.wem</Path>
@@ -576,10 +1256,6 @@
 				<File Id="1053127628" Language="SFX">
 					<ShortName>Dholak_Sting1.wav</ShortName>
 					<Path>SFX\Dholak_Sting1_56D34C19.wem</Path>
-				</File>
-				<File Id="1056158948" Language="SFX">
-					<ShortName>Charlie_FullSidechain.mid</ShortName>
-					<Path>SFX\Charlie_FullSidechain_00000000.wem</Path>
 				</File>
 				<File Id="1059073170" Language="SFX">
 					<ShortName>Hat6.wav</ShortName>
@@ -889,6 +1565,10 @@
 					<ShortName>Squeaker_Sting3.wav</ShortName>
 					<Path>SFX\Squeaker_Sting3_56D34C19.wem</Path>
 				</File>
+				<File Id="551940536" Language="SFX">
+					<ShortName>Kooman KUSH crash (55).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (55)_56D34C19.wem</Path>
+				</File>
 				<File Id="558876200" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
 					<Path>SFX\#19Flat_00000000.wem</Path>
@@ -904,6 +1584,10 @@
 				<File Id="576766306" Language="SFX">
 					<ShortName>sniper arp.wav</ShortName>
 					<Path>SFX\sniper arp_8956FC97.wem</Path>
+				</File>
+				<File Id="581319617" Language="SFX">
+					<ShortName>Kooman KUSH crash (50).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (50)_56D34C19.wem</Path>
 				</File>
 				<File Id="581695431" Language="SFX">
 					<ShortName>#17RampDown.mid</ShortName>
@@ -932,6 +1616,14 @@
 				<File Id="617672034" Language="SFX">
 					<ShortName>#18Flat.mid</ShortName>
 					<Path>SFX\#18Flat_00000000.wem</Path>
+				</File>
+				<File Id="623035860" Language="SFX">
+					<ShortName>Kooman KUSH crash (52).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (52)_56D34C19.wem</Path>
+				</File>
+				<File Id="628390883" Language="SFX">
+					<ShortName>Kooman KUSH crash (53).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (53)_56D34C19.wem</Path>
 				</File>
 				<File Id="632211251" Language="SFX">
 					<ShortName>DavisDnB_Squeaker_Layer4.wav</ShortName>
@@ -1016,6 +1708,10 @@
 				<File Id="813212623" Language="SFX">
 					<ShortName>#21RampDown.mid</ShortName>
 					<Path>SFX\#21RampDown_00000000.wem</Path>
+				</File>
+				<File Id="816968227" Language="SFX">
+					<ShortName>Kooman KUSH crash (51).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (51)_56D34C19.wem</Path>
 				</File>
 				<File Id="828147351" Language="SFX">
 					<ShortName>#17RampUp.mid</ShortName>
@@ -1104,6 +1800,10 @@
 				<File Id="974348426" Language="SFX">
 					<ShortName>#18RampUp.mid</ShortName>
 					<Path>SFX\#18RampUp_00000000.wem</Path>
+				</File>
+				<File Id="977278617" Language="SFX">
+					<ShortName>Kooman KUSH crash (54).wav</ShortName>
+					<Path>SFX\Kooman KUSH crash (54)_56D34C19.wem</Path>
 				</File>
 				<File Id="977565527" Language="SFX">
 					<ShortName>OGProd_Sting3.wav</ShortName>

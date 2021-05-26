@@ -48,6 +48,14 @@
 						<State Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="WhichSongState" ID="{77DF745A-7EBF-41EC-9729-11CEAFB8C77C}">
+					<ChildrenList>
+						<State Name="None" ID="{353A8994-691E-45C1-9B0C-E7D5F4F2FDF9}"/>
+						<State Name="Song1RaveGazebo" ID="{DD627449-96B4-4A21-93DD-01D2866F5D05}"/>
+						<State Name="Song2CondimentTieDye" ID="{D361F569-21F4-45DB-8B6F-0AF54CD403A5}"/>
+						<State Name="Song3TBN" ID="{DF29ED95-8898-49D6-B4CB-7F32313F5A13}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

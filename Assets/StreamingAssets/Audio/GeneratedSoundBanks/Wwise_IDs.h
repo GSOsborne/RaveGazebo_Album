@@ -24,6 +24,7 @@ namespace AK
         static const AkUniqueID OPENFILLS = 3391767169U;
         static const AkUniqueID STARTSONG1 = 974193269U;
         static const AkUniqueID STARTSONG2 = 974193270U;
+        static const AkUniqueID STARTSONG3 = 974193271U;
         static const AkUniqueID STOPMUSIC = 1917263390U;
     } // namespace EVENTS
 
@@ -66,6 +67,18 @@ namespace AK
             } // namespace STATE
         } // namespace FILLSTATE
 
+        namespace WHICHSONGSTATE
+        {
+            static const AkUniqueID GROUP = 3535580974U;
+
+            namespace STATE
+            {
+                static const AkUniqueID SONG1RAVEGAZEBO = 2189361989U;
+                static const AkUniqueID SONG2CONDIMENTTIEDYE = 2769301377U;
+                static const AkUniqueID SONG3TBN = 2710032591U;
+            } // namespace STATE
+        } // namespace WHICHSONGSTATE
+
     } // namespace STATES
 
     namespace GAME_PARAMETERS
@@ -106,6 +119,7 @@ namespace AK
         static const AkUniqueID INIT = 1355168291U;
         static const AkUniqueID SONG1 = 778469039U;
         static const AkUniqueID SONG2 = 778469036U;
+        static const AkUniqueID SONG3 = 778469037U;
     } // namespace BANKS
 
     namespace BUSSES
@@ -130,6 +144,11 @@ namespace AK
         static const AkUniqueID MUTEDSIDECHAIN = 2283301986U;
         static const AkUniqueID SNAREREAKTION = 1596103257U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID FEEDFROMREAKTION = 1049114820U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

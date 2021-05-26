@@ -598,6 +598,9 @@
 								<Reference Name="OutputBus">
 									<ObjectRef Name="KickReaktion" ID="{16D43FD8-D72D-48CA-ABA9-011BEEA9D072}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
 								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="FeedFromReaktion" ID="{8EC9A0F6-A52F-45FC-8393-2F1EA3EC4F18}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<SourcePlugin Name="Wwise Synth One" ID="{A307D2AB-BACE-446D-BDFB-FE1ECCF7E5B5}" ShortID="933899504" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
@@ -653,6 +656,9 @@
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="SnareReaktion" ID="{8F48F004-E314-47B5-BC92-17E8587F031D}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+								</Reference>
+								<Reference Name="UserAuxSend0">
+									<ObjectRef Name="FeedFromReaktion" ID="{8EC9A0F6-A52F-45FC-8393-2F1EA3EC4F18}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -714,44 +720,955 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<SwitchContainer Name="WallTriggerSwitch" ID="{BCBF5912-5533-44DE-A88E-0B88336CD117}" ShortID="308060189">
+						<SwitchContainer Name="WhichSong" ID="{00FDD3B5-5459-43F5-A1EE-26F79C080BE4}" ShortID="713332658">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
 								</Reference>
 								<Reference Name="DefaultSwitchOrState">
-									<ObjectRef Name="None" ID="{F2645469-DD52-48BD-BB2F-9F749C535DE4}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+									<ObjectRef Name="Song1RaveGazebo" ID="{DD627449-96B4-4A21-93DD-01D2866F5D05}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
 								</Reference>
 								<Reference Name="SwitchGroupOrStateGroup">
-									<ObjectRef Name="CubeState" ID="{87E52E75-73EE-43C0-A70E-35A9F789FC62}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+									<ObjectRef Name="WhichSongState" ID="{77DF745A-7EBF-41EC-9729-11CEAFB8C77C}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="CharlestonStinger" ID="{9BD9BF07-C01F-42A8-8042-1667D63ADF7B}" ShortID="875269141">
+								<SwitchContainer Name="WallTriggerSwitch" ID="{BCBF5912-5533-44DE-A88E-0B88336CD117}" ShortID="308060189">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{F2645469-DD52-48BD-BB2F-9F749C535DE4}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="CubeState" ID="{87E52E75-73EE-43C0-A70E-35A9F789FC62}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="CharlestonStinger" ID="{9BD9BF07-C01F-42A8-8042-1667D63ADF7B}" ShortID="875269141">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{08F0272F-38E9-40BB-895D-0BDCE9A0E448}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8C55F838-7B4E-4217-928A-8A280D578233}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Sting1" ID="{9CF580EB-F0B0-4910-8FFC-F80D10F53B6A}" ShortID="79914063">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Charleston_Sting1" ID="{8CD2C338-4E7E-42B9-958C-605DD164377A}" ShortID="649239353">
+															<Language>SFX</Language>
+															<AudioFile>Charleston_Sting1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Charleston_Sting1" ID="{8CD2C338-4E7E-42B9-958C-605DD164377A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sting2" ID="{6BCEF37E-0EA3-4C37-9C71-D5DB9501E774}" ShortID="131230542">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Charleston_Sting2" ID="{D0864E89-7E09-443C-8722-B625D7F41462}" ShortID="576606435">
+															<Language>SFX</Language>
+															<AudioFile>Charleston_Sting2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Charleston_Sting2" ID="{D0864E89-7E09-443C-8722-B625D7F41462}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sting3" ID="{C991F3D0-DE9E-4C9E-9ABF-5677DB6D3B49}" ShortID="849680231">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Charleston_Sting3" ID="{6350BC86-52BE-442F-B781-B6C6322E3E8D}" ShortID="722996484">
+															<Language>SFX</Language>
+															<AudioFile>Charleston_Sting3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Charleston_Sting3" ID="{6350BC86-52BE-442F-B781-B6C6322E3E8D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sting4" ID="{DC4744FD-9CEC-4A5A-9A5A-2441D98A4CEC}" ShortID="636795677">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Charleston_Sting4" ID="{CB80E3B1-1C1F-4EA1-BAB7-FA30476BD5EA}" ShortID="951639129">
+															<Language>SFX</Language>
+															<AudioFile>Charleston_Sting4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Charleston_Sting4" ID="{CB80E3B1-1C1F-4EA1-BAB7-FA30476BD5EA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sting5" ID="{4C67626F-C427-42E8-9CD2-76D8EDDA44D3}" ShortID="992701374">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Charleston_Sting5" ID="{0171E554-DB65-4724-BC1E-5589827BF531}" ShortID="569728116">
+															<Language>SFX</Language>
+															<AudioFile>Charleston_Sting5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Charleston_Sting5" ID="{0171E554-DB65-4724-BC1E-5589827BF531}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sting6" ID="{53F354F1-195B-4E8E-A370-57529DFA639A}" ShortID="861446429">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Charleston_Sting6" ID="{8687FBBB-BB4E-433D-AFD7-2DDE0987B7A0}" ShortID="1039274912">
+															<Language>SFX</Language>
+															<AudioFile>Charleston_Sting6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Charleston_Sting6" ID="{8687FBBB-BB4E-433D-AFD7-2DDE0987B7A0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="DholakStinger" ID="{F670DECB-9F18-4B86-85E8-57BBDCBAD0C9}" ShortID="971603071">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8370FE85-4279-4DA8-A23D-28E4E7E410D1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9F7FA8C5-D7AB-4A3C-8F08-8D24E14EB389}">
+																<PropertyList>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Dholak_Sting1" ID="{61AB029D-A4C4-4603-9DB0-55D4304965F5}" ShortID="474883152">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dholak_Sting1" ID="{041C1EF6-2F89-43C7-8966-B127576AC31A}" ShortID="1053127628">
+															<Language>SFX</Language>
+															<AudioFile>Dholak_Sting1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dholak_Sting1" ID="{041C1EF6-2F89-43C7-8966-B127576AC31A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Dholak_Sting2" ID="{AB767039-2168-4AC9-A312-962B1092C54D}" ShortID="1063259329">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Dholak_Sting2" ID="{9F13DBCD-5198-464C-BE26-ACB04FBF8507}" ShortID="606072574">
+															<Language>SFX</Language>
+															<AudioFile>Dholak_Sting2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Dholak_Sting2" ID="{9F13DBCD-5198-464C-BE26-ACB04FBF8507}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="FunkStinger" ID="{6DC63D85-FD0E-475B-A767-9A38191CE4A1}" ShortID="381462074">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1FA39051-D53C-4736-A949-D2E1BA9B0E2D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{20D3B5F3-C21E-4EE2-B9A1-F82B68864F74}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Funk_Sting1" ID="{6FF306FD-0370-4CBF-93A9-83570A0A9750}" ShortID="640188564">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Funk_Sting1" ID="{DDB4EBC3-DD14-4011-9C5F-02C52B5AE1BC}" ShortID="889169828">
+															<Language>SFX</Language>
+															<AudioFile>Funk_Sting1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Funk_Sting1" ID="{DDB4EBC3-DD14-4011-9C5F-02C52B5AE1BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Funk_Sting2" ID="{8DA280E7-5F7B-4CB0-9160-778B2ACE1589}" ShortID="80477646">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Funk_Sting2" ID="{9F044DBA-B671-4FE4-82D5-7535CE0EEF0D}" ShortID="906824125">
+															<Language>SFX</Language>
+															<AudioFile>Funk_Sting2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Funk_Sting2" ID="{9F044DBA-B671-4FE4-82D5-7535CE0EEF0D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Funk_Sting3" ID="{520F6AF3-1005-4A9C-A90B-A63161AE4760}" ShortID="500535340">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Funk_Sting3" ID="{4DBA054C-F928-4E48-9EE8-0E9AAB7267B4}" ShortID="186175733">
+															<Language>SFX</Language>
+															<AudioFile>Funk_Sting3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Funk_Sting3" ID="{4DBA054C-F928-4E48-9EE8-0E9AAB7267B4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Funk_Sting4" ID="{A340FE41-CE23-4BA0-986F-E940921172DF}" ShortID="694681560">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Funk_Sting4" ID="{83E78B61-00C0-4EE2-B866-B4D01BB47ECF}" ShortID="245042619">
+															<Language>SFX</Language>
+															<AudioFile>Funk_Sting4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Funk_Sting4" ID="{83E78B61-00C0-4EE2-B866-B4D01BB47ECF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Funk_Sting5" ID="{AD19DF12-076D-49BB-8E03-5352A2D14674}" ShortID="352688038">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Funk_Sting5" ID="{C825F4CF-F1FE-42BF-B18F-DBBAB75A77DC}" ShortID="132468760">
+															<Language>SFX</Language>
+															<AudioFile>Funk_Sting5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Funk_Sting5" ID="{C825F4CF-F1FE-42BF-B18F-DBBAB75A77DC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Funk_Sting6" ID="{70566973-F3AC-43B9-9B5B-AC42AC75A152}" ShortID="831716212">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Funk_Sting6" ID="{571844F7-F686-49F4-BDC8-4E14890F3C6C}" ShortID="514573673">
+															<Language>SFX</Language>
+															<AudioFile>Funk_Sting6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Funk_Sting6" ID="{571844F7-F686-49F4-BDC8-4E14890F3C6C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Funk_Sting7" ID="{64829816-AA0A-40D1-B3E2-5D1FD52C539E}" ShortID="816300109">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Funk_Sting7" ID="{8C839532-338A-4286-9AAE-B96A3D2143BA}" ShortID="203845955">
+															<Language>SFX</Language>
+															<AudioFile>Funk_Sting7.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Funk_Sting7" ID="{8C839532-338A-4286-9AAE-B96A3D2143BA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="OGProdStinger" ID="{02E33B71-64B8-4390-8C92-5E4BED1C4973}" ShortID="386192997">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1DB31819-6F49-4C52-9AEF-16D85D691A42}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{47EE7E0A-F322-4278-91B2-5D4C75485A9D}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="OGProd_Sting1" ID="{E25106A9-F30A-473B-9C26-B84A36193FD0}" ShortID="985176669">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OGProd_Sting1" ID="{94EE0E7C-D483-4BB3-B592-E1057D0A7594}" ShortID="801217734">
+															<Language>SFX</Language>
+															<AudioFile>OGProd_Sting1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OGProd_Sting1" ID="{94EE0E7C-D483-4BB3-B592-E1057D0A7594}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OGProd_Sting2" ID="{F4F6389D-987B-49F6-8235-C47E77C837D8}" ShortID="880100253">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OGProd_Sting2" ID="{1563848D-395C-486D-8450-F53BC3229172}" ShortID="680877201">
+															<Language>SFX</Language>
+															<AudioFile>OGProd_Sting2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OGProd_Sting2" ID="{1563848D-395C-486D-8450-F53BC3229172}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OGProd_Sting3" ID="{4F81D4A9-4355-4FB9-AD65-BAFC8C80C076}" ShortID="270617098">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OGProd_Sting3" ID="{76690397-BD4A-4B63-9650-C8F34835F2E0}" ShortID="977565527">
+															<Language>SFX</Language>
+															<AudioFile>OGProd_Sting3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OGProd_Sting3" ID="{76690397-BD4A-4B63-9650-C8F34835F2E0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OGProd_Sting4" ID="{502791C8-CE0B-4954-AD8A-28A4ECB2507B}" ShortID="608198727">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OGProd_Sting4" ID="{94D4C270-D5CA-4E85-BF4A-FE8ED1F1C893}" ShortID="134475039">
+															<Language>SFX</Language>
+															<AudioFile>OGProd_Sting4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OGProd_Sting4" ID="{94D4C270-D5CA-4E85-BF4A-FE8ED1F1C893}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OGProd_Sting5" ID="{51DB062B-F800-4909-99FA-31537EB1A298}" ShortID="425828604">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OGProd_Sting5" ID="{50285AB1-98BB-4270-8527-BBEA091BB424}" ShortID="359628687">
+															<Language>SFX</Language>
+															<AudioFile>OGProd_Sting5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OGProd_Sting5" ID="{50285AB1-98BB-4270-8527-BBEA091BB424}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="OGProd_Sting6" ID="{C5778A5A-CE2D-45BD-8185-54567C1ABBDB}" ShortID="456772615">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OGProd_Sting6" ID="{ABEFAF0D-BCF5-46E6-99F9-5A15F0995AF6}" ShortID="386314665">
+															<Language>SFX</Language>
+															<AudioFile>OGProd_Sting6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="OGProd_Sting6" ID="{ABEFAF0D-BCF5-46E6-99F9-5A15F0995AF6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SniperStinger" ID="{0EAA5D0C-E890-46FC-8BDD-49CBD546BC25}" ShortID="1066489613">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{6A03222E-D09C-4E70-A3E4-C8D03F8BB6D5}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{78D8E322-809C-434B-A9B2-62ECCBEC09C1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Sniper_Sting1" ID="{FD7761AD-E868-4368-BF74-C5447CCCE429}" ShortID="986043184">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sniper_Sting1" ID="{9BF57BFF-B5CA-49D4-A602-09C9EA3DDB9F}" ShortID="26430334">
+															<Language>SFX</Language>
+															<AudioFile>Sniper_Sting1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sniper_Sting1" ID="{9BF57BFF-B5CA-49D4-A602-09C9EA3DDB9F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sniper_Sting2" ID="{474293A7-27DE-4DEF-9937-40E07A320B84}" ShortID="324881266">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sniper_Sting2" ID="{6C244918-1039-4FA2-96EE-D437A5DF8A5A}" ShortID="81898417">
+															<Language>SFX</Language>
+															<AudioFile>Sniper_Sting2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sniper_Sting2" ID="{6C244918-1039-4FA2-96EE-D437A5DF8A5A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sniper_Sting3" ID="{CD999A05-A4E9-4FDE-AA4A-B961B84A2250}" ShortID="45636800">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sniper_Sting3" ID="{4FA3D03A-FB8D-426A-B14D-A45F3849B0E5}" ShortID="255973731">
+															<Language>SFX</Language>
+															<AudioFile>Sniper_Sting3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sniper_Sting3" ID="{4FA3D03A-FB8D-426A-B14D-A45F3849B0E5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sniper_Sting4" ID="{E7CF009D-116C-4F3B-9601-AD80482755E2}" ShortID="83697682">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sniper_Sting4" ID="{797DD47E-5289-481E-B1D7-F25E32E8B95F}" ShortID="957758910">
+															<Language>SFX</Language>
+															<AudioFile>Sniper_Sting4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sniper_Sting4" ID="{797DD47E-5289-481E-B1D7-F25E32E8B95F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sniper_Sting5" ID="{F139E021-00BD-43CF-87B8-13BF733DFBB1}" ShortID="697745078">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sniper_Sting5" ID="{227B3E46-B5DF-48D8-8B31-44A6EEE5A1FE}" ShortID="423287213">
+															<Language>SFX</Language>
+															<AudioFile>Sniper_Sting5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sniper_Sting5" ID="{227B3E46-B5DF-48D8-8B31-44A6EEE5A1FE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Sniper_Sting6" ID="{C14D315B-329E-4FE1-9A64-52FCAE83D939}" ShortID="1060302620">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Sniper_Sting6" ID="{408F253A-A98F-4B2E-89A3-3B87782D5EBB}" ShortID="741214201">
+															<Language>SFX</Language>
+															<AudioFile>Sniper_Sting6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Sniper_Sting6" ID="{408F253A-A98F-4B2E-89A3-3B87782D5EBB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="SqueakerStinger" ID="{3948A1B6-E4FD-4A35-B34D-C9004609AA48}" ShortID="343917607">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{DB40EE6B-ED23-4088-93BD-A2B2E28418DA}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3AEE3651-BD8F-4FA6-9E62-C416751F6BF1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Squeaker_Sting1" ID="{4CE3E179-D652-4C24-8521-DA9EF6913D89}" ShortID="386886093">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Squeaker_Sting1" ID="{10D2457A-82D1-4773-A5CC-EC94B9EC3A3F}" ShortID="15843995">
+															<Language>SFX</Language>
+															<AudioFile>Squeaker_Sting1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Squeaker_Sting1" ID="{10D2457A-82D1-4773-A5CC-EC94B9EC3A3F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Squeaker_Sting2" ID="{1373F8D6-D409-41C1-BF54-5F3805B9777F}" ShortID="1009492829">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Squeaker_Sting2" ID="{737D5AC0-DC08-4850-A591-CD74F7279C0B}" ShortID="43306733">
+															<Language>SFX</Language>
+															<AudioFile>Squeaker_Sting2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Squeaker_Sting2" ID="{737D5AC0-DC08-4850-A591-CD74F7279C0B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Squeaker_Sting3" ID="{71D39EB4-2781-4CCA-A29E-7D559179A4A3}" ShortID="670774799">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Squeaker_Sting3" ID="{71065772-0361-4FAF-B5E6-9BA42A99C82D}" ShortID="547113355">
+															<Language>SFX</Language>
+															<AudioFile>Squeaker_Sting3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Squeaker_Sting3" ID="{71065772-0361-4FAF-B5E6-9BA42A99C82D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Squeaker_Sting4" ID="{D64295A0-7AAA-482E-8A9A-85BE887B2CD2}" ShortID="319320168">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Squeaker_Sting4" ID="{631C6749-EECF-4EAE-A529-6226EB127C32}" ShortID="901482658">
+															<Language>SFX</Language>
+															<AudioFile>Squeaker_Sting4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Squeaker_Sting4" ID="{631C6749-EECF-4EAE-A529-6226EB127C32}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Squeaker_Sting5" ID="{C0138EF6-7D2B-42C5-904F-0495B79A0228}" ShortID="761578031">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Squeaker_Sting5" ID="{8883DEF4-849B-4660-B328-DE681EFFA9C3}" ShortID="2200512">
+															<Language>SFX</Language>
+															<AudioFile>Squeaker_Sting5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Squeaker_Sting5" ID="{8883DEF4-849B-4660-B328-DE681EFFA9C3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="CharlestonStinger" ID="{9BD9BF07-C01F-42A8-8042-1667D63ADF7B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="SniperStinger" ID="{0EAA5D0C-E890-46FC-8BDD-49CBD546BC25}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="OGProdStinger" ID="{02E33B71-64B8-4390-8C92-5E4BED1C4973}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="FunkStinger" ID="{6DC63D85-FD0E-475B-A767-9A38191CE4A1}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="SqueakerStinger" ID="{3948A1B6-E4FD-4A35-B34D-C9004609AA48}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="DholakStinger" ID="{F670DECB-9F18-4B86-85E8-57BBDCBAD0C9}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="OGProd" ID="{0455574C-5DFC-4B83-A88A-D431CDCC20E4}"/>
+												<ItemList>
+													<ItemRef Name="OGProdStinger" ID="{02E33B71-64B8-4390-8C92-5E4BED1C4973}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Squeaker" ID="{B1B85550-B69B-42DE-BA17-1BA806281A46}"/>
+												<ItemList>
+													<ItemRef Name="SqueakerStinger" ID="{3948A1B6-E4FD-4A35-B34D-C9004609AA48}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Dholak" ID="{9A9AC35B-E005-424E-876A-5661E9904094}"/>
+												<ItemList>
+													<ItemRef Name="DholakStinger" ID="{F670DECB-9F18-4B86-85E8-57BBDCBAD0C9}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Charleston" ID="{DE91C07E-5FFF-4619-98B9-DF3576D7EF2D}"/>
+												<ItemList>
+													<ItemRef Name="CharlestonStinger" ID="{9BD9BF07-C01F-42A8-8042-1667D63ADF7B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Funk" ID="{01711796-F909-44D8-8BF2-D88E92AE0080}"/>
+												<ItemList>
+													<ItemRef Name="FunkStinger" ID="{6DC63D85-FD0E-475B-A767-9A38191CE4A1}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Sniper" ID="{6323ACBC-0106-43B5-A506-E028E73A144B}"/>
+												<ItemList>
+													<ItemRef Name="SniperStinger" ID="{0EAA5D0C-E890-46FC-8BDD-49CBD546BC25}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<RandomSequenceContainer Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}" ShortID="498271904">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
-													<Modifier Name="" ID="{08F0272F-38E9-40BB-895D-0BDCE9A0E448}">
+													<Modifier Name="" ID="{87C70D61-3282-46CF-AE3D-42E15AC99D8F}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{8C55F838-7B4E-4217-928A-8A280D578233}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Min" Type="Real64" Value="-3"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -767,7 +1684,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Sting1" ID="{9CF580EB-F0B0-4910-8FFC-F80D10F53B6A}" ShortID="79914063">
+										<Sound Name="Hat1" ID="{A075E463-301E-4AE7-AEB6-2229EBF137CC}" ShortID="269584452">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -777,16 +1694,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Charleston_Sting1" ID="{8CD2C338-4E7E-42B9-958C-605DD164377A}" ShortID="649239353">
+												<AudioFileSource Name="Hat1" ID="{2A923393-822D-4180-9D64-3907586174C0}" ShortID="278935672">
 													<Language>SFX</Language>
-													<AudioFile>Charleston_Sting1.wav</AudioFile>
+													<AudioFile>Hat1.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Charleston_Sting1" ID="{8CD2C338-4E7E-42B9-958C-605DD164377A}" Platform="Linked"/>
+												<ActiveSource Name="Hat1" ID="{2A923393-822D-4180-9D64-3907586174C0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Sting2" ID="{6BCEF37E-0EA3-4C37-9C71-D5DB9501E774}" ShortID="131230542">
+										<Sound Name="Hat2" ID="{3B46DB38-D755-40AB-9426-407810496DC9}" ShortID="964391776">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -796,16 +1713,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Charleston_Sting2" ID="{D0864E89-7E09-443C-8722-B625D7F41462}" ShortID="576606435">
+												<AudioFileSource Name="Hat2" ID="{6995F475-D891-4A04-9CBD-7E6FAB540C82}" ShortID="11133192">
 													<Language>SFX</Language>
-													<AudioFile>Charleston_Sting2.wav</AudioFile>
+													<AudioFile>Hat2.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Charleston_Sting2" ID="{D0864E89-7E09-443C-8722-B625D7F41462}" Platform="Linked"/>
+												<ActiveSource Name="Hat2" ID="{6995F475-D891-4A04-9CBD-7E6FAB540C82}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Sting3" ID="{C991F3D0-DE9E-4C9E-9ABF-5677DB6D3B49}" ShortID="849680231">
+										<Sound Name="Hat3" ID="{41242464-6D0A-4AF5-8E85-728A5A3C46FC}" ShortID="366271254">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -815,16 +1732,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Charleston_Sting3" ID="{6350BC86-52BE-442F-B781-B6C6322E3E8D}" ShortID="722996484">
+												<AudioFileSource Name="Hat3" ID="{3DEEDE24-7238-4FAE-9A5B-08864C604DCF}" ShortID="277412915">
 													<Language>SFX</Language>
-													<AudioFile>Charleston_Sting3.wav</AudioFile>
+													<AudioFile>Hat3.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Charleston_Sting3" ID="{6350BC86-52BE-442F-B781-B6C6322E3E8D}" Platform="Linked"/>
+												<ActiveSource Name="Hat3" ID="{3DEEDE24-7238-4FAE-9A5B-08864C604DCF}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Sting4" ID="{DC4744FD-9CEC-4A5A-9A5A-2441D98A4CEC}" ShortID="636795677">
+										<Sound Name="Hat4" ID="{17BE10BB-7AFD-49A2-82EF-709FCDDF62DE}" ShortID="920308821">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -834,16 +1751,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Charleston_Sting4" ID="{CB80E3B1-1C1F-4EA1-BAB7-FA30476BD5EA}" ShortID="951639129">
+												<AudioFileSource Name="Hat4" ID="{EDAB22A1-4D1E-4EAE-A404-B95D62F69705}" ShortID="589924819">
 													<Language>SFX</Language>
-													<AudioFile>Charleston_Sting4.wav</AudioFile>
+													<AudioFile>Hat4.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Charleston_Sting4" ID="{CB80E3B1-1C1F-4EA1-BAB7-FA30476BD5EA}" Platform="Linked"/>
+												<ActiveSource Name="Hat4" ID="{EDAB22A1-4D1E-4EAE-A404-B95D62F69705}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Sting5" ID="{4C67626F-C427-42E8-9CD2-76D8EDDA44D3}" ShortID="992701374">
+										<Sound Name="Hat5" ID="{248AD022-2829-4430-AD95-B7746DB5CD58}" ShortID="904201405">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -853,16 +1770,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Charleston_Sting5" ID="{0171E554-DB65-4724-BC1E-5589827BF531}" ShortID="569728116">
+												<AudioFileSource Name="Hat5" ID="{FF65172E-85F0-4444-A292-C7994F4A37B2}" ShortID="386490265">
 													<Language>SFX</Language>
-													<AudioFile>Charleston_Sting5.wav</AudioFile>
+													<AudioFile>Hat5.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Charleston_Sting5" ID="{0171E554-DB65-4724-BC1E-5589827BF531}" Platform="Linked"/>
+												<ActiveSource Name="Hat5" ID="{FF65172E-85F0-4444-A292-C7994F4A37B2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Sting6" ID="{53F354F1-195B-4E8E-A370-57529DFA639A}" ShortID="861446429">
+										<Sound Name="Hat6" ID="{574B8797-0BDE-4660-B236-86E86A1E2A32}" ShortID="70689904">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -872,39 +1789,46 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Charleston_Sting6" ID="{8687FBBB-BB4E-433D-AFD7-2DDE0987B7A0}" ShortID="1039274912">
+												<AudioFileSource Name="Hat6" ID="{FE03594B-0C36-4F57-8C8A-82CDEE8FA0B8}" ShortID="1059073170">
 													<Language>SFX</Language>
-													<AudioFile>Charleston_Sting6.wav</AudioFile>
+													<AudioFile>Hat6.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Charleston_Sting6" ID="{8687FBBB-BB4E-433D-AFD7-2DDE0987B7A0}" Platform="Linked"/>
+												<ActiveSource Name="Hat6" ID="{FE03594B-0C36-4F57-8C8A-82CDEE8FA0B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Hat7" ID="{D22472EB-F980-4185-B879-9B78E9204302}" ShortID="288578911">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hat7" ID="{33BD3511-2596-418E-88C4-DA08CF6FD1F2}" ShortID="1033383895">
+													<Language>SFX</Language>
+													<AudioFile>Hat7.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Hat7" ID="{33BD3511-2596-418E-88C4-DA08CF6FD1F2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="DholakStinger" ID="{F670DECB-9F18-4B86-85E8-57BBDCBAD0C9}" ShortID="971603071">
+								<RandomSequenceContainer Name="Song3RandomCrash" ID="{24532F37-168A-40EB-A5B3-2B378007C9F7}" ShortID="626383834">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
-													<Modifier Name="" ID="{8370FE85-4279-4DA8-A23D-28E4E7E410D1}">
+													<Modifier Name="" ID="{F126F35F-98FA-487E-B410-E6B9FC399A54}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
-										<Property Name="Volume" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{9F7FA8C5-D7AB-4A3C-8F08-8D24E14EB389}">
-														<PropertyList>
-															<Property Name="Min" Type="Real64" Value="-3"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
 														</PropertyList>
 													</Modifier>
 												</ModifierInfo>
@@ -920,7 +1844,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Dholak_Sting1" ID="{61AB029D-A4C4-4603-9DB0-55D4304965F5}" ShortID="474883152">
+										<Sound Name="Hat1" ID="{C4B9C0EF-6C72-4A1A-899C-80C326A25FC1}" ShortID="415818154">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -930,16 +1854,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dholak_Sting1" ID="{041C1EF6-2F89-43C7-8966-B127576AC31A}" ShortID="1053127628">
+												<AudioFileSource Name="Kooman KUSH crash (50)" ID="{7C5F13F8-5A54-47FB-A04F-FF983B7E5C60}" ShortID="581319617">
 													<Language>SFX</Language>
-													<AudioFile>Dholak_Sting1.wav</AudioFile>
+													<AudioFile>Kooman KUSH crash (50).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Dholak_Sting1" ID="{041C1EF6-2F89-43C7-8966-B127576AC31A}" Platform="Linked"/>
+												<ActiveSource Name="Kooman KUSH crash (50)" ID="{7C5F13F8-5A54-47FB-A04F-FF983B7E5C60}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Dholak_Sting2" ID="{AB767039-2168-4AC9-A312-962B1092C54D}" ShortID="1063259329">
+										<Sound Name="Hat2" ID="{DEC4AF1A-1060-4678-A006-AE07C6CE1424}" ShortID="689796247">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -949,55 +1873,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Dholak_Sting2" ID="{9F13DBCD-5198-464C-BE26-ACB04FBF8507}" ShortID="606072574">
+												<AudioFileSource Name="Kooman KUSH crash (51)" ID="{81427D3C-B3D0-4D8C-9989-7F97626667A8}" ShortID="816968227">
 													<Language>SFX</Language>
-													<AudioFile>Dholak_Sting2.wav</AudioFile>
+													<AudioFile>Kooman KUSH crash (51).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Dholak_Sting2" ID="{9F13DBCD-5198-464C-BE26-ACB04FBF8507}" Platform="Linked"/>
+												<ActiveSource Name="Kooman KUSH crash (51)" ID="{81427D3C-B3D0-4D8C-9989-7F97626667A8}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="FunkStinger" ID="{6DC63D85-FD0E-475B-A767-9A38191CE4A1}" ShortID="381462074">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{1FA39051-D53C-4736-A949-D2E1BA9B0E2D}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{20D3B5F3-C21E-4EE2-B9A1-F82B68864F74}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Min" Type="Real64" Value="-3"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Funk_Sting1" ID="{6FF306FD-0370-4CBF-93A9-83570A0A9750}" ShortID="640188564">
+										<Sound Name="Hat3" ID="{27F3F8C9-A88E-40DE-8F61-1EA9A805A6DC}" ShortID="410316437">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1007,16 +1892,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Funk_Sting1" ID="{DDB4EBC3-DD14-4011-9C5F-02C52B5AE1BC}" ShortID="889169828">
+												<AudioFileSource Name="Kooman KUSH crash (52)" ID="{577FF06F-CA46-4C60-85F0-82D34A935690}" ShortID="623035860">
 													<Language>SFX</Language>
-													<AudioFile>Funk_Sting1.wav</AudioFile>
+													<AudioFile>Kooman KUSH crash (52).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Funk_Sting1" ID="{DDB4EBC3-DD14-4011-9C5F-02C52B5AE1BC}" Platform="Linked"/>
+												<ActiveSource Name="Kooman KUSH crash (52)" ID="{577FF06F-CA46-4C60-85F0-82D34A935690}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Funk_Sting2" ID="{8DA280E7-5F7B-4CB0-9160-778B2ACE1589}" ShortID="80477646">
+										<Sound Name="Hat4" ID="{14AFFE7E-9D8B-4895-B9A3-9E72A1041DF6}" ShortID="535019996">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1026,16 +1911,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Funk_Sting2" ID="{9F044DBA-B671-4FE4-82D5-7535CE0EEF0D}" ShortID="906824125">
+												<AudioFileSource Name="Kooman KUSH crash (53)" ID="{3616B6EB-EEF7-49C0-9290-6063FB9E6ACE}" ShortID="628390883">
 													<Language>SFX</Language>
-													<AudioFile>Funk_Sting2.wav</AudioFile>
+													<AudioFile>Kooman KUSH crash (53).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Funk_Sting2" ID="{9F044DBA-B671-4FE4-82D5-7535CE0EEF0D}" Platform="Linked"/>
+												<ActiveSource Name="Kooman KUSH crash (53)" ID="{3616B6EB-EEF7-49C0-9290-6063FB9E6ACE}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Funk_Sting3" ID="{520F6AF3-1005-4A9C-A90B-A63161AE4760}" ShortID="500535340">
+										<Sound Name="Hat5" ID="{C7D4BE63-1D8D-4390-B64E-385C1E6E060A}" ShortID="642802865">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1045,16 +1930,16 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Funk_Sting3" ID="{4DBA054C-F928-4E48-9EE8-0E9AAB7267B4}" ShortID="186175733">
+												<AudioFileSource Name="Kooman KUSH crash (54)" ID="{7AB0236D-5C56-490B-8B41-150AAB21F439}" ShortID="977278617">
 													<Language>SFX</Language>
-													<AudioFile>Funk_Sting3.wav</AudioFile>
+													<AudioFile>Kooman KUSH crash (54).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Funk_Sting3" ID="{4DBA054C-F928-4E48-9EE8-0E9AAB7267B4}" Platform="Linked"/>
+												<ActiveSource Name="Kooman KUSH crash (54)" ID="{7AB0236D-5C56-490B-8B41-150AAB21F439}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Funk_Sting4" ID="{A340FE41-CE23-4BA0-986F-E940921172DF}" ShortID="694681560">
+										<Sound Name="Hat6" ID="{352DB1D7-CCC4-42EA-8DC0-14E33C5E5F16}" ShortID="990563684">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1064,513 +1949,13 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Funk_Sting4" ID="{83E78B61-00C0-4EE2-B866-B4D01BB47ECF}" ShortID="245042619">
+												<AudioFileSource Name="Kooman KUSH crash (55)" ID="{9703F766-AC35-4ABA-BE0E-2C38ED59D31E}" ShortID="551940536">
 													<Language>SFX</Language>
-													<AudioFile>Funk_Sting4.wav</AudioFile>
+													<AudioFile>Kooman KUSH crash (55).wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Funk_Sting4" ID="{83E78B61-00C0-4EE2-B866-B4D01BB47ECF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Funk_Sting5" ID="{AD19DF12-076D-49BB-8E03-5352A2D14674}" ShortID="352688038">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Funk_Sting5" ID="{C825F4CF-F1FE-42BF-B18F-DBBAB75A77DC}" ShortID="132468760">
-													<Language>SFX</Language>
-													<AudioFile>Funk_Sting5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Funk_Sting5" ID="{C825F4CF-F1FE-42BF-B18F-DBBAB75A77DC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Funk_Sting6" ID="{70566973-F3AC-43B9-9B5B-AC42AC75A152}" ShortID="831716212">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Funk_Sting6" ID="{571844F7-F686-49F4-BDC8-4E14890F3C6C}" ShortID="514573673">
-													<Language>SFX</Language>
-													<AudioFile>Funk_Sting6.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Funk_Sting6" ID="{571844F7-F686-49F4-BDC8-4E14890F3C6C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Funk_Sting7" ID="{64829816-AA0A-40D1-B3E2-5D1FD52C539E}" ShortID="816300109">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Funk_Sting7" ID="{8C839532-338A-4286-9AAE-B96A3D2143BA}" ShortID="203845955">
-													<Language>SFX</Language>
-													<AudioFile>Funk_Sting7.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Funk_Sting7" ID="{8C839532-338A-4286-9AAE-B96A3D2143BA}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="OGProdStinger" ID="{02E33B71-64B8-4390-8C92-5E4BED1C4973}" ShortID="386192997">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{1DB31819-6F49-4C52-9AEF-16D85D691A42}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{47EE7E0A-F322-4278-91B2-5D4C75485A9D}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Min" Type="Real64" Value="-3"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="OGProd_Sting1" ID="{E25106A9-F30A-473B-9C26-B84A36193FD0}" ShortID="985176669">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="OGProd_Sting1" ID="{94EE0E7C-D483-4BB3-B592-E1057D0A7594}" ShortID="801217734">
-													<Language>SFX</Language>
-													<AudioFile>OGProd_Sting1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="OGProd_Sting1" ID="{94EE0E7C-D483-4BB3-B592-E1057D0A7594}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="OGProd_Sting2" ID="{F4F6389D-987B-49F6-8235-C47E77C837D8}" ShortID="880100253">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="OGProd_Sting2" ID="{1563848D-395C-486D-8450-F53BC3229172}" ShortID="680877201">
-													<Language>SFX</Language>
-													<AudioFile>OGProd_Sting2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="OGProd_Sting2" ID="{1563848D-395C-486D-8450-F53BC3229172}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="OGProd_Sting3" ID="{4F81D4A9-4355-4FB9-AD65-BAFC8C80C076}" ShortID="270617098">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="OGProd_Sting3" ID="{76690397-BD4A-4B63-9650-C8F34835F2E0}" ShortID="977565527">
-													<Language>SFX</Language>
-													<AudioFile>OGProd_Sting3.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="OGProd_Sting3" ID="{76690397-BD4A-4B63-9650-C8F34835F2E0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="OGProd_Sting4" ID="{502791C8-CE0B-4954-AD8A-28A4ECB2507B}" ShortID="608198727">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="OGProd_Sting4" ID="{94D4C270-D5CA-4E85-BF4A-FE8ED1F1C893}" ShortID="134475039">
-													<Language>SFX</Language>
-													<AudioFile>OGProd_Sting4.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="OGProd_Sting4" ID="{94D4C270-D5CA-4E85-BF4A-FE8ED1F1C893}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="OGProd_Sting5" ID="{51DB062B-F800-4909-99FA-31537EB1A298}" ShortID="425828604">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="OGProd_Sting5" ID="{50285AB1-98BB-4270-8527-BBEA091BB424}" ShortID="359628687">
-													<Language>SFX</Language>
-													<AudioFile>OGProd_Sting5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="OGProd_Sting5" ID="{50285AB1-98BB-4270-8527-BBEA091BB424}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="OGProd_Sting6" ID="{C5778A5A-CE2D-45BD-8185-54567C1ABBDB}" ShortID="456772615">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="OGProd_Sting6" ID="{ABEFAF0D-BCF5-46E6-99F9-5A15F0995AF6}" ShortID="386314665">
-													<Language>SFX</Language>
-													<AudioFile>OGProd_Sting6.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="OGProd_Sting6" ID="{ABEFAF0D-BCF5-46E6-99F9-5A15F0995AF6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SniperStinger" ID="{0EAA5D0C-E890-46FC-8BDD-49CBD546BC25}" ShortID="1066489613">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{6A03222E-D09C-4E70-A3E4-C8D03F8BB6D5}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{78D8E322-809C-434B-A9B2-62ECCBEC09C1}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Min" Type="Real64" Value="-3"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Sniper_Sting1" ID="{FD7761AD-E868-4368-BF74-C5447CCCE429}" ShortID="986043184">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Sniper_Sting1" ID="{9BF57BFF-B5CA-49D4-A602-09C9EA3DDB9F}" ShortID="26430334">
-													<Language>SFX</Language>
-													<AudioFile>Sniper_Sting1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Sniper_Sting1" ID="{9BF57BFF-B5CA-49D4-A602-09C9EA3DDB9F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Sniper_Sting2" ID="{474293A7-27DE-4DEF-9937-40E07A320B84}" ShortID="324881266">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Sniper_Sting2" ID="{6C244918-1039-4FA2-96EE-D437A5DF8A5A}" ShortID="81898417">
-													<Language>SFX</Language>
-													<AudioFile>Sniper_Sting2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Sniper_Sting2" ID="{6C244918-1039-4FA2-96EE-D437A5DF8A5A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Sniper_Sting3" ID="{CD999A05-A4E9-4FDE-AA4A-B961B84A2250}" ShortID="45636800">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Sniper_Sting3" ID="{4FA3D03A-FB8D-426A-B14D-A45F3849B0E5}" ShortID="255973731">
-													<Language>SFX</Language>
-													<AudioFile>Sniper_Sting3.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Sniper_Sting3" ID="{4FA3D03A-FB8D-426A-B14D-A45F3849B0E5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Sniper_Sting4" ID="{E7CF009D-116C-4F3B-9601-AD80482755E2}" ShortID="83697682">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Sniper_Sting4" ID="{797DD47E-5289-481E-B1D7-F25E32E8B95F}" ShortID="957758910">
-													<Language>SFX</Language>
-													<AudioFile>Sniper_Sting4.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Sniper_Sting4" ID="{797DD47E-5289-481E-B1D7-F25E32E8B95F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Sniper_Sting5" ID="{F139E021-00BD-43CF-87B8-13BF733DFBB1}" ShortID="697745078">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Sniper_Sting5" ID="{227B3E46-B5DF-48D8-8B31-44A6EEE5A1FE}" ShortID="423287213">
-													<Language>SFX</Language>
-													<AudioFile>Sniper_Sting5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Sniper_Sting5" ID="{227B3E46-B5DF-48D8-8B31-44A6EEE5A1FE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Sniper_Sting6" ID="{C14D315B-329E-4FE1-9A64-52FCAE83D939}" ShortID="1060302620">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Sniper_Sting6" ID="{408F253A-A98F-4B2E-89A3-3B87782D5EBB}" ShortID="741214201">
-													<Language>SFX</Language>
-													<AudioFile>Sniper_Sting6.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Sniper_Sting6" ID="{408F253A-A98F-4B2E-89A3-3B87782D5EBB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SqueakerStinger" ID="{3948A1B6-E4FD-4A35-B34D-C9004609AA48}" ShortID="343917607">
-									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{DB40EE6B-ED23-4088-93BD-A2B2E28418DA}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{3AEE3651-BD8F-4FA6-9E62-C416751F6BF1}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Min" Type="Real64" Value="-3"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Squeaker_Sting1" ID="{4CE3E179-D652-4C24-8521-DA9EF6913D89}" ShortID="386886093">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Squeaker_Sting1" ID="{10D2457A-82D1-4773-A5CC-EC94B9EC3A3F}" ShortID="15843995">
-													<Language>SFX</Language>
-													<AudioFile>Squeaker_Sting1.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Squeaker_Sting1" ID="{10D2457A-82D1-4773-A5CC-EC94B9EC3A3F}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Squeaker_Sting2" ID="{1373F8D6-D409-41C1-BF54-5F3805B9777F}" ShortID="1009492829">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Squeaker_Sting2" ID="{737D5AC0-DC08-4850-A591-CD74F7279C0B}" ShortID="43306733">
-													<Language>SFX</Language>
-													<AudioFile>Squeaker_Sting2.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Squeaker_Sting2" ID="{737D5AC0-DC08-4850-A591-CD74F7279C0B}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Squeaker_Sting3" ID="{71D39EB4-2781-4CCA-A29E-7D559179A4A3}" ShortID="670774799">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Squeaker_Sting3" ID="{71065772-0361-4FAF-B5E6-9BA42A99C82D}" ShortID="547113355">
-													<Language>SFX</Language>
-													<AudioFile>Squeaker_Sting3.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Squeaker_Sting3" ID="{71065772-0361-4FAF-B5E6-9BA42A99C82D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Squeaker_Sting4" ID="{D64295A0-7AAA-482E-8A9A-85BE887B2CD2}" ShortID="319320168">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Squeaker_Sting4" ID="{631C6749-EECF-4EAE-A529-6226EB127C32}" ShortID="901482658">
-													<Language>SFX</Language>
-													<AudioFile>Squeaker_Sting4.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Squeaker_Sting4" ID="{631C6749-EECF-4EAE-A529-6226EB127C32}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Squeaker_Sting5" ID="{C0138EF6-7D2B-42C5-904F-0495B79A0228}" ShortID="761578031">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Squeaker_Sting5" ID="{8883DEF4-849B-4660-B328-DE681EFFA9C3}" ShortID="2200512">
-													<Language>SFX</Language>
-													<AudioFile>Squeaker_Sting5.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Squeaker_Sting5" ID="{8883DEF4-849B-4660-B328-DE681EFFA9C3}" Platform="Linked"/>
+												<ActiveSource Name="Kooman KUSH crash (55)" ID="{9703F766-AC35-4ABA-BE0E-2C38ED59D31E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1579,224 +1964,38 @@
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="CharlestonStinger" ID="{9BD9BF07-C01F-42A8-8042-1667D63ADF7B}"/>
+										<ItemRef Name="WallTriggerSwitch" ID="{BCBF5912-5533-44DE-A88E-0B88336CD117}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="SniperStinger" ID="{0EAA5D0C-E890-46FC-8BDD-49CBD546BC25}"/>
+										<ItemRef Name="Song3RandomCrash" ID="{24532F37-168A-40EB-A5B3-2B378007C9F7}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="OGProdStinger" ID="{02E33B71-64B8-4390-8C92-5E4BED1C4973}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="FunkStinger" ID="{6DC63D85-FD0E-475B-A767-9A38191CE4A1}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="SqueakerStinger" ID="{3948A1B6-E4FD-4A35-B34D-C9004609AA48}"/>
-									</GroupingBehavior>
-									<GroupingBehavior>
-										<ItemRef Name="DholakStinger" ID="{F670DECB-9F18-4B86-85E8-57BBDCBAD0C9}"/>
+										<ItemRef Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
-										<SwitchRef Name="OGProd" ID="{0455574C-5DFC-4B83-A88A-D431CDCC20E4}"/>
+										<SwitchRef Name="Song1RaveGazebo" ID="{DD627449-96B4-4A21-93DD-01D2866F5D05}"/>
 										<ItemList>
-											<ItemRef Name="OGProdStinger" ID="{02E33B71-64B8-4390-8C92-5E4BED1C4973}"/>
+											<ItemRef Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}"/>
+											<ItemRef Name="WallTriggerSwitch" ID="{BCBF5912-5533-44DE-A88E-0B88336CD117}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="Squeaker" ID="{B1B85550-B69B-42DE-BA17-1BA806281A46}"/>
+										<SwitchRef Name="Song2CondimentTieDye" ID="{D361F569-21F4-45DB-8B6F-0AF54CD403A5}"/>
 										<ItemList>
-											<ItemRef Name="SqueakerStinger" ID="{3948A1B6-E4FD-4A35-B34D-C9004609AA48}"/>
+											<ItemRef Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
-										<SwitchRef Name="Dholak" ID="{9A9AC35B-E005-424E-876A-5661E9904094}"/>
+										<SwitchRef Name="Song3TBN" ID="{DF29ED95-8898-49D6-B4CB-7F32313F5A13}"/>
 										<ItemList>
-											<ItemRef Name="DholakStinger" ID="{F670DECB-9F18-4B86-85E8-57BBDCBAD0C9}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Charleston" ID="{DE91C07E-5FFF-4619-98B9-DF3576D7EF2D}"/>
-										<ItemList>
-											<ItemRef Name="CharlestonStinger" ID="{9BD9BF07-C01F-42A8-8042-1667D63ADF7B}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Funk" ID="{01711796-F909-44D8-8BF2-D88E92AE0080}"/>
-										<ItemList>
-											<ItemRef Name="FunkStinger" ID="{6DC63D85-FD0E-475B-A767-9A38191CE4A1}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Sniper" ID="{6323ACBC-0106-43B5-A506-E028E73A144B}"/>
-										<ItemList>
-											<ItemRef Name="SniperStinger" ID="{0EAA5D0C-E890-46FC-8BDD-49CBD546BC25}"/>
+											<ItemRef Name="Song3RandomCrash" ID="{24532F37-168A-40EB-A5B3-2B378007C9F7}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
-						<RandomSequenceContainer Name="RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}" ShortID="498271904">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{87C70D61-3282-46CF-AE3D-42E15AC99D8F}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="100"/>
-													<Property Name="Min" Type="Real64" Value="-100"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<Sound Name="Hat1" ID="{A075E463-301E-4AE7-AEB6-2229EBF137CC}" ShortID="269584452">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Hat1" ID="{2A923393-822D-4180-9D64-3907586174C0}" ShortID="278935672">
-											<Language>SFX</Language>
-											<AudioFile>Hat1.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Hat1" ID="{2A923393-822D-4180-9D64-3907586174C0}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Hat2" ID="{3B46DB38-D755-40AB-9426-407810496DC9}" ShortID="964391776">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Hat2" ID="{6995F475-D891-4A04-9CBD-7E6FAB540C82}" ShortID="11133192">
-											<Language>SFX</Language>
-											<AudioFile>Hat2.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Hat2" ID="{6995F475-D891-4A04-9CBD-7E6FAB540C82}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Hat3" ID="{41242464-6D0A-4AF5-8E85-728A5A3C46FC}" ShortID="366271254">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Hat3" ID="{3DEEDE24-7238-4FAE-9A5B-08864C604DCF}" ShortID="277412915">
-											<Language>SFX</Language>
-											<AudioFile>Hat3.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Hat3" ID="{3DEEDE24-7238-4FAE-9A5B-08864C604DCF}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Hat4" ID="{17BE10BB-7AFD-49A2-82EF-709FCDDF62DE}" ShortID="920308821">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Hat4" ID="{EDAB22A1-4D1E-4EAE-A404-B95D62F69705}" ShortID="589924819">
-											<Language>SFX</Language>
-											<AudioFile>Hat4.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Hat4" ID="{EDAB22A1-4D1E-4EAE-A404-B95D62F69705}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Hat5" ID="{248AD022-2829-4430-AD95-B7746DB5CD58}" ShortID="904201405">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Hat5" ID="{FF65172E-85F0-4444-A292-C7994F4A37B2}" ShortID="386490265">
-											<Language>SFX</Language>
-											<AudioFile>Hat5.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Hat5" ID="{FF65172E-85F0-4444-A292-C7994F4A37B2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Hat6" ID="{574B8797-0BDE-4660-B236-86E86A1E2A32}" ShortID="70689904">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Hat6" ID="{FE03594B-0C36-4F57-8C8A-82CDEE8FA0B8}" ShortID="1059073170">
-											<Language>SFX</Language>
-											<AudioFile>Hat6.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Hat6" ID="{FE03594B-0C36-4F57-8C8A-82CDEE8FA0B8}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Hat7" ID="{D22472EB-F980-4185-B879-9B78E9204302}" ShortID="288578911">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Hat7" ID="{33BD3511-2596-418E-88C4-DA08CF6FD1F2}" ShortID="1033383895">
-											<Language>SFX</Language>
-											<AudioFile>Hat7.wav</AudioFile>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Hat7" ID="{33BD3511-2596-418E-88C4-DA08CF6FD1F2}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-						</RandomSequenceContainer>
 					</ChildrenList>
 				</BlendContainer>
 			</ChildrenList>

@@ -35,6 +35,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{3B41815A-22E5-4D8B-A30C-4ED9C41477C3}" ShortID="130713125">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Song1RaveGazebo" ID="{DD627449-96B4-4A21-93DD-01D2866F5D05}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}">
@@ -293,6 +303,40 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B44DBDD4-461B-4E8C-84F1-5ED6C106C129}" ShortID="48251169">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Song2CondimentTieDye" ID="{D361F569-21F4-45DB-8B6F-0AF54CD403A5}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StartSong3" ID="{7F6E4389-0FCF-44FF-941F-9F1DE792E683}">
+					<ChildrenList>
+						<Action Name="" ID="{4B9737BA-73B1-45F0-8D82-6C1F290767D6}" ShortID="118446257">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Song3Switch" ID="{D1C2F95F-5CF0-4D59-9B3A-704545200C78}" WorkUnitID="{7D79D512-1B97-4816-8759-37707A740E36}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{82767B7D-8865-493B-9038-BDB1903E2FA4}" ShortID="40926276">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Song3TBN" ID="{DF29ED95-8898-49D6-B4CB-7F32313F5A13}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

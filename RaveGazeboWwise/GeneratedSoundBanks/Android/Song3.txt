@@ -1,0 +1,230 @@
+Event	ID	Name			Wwise Object Path	Notes
+	189758730	LayerFunk			\Default Work Unit\LayerFunk	
+	323477279	LayerSqueaker			\Default Work Unit\LayerSqueaker	
+	974193271	StartSong3			\Default Work Unit\StartSong3	
+	1154343441	LayerDholak			\Default Work Unit\LayerDholak	
+	1917263390	StopMusic			\Default Work Unit\StopMusic	
+	2658066811	CloseFills			\Default Work Unit\CloseFills	
+	2774025313	LayerOGProd			\Default Work Unit\LayerOGProd	
+	3391767169	OpenFills			\Default Work Unit\OpenFills	
+	3556790691	LayerCharleston			\Default Work Unit\LayerCharleston	
+	4001994617	LayerSniper			\Default Work Unit\LayerSniper	
+	4286046374	DSPTrigger			\Default Work Unit\DSPTrigger	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3363456409	FillState			\Default Work Unit\FillState	
+	3535580974	WhichSongState			\Default Work Unit\WhichSongState	
+	3943631437	CubeState			\Default Work Unit\CubeState	
+
+State	ID	Name	State Group			Notes
+	0	None	FillState			
+	700997592	CloseFill	FillState			
+	2262225030	OpenFill	FillState			
+	0	None	WhichSongState			
+	2189361989	Song1RaveGazebo	WhichSongState			
+	2710032591	Song3TBN	WhichSongState			
+	2769301377	Song2CondimentTieDye	WhichSongState			
+	0	None	CubeState			
+	876571128	Dholak	CubeState			
+	1645216428	OGProd	CubeState			
+	2073862306	Charleston	CubeState			
+	2332359742	Squeaker	CubeState			
+	2476960775	Funk	CubeState			
+	2550763292	Sniper	CubeState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	33272086	CloseFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\CharlestonFills		
+	54983870	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Funk\DavisDnB_Funk_Segment\DavisDnB_Funk_Layer2		
+	63052343	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Funk\DavisDnB_Funk_Segment\DavisDnB_Funk_Layer3		
+	81384661	CloseFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Dholak\DavisDnB_Dholak_Segment\DholakFills		
+	131164542	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\OGProd\DavisDnB_OGProd_Segment\DavisDnB_OGProd_Layer1		
+	194258311	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\OGProd\DavisDnB_OGProd_Segment\DavisDnB_OGProd_Layer2		
+	233333536	CloseFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\OGProd\DavisDnB_OGProd_Segment\OGProdFills		
+	251440718	CloseFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Squeaker\DavisDnB_Squeaker_Segment\SqueakerFills		
+	298712238	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Squeaker\DavisDnB_Squeaker_Segment\DavisDnB_Squeaker_Layer3		
+	603953692	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Funk\DavisDnB_Funk_Segment\DavisDnB_Funk_Layer1		
+	611811351	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Dholak\DavisDnB_Dholak_Segment\DavisDnB_Dholak_Layer1		
+	638152214	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Squeaker\DavisDnB_Squeaker_Segment\DavisDnB_Squeaker_Layer1		
+	685453559	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\DavisDnB_Charleston_Layer1		
+	740051911	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Dholak\DavisDnB_Dholak_Segment\DavisDnB_Dholak_Layer3		
+	742776638	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Squeaker\DavisDnB_Squeaker_Segment\DavisDnB_Squeaker_Layer2		
+	817755009	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\DavisDnB_Charleston_Layer2		
+	825468614	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Dholak\DavisDnB_Dholak_Segment\DavisDnB_Dholak_Layer2		
+	862399024	CloseFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Sniper\DavisDnB_Sniper_Segment\fill1		
+	1043860575	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\DavisDnB_Charleston_Layer3		
+	1063232641	OpenFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\OGProd\DavisDnB_OGProd_Segment\DavisDnB_OGProd_Layer3		
+	1072791172	CloseFill	FillState	\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Funk\DavisDnB_Funk_Segment\FunkFills		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	17	CC #16: General Purpose Controller 1			\CC 0-31\CC #16: General Purpose Controller 1	
+	18	CC #17: General Purpose Controller 2			\CC 0-31\CC #17: General Purpose Controller 2	
+	19	CC #18: General Purpose Controller 3			\CC 0-31\CC #18: General Purpose Controller 3	
+	20	CC #19: General Purpose Controller 4			\CC 0-31\CC #19: General Purpose Controller 4	
+	21	CC #20			\CC 0-31\CC #20	
+	22	CC #21			\CC 0-31\CC #21	
+	768774117	ChargeLevel			\Default Work Unit\ChargeLevel	
+	1075330786	PlaybackSpeedRTPC			\Default Work Unit\PlaybackSpeedRTPC	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	15520942	Modulator Envelope (Custom)				
+	59337272	Modulator Envelope (Custom)				
+	195750924	Modulator Envelope (Custom)				
+	242848860	Modulator Envelope (Custom)				
+	367842867	Modulator Envelope (Custom)				
+	471671171	Modulator Envelope (Custom)				
+	662007857	Modulator Envelope (Custom)				
+	722870960	Modulator Envelope (Custom)				
+
+Trigger	ID	Name			Wwise Object Path	Notes
+	541953367	WallEventStinger			\Default Work Unit\WallEventStinger	
+	3518675453	MeasureOfDSP			\Default Work Unit\MeasureOfDSP	
+
+Effect plug-ins	ID	Name	Type				Notes
+	723159986	CC17Meter	Wwise Meter			
+	1887830180	CC19Meter	Wwise Meter			
+	2015281252	CC20Meter	Wwise Meter			
+	2080872166	Brick_Wall_Minus_6dB_Peak_Fast_Release	Wwise Peak Limiter			
+	3413214797	CC16Meter	Wwise Meter			
+	3656203399	CC18Meter	Wwise Meter			
+	3741974599	CC21Meter	Wwise Meter			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	85729181	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\ReaktionSynths\SnareSynth\Wwise Synth One	
+	234184245	CC#18	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\DSPSynths\CC#18\CC#18	
+	271470553	CC#16	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\DSPSynths\CC#16\CC#16	
+	458242813	CC#20	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\DSPSynths\CC#20\CC#20	
+	550651706	CC#19	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\DSPSynths\CC#19\CC#19	
+	655498310	CC#17	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\DSPSynths\CC#17\CC#17	
+	933899504	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\ReaktionSynths\KickSynth\Wwise Synth One	
+	993120632	CC#21	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\DSPSynths\CC#21\CC#21	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	2200512	Squeaker_Sting5	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Squeaker_Sting5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SqueakerStinger\Squeaker_Sting5		39266
+	11133192	Hat2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Hat2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song1RandomHat\Hat2		35548
+	15843995	Squeaker_Sting1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Squeaker_Sting1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SqueakerStinger\Squeaker_Sting1		19666
+	16664386	CC#16Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#16Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#16Rand		18
+	26430334	Sniper_Sting1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Sniper_Sting1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SniperStinger\Sniper_Sting1		29466
+	43306733	Squeaker_Sting2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Squeaker_Sting2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SqueakerStinger\Squeaker_Sting2		58866
+	49784423	DavisDnB_Charleston_Layer3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #1 v1 layer #3 (pizz fast pluck)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\DavisDnB_Charleston_Layer3		4866272
+	57323775	CC#21Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#21RampUp_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#21Rand		122
+	69731098	CC#16Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#16Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#16Rand		119
+	81898417	Sniper_Sting2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Sniper_Sting2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SniperStinger\Sniper_Sting2		58866
+	87773612	DavisDnB_OGProd_Layer1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #2 v2 layer #1  drums (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\OGProd\DavisDnB_OGProd_Segment\DavisDnB_OGProd_Layer1		4379648
+	90944284	Dholak_SnareMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #1 v2 snare midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Dholak\DavisDnB_Dholak_Segment\Dholak_SnareMIDI		350
+	123620592	CharlestonFills	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\drum fill 4 measure loop_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\CharlestonFills		973304
+	132468760	Funk_Sting5	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Funk_Sting5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\FunkStinger\Funk_Sting5		22116
+	133227293	RaveGazebo_FastBass_v1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 (with sub) (d3)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\RaveGazebo_FastBass_v1		4866268
+	134475039	OGProd_Sting4	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\OGProd_Sting4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\OGProdStinger\OGProd_Sting4		39266
+	139717815	Charleston_KickMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #1 v1 kick midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\Charleston_KickMIDI		616
+	146157739	CC#20Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#20Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#20Rand		18
+	148469304	CC#20Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#20Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#20Rand		119
+	163792164	CC#19Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#19Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#19Rand		18
+	181100517	CC#19Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#19Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#19Rand		18
+	184089233	OGProd_KickMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #2 v2 kick midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\OGProd\DavisDnB_OGProd_Segment\OGProd_KickMIDI		806
+	186175733	Funk_Sting3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Funk_Sting3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\FunkStinger\Funk_Sting3		19666
+	196286279	CC#17Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#17Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#17Rand		119
+	201372105	DavisDnB_Squeaker_Layer3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 v2 layer  #3 plucks (high end reduced) (d3)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Squeaker\DavisDnB_Squeaker_Segment\DavisDnB_Squeaker_Layer3		4866268
+	203845955	Funk_Sting7	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Funk_Sting7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\FunkStinger\Funk_Sting7		9866
+	229705138	CC#19Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#19Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#19Rand		119
+	245042619	Funk_Sting4	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Funk_Sting4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\FunkStinger\Funk_Sting4		9866
+	255973731	Sniper_Sting3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Sniper_Sting3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SniperStinger\Sniper_Sting3		39266
+	256316505	CC#19Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#19Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#19Rand		18
+	277412915	Hat3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Hat3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song1RandomHat\Hat3		78304
+	278935672	Hat1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Hat1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song1RandomHat\Hat1		31270
+	296813834	CC#18Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#18Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#18Rand		18
+	332324795	DavisDnB_Sniper_Layer1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 v1 layer #1 drums (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Sniper\DavisDnB_Sniper_Segment\DavisDnB_Sniper_Layer1		4379648
+	359628687	OGProd_Sting5	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\OGProd_Sting5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\OGProdStinger\OGProd_Sting5		39266
+	360199630	CC#21Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#21Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#21Rand		18
+	363742227	CC#17Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#17RampUp_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#17Rand		119
+	365137137	Sniper_KickMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 v1 kick midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Sniper\DavisDnB_Sniper_Segment\Sniper_KickMIDI		590
+	369981263	CC#16Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#16RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#16Rand		119
+	386314665	OGProd_Sting6	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\OGProd_Sting6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\OGProdStinger\OGProd_Sting6		39266
+	386490265	Hat5	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Hat5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song1RandomHat\Hat5		35174
+	396156328	CC#16Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#16RampUp_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#16Rand		119
+	403825601	CC#20Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#20Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#20Rand		119
+	411493012	CC#21Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#21Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#21Rand		119
+	417780640	CC#21Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#21Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#21Rand		18
+	417790636	DavisDnB_Squeaker_Layer1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 v2 layer #1 drums (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Squeaker\DavisDnB_Squeaker_Segment\DavisDnB_Squeaker_Layer1		4379648
+	423287213	Sniper_Sting5	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Sniper_Sting5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SniperStinger\Sniper_Sting5		58866
+	453176476	CC#18Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#18Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#18Rand		119
+	493653779	CC#17Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#17RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#17Rand		119
+	500355630	DavisDnB_Funk_Layer1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #2 v1 layer #1 drums (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Funk\DavisDnB_Funk_Segment\DavisDnB_Funk_Layer1		4379648
+	511204238	DavisDnB_Dholak_Layer3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #1 v2 layer #3 (cool blip)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Dholak\DavisDnB_Dholak_Segment\DavisDnB_Dholak_Layer3		4866272
+	511470018	CC#21Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#21Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#21Rand		18
+	511594797	CC#20Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#20RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#20Rand		119
+	514573673	Funk_Sting6	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Funk_Sting6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\FunkStinger\Funk_Sting6		9866
+	514912076	Squeaker_SnareMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 v2 snare midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Squeaker\DavisDnB_Squeaker_Segment\Squeaker_SnareMIDI		350
+	533068987	DavisDnB_Dholak_Layer2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #1 v2 layer #2 (neuro pluck)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Dholak\DavisDnB_Dholak_Segment\DavisDnB_Dholak_Layer2		4866272
+	536141369	CC#21Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#21Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#21Rand		18
+	543447063	CC#17Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#17Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#17Rand		119
+	547113355	Squeaker_Sting3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Squeaker_Sting3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SqueakerStinger\Squeaker_Sting3		39266
+	551940536	Hat6	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Kooman KUSH crash (55)_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song3RandomCrash\Hat6		392182
+	558876200	CC#19Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#19Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#19Rand		18
+	567443484	Squeaker_KickMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 v2 kick midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Squeaker\DavisDnB_Squeaker_Segment\Squeaker_KickMIDI		526
+	569728116	Sting5	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Charleston_Sting5_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\CharlestonStinger\Sting5		19666
+	576606435	Sting2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Charleston_Sting2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\CharlestonStinger\Sting2		24566
+	581319617	Hat1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Kooman KUSH crash (50)_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song3RandomCrash\Hat1		128130
+	581695431	CC#17Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#17RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#17Rand		119
+	589924819	Hat4	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Hat4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song1RandomHat\Hat4		27578
+	591159828	CC#19Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#19RampUp_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#19Rand		122
+	594609099	Sniper_SnareMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 v1 snare midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Sniper\DavisDnB_Sniper_Segment\Sniper_SnareMIDI		366
+	600456504	CC#17Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#17Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#17Rand		18
+	606072574	Dholak_Sting2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Dholak_Sting2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\DholakStinger\Dholak_Sting2		39266
+	617672034	CC#18Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#18Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#18Rand		18
+	623035860	Hat3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Kooman KUSH crash (52)_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song3RandomCrash\Hat3		39690
+	628390883	Hat4	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Kooman KUSH crash (53)_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song3RandomCrash\Hat4		114350
+	635553040	DavisDnB_Squeaker_Layer2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 v2 layer #2 (pads) (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Squeaker\DavisDnB_Squeaker_Segment\DavisDnB_Squeaker_Layer2		4866268
+	638685664	CC#16Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#16RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#16Rand		119
+	649239353	Sting1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Charleston_Sting1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\CharlestonStinger\Sting1		24566
+	657931159	CC#18Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#18Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#18Rand		18
+	668338464	DavisDnB_Charleston_Layer2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #1 v1 layer #2 pads_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\DavisDnB_Charleston_Layer2		4866272
+	668814925	OGProd_SnareMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #2 v2 snare midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\OGProd\DavisDnB_OGProd_Segment\OGProd_SnareMIDI		367
+	680877201	OGProd_Sting2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\OGProd_Sting2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\OGProdStinger\OGProd_Sting2		19666
+	682283725	DavisDnB_OGProd_Layer3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #2 v2 layer #3 (pluck) (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\OGProd\DavisDnB_OGProd_Segment\DavisDnB_OGProd_Layer3		4379648
+	720437376	CC#20Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#20RampUp_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#20Rand		119
+	722996484	Sting3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Charleston_Sting3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\CharlestonStinger\Sting3		19666
+	735000557	Funk_SnareMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #2 v1 snare midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Funk\DavisDnB_Funk_Segment\Funk_SnareMIDI		192
+	741214201	Sniper_Sting6	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Sniper_Sting6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SniperStinger\Sniper_Sting6		19666
+	749116649	CC#16Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#16Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#16Rand		119
+	776351060	DavisDnB_Dholak_Layer1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #1 v2 layer #1 drums (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Dholak\DavisDnB_Dholak_Segment\DavisDnB_Dholak_Layer1		4379652
+	778165503	CC#20Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#20Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#20Rand		18
+	780752212	DavisDnB_OGProd_Layer2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #2 v2 layer #2 (pads) (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\OGProd\DavisDnB_OGProd_Segment\DavisDnB_OGProd_Layer2		4379648
+	784992417	DavisDnB_Charleston_Layer1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #1 v1 layer #1 (drums+pluck)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\DavisDnB_Charleston_Layer1		4866272
+	785679559	CC#21Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#21Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#21Rand		18
+	801217734	OGProd_Sting1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\OGProd_Sting1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\OGProdStinger\OGProd_Sting1		19666
+	811648600	CC#17Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#17RampUp_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#17Rand		119
+	813212623	CC#21Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#21RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#21Rand		122
+	814929096	DavisDnB_Funk_Layer3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bass #2 v1 layer 3 plucks (moved up a 3rd) (d3)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Funk\DavisDnB_Funk_Segment\DavisDnB_Funk_Layer3		4866272
+	816968227	Hat2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Kooman KUSH crash (51)_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song3RandomCrash\Hat2		105810
+	828147351	CC#17Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#17RampUp_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#17Rand		119
+	837233555	CC#18Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#18Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#18Rand		18
+	870660809	CC#19Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#19RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#19Rand		122
+	889169828	Funk_Sting1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Funk_Sting1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\FunkStinger\Funk_Sting1		19666
+	890559297	CC#16Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#16Triangle_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#16Rand		119
+	895289090	Charleston_SnareMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #1 v1 snare midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\Charleston_SnareMIDI		331
+	901482658	Squeaker_Sting4	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Squeaker_Sting4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SqueakerStinger\Squeaker_Sting4		39266
+	902298130	CC#16Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#16RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#16Rand		119
+	906568587	CC#18Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#18RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#18Rand		119
+	906824125	Funk_Sting2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Funk_Sting2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\FunkStinger\Funk_Sting2		9866
+	915637316	DavisDnB_Bass_v1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Bassline #1 (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\DavisDnB_Bass_v1		4379652
+	918931925	CC#19Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#19Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#19Rand		18
+	934970204	CC#17Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#17Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#17Rand		18
+	941559015	DavisDnB_Funk_Layer2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #2 v1 layer #2 (pads) (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Funk\DavisDnB_Funk_Segment\DavisDnB_Funk_Layer2		4379648
+	949052314	DavisDnB_Sniper_Layer2	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 v1 layer #2 (pads) (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Sniper\DavisDnB_Sniper_Segment\DavisDnB_Sniper_Layer2		4866268
+	951639129	Sting4	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Charleston_Sting4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\CharlestonStinger\Sting4		29466
+	957758910	Sniper_Sting4	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Sniper_Sting4_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\SniperStinger\Sniper_Sting4		39266
+	974348426	CC#18Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#18RampUp_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#18Rand		119
+	977069014	Funk_KickMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #2 v1 kick midi _00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Funk\DavisDnB_Funk_Segment\Funk_KickMIDI		350
+	977278617	Hat5	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Kooman KUSH crash (54)_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song3RandomCrash\Hat5		120260
+	977565527	OGProd_Sting3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\OGProd_Sting3_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\OGProdStinger\OGProd_Sting3		39266
+	983661850	CC#20Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#20RampUp_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#20Rand		119
+	1006799579	DavisDnB_Sniper_Layer3	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #3 v1 layer #3 (plucks) (d2)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Sniper\DavisDnB_Sniper_Segment\DavisDnB_Sniper_Layer3		4866268
+	1023102420	RaveGazebo_SlowBass_v1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #2 (d3) (with gate)_8956FC97.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Charleston\DavisDnB_Charleston_Segment\RaveGazebo_SlowBass_v1		4866272
+	1027088030	CC#18Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#18Flat_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#18Rand		18
+	1029857573	Dholak_KickMIDI	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\bassline #1 v2 kick midi_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song3_TBN\Song3Switch\Dholak\DavisDnB_Dholak_Segment\Dholak_KickMIDI		350
+	1031498411	CC#20Rand	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\#20RampDown_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Song1_RaveGazebo\CubeSwitch\RandomDSPMeasure\CC#20Rand		119
+	1033383895	Hat7	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Hat7_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song1RandomHat\Hat7		44164
+	1039274912	Sting6	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Charleston_Sting6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\CharlestonStinger\Sting6		29466
+	1053127628	Dholak_Sting1	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Dholak_Sting1_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\WallTriggerSwitch\DholakStinger\Dholak_Sting1		49066
+	1059073170	Hat6	D:\GameAudProjects\RaveGazebo\RaveGazeboWwise\.cache\Android\SFX\Hat6_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\WallTriggerSound\WhichSong\Song1RandomHat\Hat6		83318
+

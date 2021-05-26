@@ -4,14 +4,15 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Blast_Wizard" Hash="1076454516" Timestamp="1596057421"/>
-				<File Name="Init" Hash="701253476" Timestamp="1610669196"/>
-				<File Name="Song1" Hash="792230159" Timestamp="1613236336"/>
-				<File Name="Song2" Hash="546737190" Timestamp="1613238454"/>
+				<File Name="Init" Hash="440879535" Timestamp="1622061050"/>
+				<File Name="Song1" Hash="4068653898" Timestamp="1622061038"/>
+				<File Name="Song2" Hash="245710098" Timestamp="1622064812"/>
+				<File Name="Song3" Hash="3317007414" Timestamp="1622061050"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2119034215" Timestamp="1613238454"/>
+				<File Name="" Hash="3525057600" Timestamp="1622064814"/>
 			</Language>
 		</XMLInfo>
 	</Platform>
@@ -19,14 +20,15 @@
 		<Banks>
 			<Language ID="393239870">
 				<File Name="Blast_Wizard" Hash="1076454516" Timestamp="1596057419"/>
-				<File Name="Init" Hash="1609271180" Timestamp="1610669184"/>
-				<File Name="Song1" Hash="792230159" Timestamp="1613236330"/>
-				<File Name="Song2" Hash="546737190" Timestamp="1613238438"/>
+				<File Name="Init" Hash="202558783" Timestamp="1622060982"/>
+				<File Name="Song1" Hash="4068653898" Timestamp="1622060974"/>
+				<File Name="Song2" Hash="245710098" Timestamp="1622064804"/>
+				<File Name="Song3" Hash="3317007414" Timestamp="1622060982"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="-1">
-				<File Name="" Hash="2018196385" Timestamp="1613238438"/>
+				<File Name="" Hash="3986573046" Timestamp="1622064806"/>
 			</Language>
 		</XMLInfo>
 	</Platform>

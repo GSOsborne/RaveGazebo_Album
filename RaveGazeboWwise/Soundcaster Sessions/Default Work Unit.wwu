@@ -18,12 +18,16 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="OpenFills" ID="{46E48233-4D71-4280-B265-566B01BFE885}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
+							<ObjectRef Name="StartSong2" ID="{BCF67112-E2A9-4FE4-AC6C-BB3E662AC829}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="LayerDholak" ID="{078E927A-C363-48C8-BBA3-54805E18954B}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
 							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StartSong3" ID="{7F6E4389-0FCF-44FF-941F-9F1DE792E683}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
+							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="CloseFills" ID="{14C1129F-FAA1-4AC4-BCD4-75CB617A5867}" WorkUnitID="{6BB86506-14D8-44B2-A742-9E3FC0EA34B9}"/>
@@ -56,8 +60,24 @@
 							<Value>6</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="CC16" ID="{95EA5872-70FD-41AD-BF84-C292D6B93E0B}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SnareReaktionRTPC" ID="{02FB434B-7A26-420A-A409-4B3054A96845}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
 							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="KickReaktionRTPC" ID="{EA61787F-7024-435E-A3ED-D1EE9CE81548}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CC18" ID="{99614E29-1C29-4446-BD67-BD44285CECA1}"/>
+							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
@@ -72,12 +92,20 @@
 							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="CC19" ID="{2FE18AFE-6D76-4548-B2C3-D85B3A5FA890}"/>
+							<Value>-48</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="CC21" ID="{AEFCF569-0C96-4569-81D2-16BC5A866B03}"/>
 							<Value>30.7121661721068</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
 							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CC20" ID="{3B56F760-15C2-46E5-B9BA-3286E224C6F3}"/>
+							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
@@ -97,11 +125,15 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="ChargeLevel" ID="{383340EE-CDD5-4BDB-98BA-576D68596138}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
 							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="CC17" ID="{7857EC55-766B-4CF1-966A-CF43D3C74CDC}"/>
+							<Value>-48</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
@@ -113,12 +145,13 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="PlaybackSpeedRTPC" ID="{E3251A5B-1A85-4E4F-98D2-0BCC04132693}"/>
-							<Value>52</Value>
+							<Value>49</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="CloseFill" ID="{BA748834-D2BD-437F-B2B6-691109D700EB}"/>
-						<CurrentStateRef Name="Charleston" ID="{DE91C07E-5FFF-4619-98B9-DF3576D7EF2D}"/>
+						<CurrentStateRef Name="Song2CondimentTieDye" ID="{D361F569-21F4-45DB-8B6F-0AF54CD403A5}"/>
+						<CurrentStateRef Name="OpenFill" ID="{FB403BC1-6D87-4E9A-B570-466F03623A7D}"/>
+						<CurrentStateRef Name="OGProd" ID="{0455574C-5DFC-4B83-A88A-D431CDCC20E4}"/>
 						<CurrentStateRef Name="DSPOff" ID="{946B2567-2D15-4945-9E62-72755B8F6048}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>

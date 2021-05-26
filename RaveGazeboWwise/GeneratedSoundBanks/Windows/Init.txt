@@ -1,6 +1,7 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	3097867629	DSPState			\Default Work Unit\DSPState	
 	3363456409	FillState			\Default Work Unit\FillState	
+	3535580974	WhichSongState			\Default Work Unit\WhichSongState	
 	3943631437	CubeState			\Default Work Unit\CubeState	
 
 State	ID	Name	State Group			Notes
@@ -10,6 +11,10 @@ State	ID	Name	State Group			Notes
 	0	None	FillState			
 	700997592	CloseFill	FillState			
 	2262225030	OpenFill	FillState			
+	0	None	WhichSongState			
+	2189361989	Song1RaveGazebo	WhichSongState			
+	2710032591	Song3TBN	WhichSongState			
+	2769301377	Song2CondimentTieDye	WhichSongState			
 	0	None	CubeState			
 	876571128	Dholak	CubeState			
 	1645216428	OGProd	CubeState			
@@ -55,6 +60,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1049114820	FeedFromReaktion			\Default Work Unit\Master Audio Bus\MutedSidechain\FeedFromReaktion	
+
 Effect plug-ins	ID	Name	Type				Notes
 	442435820	CC21Trem	Wwise Tremolo			
 	534559576	CC19Distortion	Wwise Guitar Distortion			
@@ -72,5 +80,4 @@ Effect plug-ins	ID	Name	Type				Notes
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			
-	4230635974	Default_Motion_Device	Wwise Motion			
 
