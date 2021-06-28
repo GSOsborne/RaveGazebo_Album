@@ -24,14 +24,27 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 3a3bcde622a0504db0b85747027c4dc2
     GuidInternal: 
-    m_lastTime: -8586147882514775808
-    List: []
+    m_lastTime: -8585792020454775808
+    List:
+    - name: FeedFromReaktion
+      guid: f6a0c98e2fa5fc4583932f1ea3ec4f18
+      id: 1049114820
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      - ElementName: MutedSidechain
+        ObjectType: 2
+      - ElementName: FeedFromReaktion
+        ObjectType: 1
+      Path: Default Work Unit\Master Audio Bus\MutedSidechain\FeedFromReaktion
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 51d89e9640a6984dae05eef7a3a37551
     GuidInternal: 
-    m_lastTime: -8585883684614775808
+    m_lastTime: -8585795456194775808
     List:
     - name: Song1
       guid: 2a82202266e7d24e886e292b49967bdf
@@ -51,12 +64,21 @@ MonoBehaviour:
       - ElementName: Song2
         ObjectType: 7
       Path: Default Work Unit\Song2
+    - name: Song3
+      guid: 216ffa3e20d09746a1cad9b86bac5fb9
+      id: 778469037
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Song3
+        ObjectType: 7
+      Path: Default Work Unit\Song3
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     guid: 0665b86bd814b244a7429e3fc0ea34b9
     GuidInternal: 
-    m_lastTime: -8585883706534775808
+    m_lastTime: -8585798032414775808
     List:
     - name: CloseFills
       guid: 9f12c114a1fac44abcd475cb617a5867
@@ -187,6 +209,18 @@ MonoBehaviour:
       - ElementName: StartSong2
         ObjectType: 3
       Path: Default Work Unit\StartSong2
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: StartSong3
+      guid: 89436e7fcf0fff44941f9f1de792e683
+      id: 974193271
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: StartSong3
+        ObjectType: 3
+      Path: Default Work Unit\StartSong3
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -433,7 +467,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: cac5d564c51d40429486f642a0418ec2
     GuidInternal: 
-    m_lastTime: -8586252406174775808
+    m_lastTime: -8585798032794775808
     List:
     - name: CubeState
       guid: 752ee587ee73c043a70e35a9f789fc62
@@ -548,6 +582,43 @@ MonoBehaviour:
         id: 2262225030
         PathAndIcons:
         - ElementName: OpenFill
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: WhichSongState
+      guid: 5a74df77bf7eec41972911ceafb8c77c
+      id: 3535580974
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: WhichSongState
+        ObjectType: 9
+      Path: Default Work Unit\WhichSongState
+      values:
+      - name: None
+        guid: 94893a351e69c1459b0ce7d5f4f2fdf9
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      - name: Song1RaveGazebo
+        guid: 497462ddb496214a93dd01d2866f5d05
+        id: 2189361989
+        PathAndIcons:
+        - ElementName: Song1RaveGazebo
+          ObjectType: 8
+      - name: Song2CondimentTieDye
+        guid: 69f561d3f421db458b6f0af54cd403a5
+        id: 2769301377
+        PathAndIcons:
+        - ElementName: Song2CondimentTieDye
+          ObjectType: 8
+      - name: Song3TBN
+        guid: 95ed29df9888d649b4cb7f32313f5a13
+        id: 2710032591
+        PathAndIcons:
+        - ElementName: Song3TBN
           ObjectType: 8
       ValueGuids: []
       ValueIcons: []

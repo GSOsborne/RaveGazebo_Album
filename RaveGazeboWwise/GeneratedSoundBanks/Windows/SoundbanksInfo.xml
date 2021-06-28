@@ -805,10 +805,6 @@
 					<ShortName>Funk_Sting5.wav</ShortName>
 					<Path>SFX\Funk_Sting5_56D34C19.wem</Path>
 				</File>
-				<File Id="133227293" Language="SFX">
-					<ShortName>bassline #3 (with sub) (d3).wav</ShortName>
-					<Path>SFX\bassline #3 (with sub) (d3)_8956FC97.wem</Path>
-				</File>
 				<File Id="134475039" Language="SFX">
 					<ShortName>OGProd_Sting4.wav</ShortName>
 					<Path>SFX\OGProd_Sting4_56D34C19.wem</Path>
@@ -824,6 +820,10 @@
 				<File Id="148469304" Language="SFX">
 					<ShortName>#20Triangle.mid</ShortName>
 					<Path>SFX\#20Triangle_00000000.wem</Path>
+				</File>
+				<File Id="150905465" Language="SFX">
+					<ShortName>Bassline #3 (d5).wav</ShortName>
+					<Path>SFX\Bassline #3 (d5)_8956FC97.wem</Path>
 				</File>
 				<File Id="163792164" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
@@ -876,6 +876,10 @@
 				<File Id="278935672" Language="SFX">
 					<ShortName>Hat1.wav</ShortName>
 					<Path>SFX\Hat1_56D34C19.wem</Path>
+				</File>
+				<File Id="292611260" Language="SFX">
+					<ShortName>bassline #1 fills.wav</ShortName>
+					<Path>SFX\bassline #1 fills_8956FC97.wem</Path>
 				</File>
 				<File Id="296813834" Language="SFX">
 					<ShortName>#18Flat.mid</ShortName>
@@ -1069,6 +1073,10 @@
 					<ShortName>bassline #2 v2 snare midi.mid</ShortName>
 					<Path>SFX\bassline #2 v2 snare midi_00000000.wem</Path>
 				</File>
+				<File Id="673539546" Language="SFX">
+					<ShortName>bassline #2 fills.wav</ShortName>
+					<Path>SFX\bassline #2 fills_8956FC97.wem</Path>
+				</File>
 				<File Id="680877201" Language="SFX">
 					<ShortName>OGProd_Sting2.wav</ShortName>
 					<Path>SFX\OGProd_Sting2_56D34C19.wem</Path>
@@ -1096,6 +1104,14 @@
 				<File Id="749116649" Language="SFX">
 					<ShortName>#16Triangle.mid</ShortName>
 					<Path>SFX\#16Triangle_00000000.wem</Path>
+				</File>
+				<File Id="760683706" Language="SFX">
+					<ShortName>bassline #3  fills.wav</ShortName>
+					<Path>SFX\bassline #3  fills_8956FC97.wem</Path>
+				</File>
+				<File Id="775760568" Language="SFX">
+					<ShortName>bassline #2 (d5).wav</ShortName>
+					<Path>SFX\bassline #2 (d5)_8956FC97.wem</Path>
 				</File>
 				<File Id="776351060" Language="SFX">
 					<ShortName>bassline #1 v2 layer #1 drums (d2).wav</ShortName>
@@ -1145,9 +1161,17 @@
 					<ShortName>#18Flat.mid</ShortName>
 					<Path>SFX\#18Flat_00000000.wem</Path>
 				</File>
+				<File Id="868315167" Language="SFX">
+					<ShortName>bassline #3 v2 fills.wav</ShortName>
+					<Path>SFX\bassline #3 v2 fills_8956FC97.wem</Path>
+				</File>
 				<File Id="870660809" Language="SFX">
 					<ShortName>#19RampDown.mid</ShortName>
 					<Path>SFX\#19RampDown_00000000.wem</Path>
+				</File>
+				<File Id="876982745" Language="SFX">
+					<ShortName>bassline #1 v2 fills.wav</ShortName>
+					<Path>SFX\bassline #1 v2 fills_8956FC97.wem</Path>
 				</File>
 				<File Id="889169828" Language="SFX">
 					<ShortName>Funk_Sting1.wav</ShortName>
@@ -1229,9 +1253,9 @@
 					<ShortName>bassline #3 v1 layer #3 (plucks) (d2).wav</ShortName>
 					<Path>SFX\bassline #3 v1 layer #3 (plucks) (d2)_8956FC97.wem</Path>
 				</File>
-				<File Id="1023102420" Language="SFX">
-					<ShortName>bassline #2 (d3) (with gate).wav</ShortName>
-					<Path>SFX\bassline #2 (d3) (with gate)_8956FC97.wem</Path>
+				<File Id="1011919574" Language="SFX">
+					<ShortName>bassline #2 v2 fills.wav</ShortName>
+					<Path>SFX\bassline #2 v2 fills_8956FC97.wem</Path>
 				</File>
 				<File Id="1027088030" Language="SFX">
 					<ShortName>#18Flat.mid</ShortName>

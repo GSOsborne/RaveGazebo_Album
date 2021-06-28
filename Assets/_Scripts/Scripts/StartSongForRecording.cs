@@ -36,6 +36,8 @@ public class StartSongForRecording : MonoBehaviour
         DavisDnB_AudioManager.Instance.StartASong(whichSong);
         DavisDnB_AudioManager.Instance.TriggerWallEvent(whichLayer);
 
+        Debug.Log("Song should be started now.");
+
         
     }
 

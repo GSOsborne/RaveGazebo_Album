@@ -8,6 +8,9 @@ public class GestureTracking : MonoBehaviour
 
     public ActionBasedController xrController;
     public float triggerSpeed;
+    public float maxTriggerSpeed = 4f;
+    public float minTriggerSpeed = .3f;
+    public float triggerSpeedDecay = .5f;
     public float cooldownTime;
     bool resetting;
     int layerMask;
@@ -35,12 +38,22 @@ public class GestureTracking : MonoBehaviour
         float controllerSpeed = currentVelocity.magnitude*1000f;
         //Debug.Log(controllerSpeed);
 
-        if (controllerSpeed > triggerSpeed && !resetting)
+        if (controllerSpeed > triggerSpeed)
         {
-            //Debug.Log("Sending the gesture raycast check.");
-            RevealWalls(currentPosition, currentVelocity);
-
+            Debug.Log("You reached a speed of: " + controllerSpeed);
+            BoostTriggerSpeed(controllerSpeed);
+            if (!resetting)
+            {
+                //Debug.Log("Sending the gesture raycast check.");
+                RevealWalls(currentPosition, currentVelocity);
+            }
         }
+
+
+
+        DrainTriggerSpeed();
+
+
         lastFramePos = currentPosition;
     }
 
@@ -76,6 +89,19 @@ public class GestureTracking : MonoBehaviour
         resetting = false;
     }
 
+    void BoostTriggerSpeed(float peakSpeed)
+    {
+        triggerSpeed = peakSpeed * .75f;
+        if (triggerSpeed > maxTriggerSpeed)
+        {
+            triggerSpeed = maxTriggerSpeed;
+        }
+    }
+
+    void DrainTriggerSpeed()
+    {
+        triggerSpeed = Mathf.Max(triggerSpeed - triggerSpeedDecay * Time.deltaTime, minTriggerSpeed);
+    }
 
     /*
     public bool thisisLH;

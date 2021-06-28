@@ -4,6 +4,13 @@
 		<WorkUnit Name="Default Work Unit" ID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BypassEffect0" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{8B9C96BA-1418-41A2-9684-80598937DB4F}" WorkUnitID="{9F44B2B4-B1B0-4536-9C13-8F9B2DA5970F}"/>

@@ -25,7 +25,7 @@ public class ArbitraryVectorRandomizeTrigger : MonoBehaviour
         {
             float ogMagnitude = gear.position.arbitraryVector.magnitude;
             //Debug.Log("OG Magnitude was: " + ogMagnitude);
-            Vector3 randomizedVector = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f)).normalized * ogMagnitude;
+            Vector3 randomizedVector = new Vector3(Random.Range(-1f, 1f), 0f, Random.Range(-1f, 1f)).normalized * ogMagnitude;
             //Debug.Log("Randomized Vector was: " + randomizedVector);
             gear.position.arbitraryVector = randomizedVector;
         }
