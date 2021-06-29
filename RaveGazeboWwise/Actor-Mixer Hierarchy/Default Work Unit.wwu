@@ -737,6 +737,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<SwitchContainer Name="WallTriggerSwitch" ID="{BCBF5912-5533-44DE-A88E-0B88336CD117}" ShortID="308060189">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1659,12 +1666,602 @@
 										</GroupingList>
 									</GroupingInfo>
 								</SwitchContainer>
-								<RandomSequenceContainer Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}" ShortID="498271904">
+								<SwitchContainer Name="Song1HiMedLoDrumset" ID="{43BF13C1-C0FB-4B7D-9CCD-E36CF474B5BB}" ShortID="417927928">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{0D0B3B77-7E09-4B76-B9EA-FC999104255B}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="HiMedLoDrumset" ID="{D1AB2609-3CBF-4998-9A81-0489179E894D}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}" ShortID="498271904">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{87C70D61-3282-46CF-AE3D-42E15AC99D8F}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Hat1" ID="{A075E463-301E-4AE7-AEB6-2229EBF137CC}" ShortID="269584452">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hat1" ID="{2A923393-822D-4180-9D64-3907586174C0}" ShortID="278935672">
+															<Language>SFX</Language>
+															<AudioFile>Hat1.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hat1" ID="{2A923393-822D-4180-9D64-3907586174C0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat2" ID="{3B46DB38-D755-40AB-9426-407810496DC9}" ShortID="964391776">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hat2" ID="{6995F475-D891-4A04-9CBD-7E6FAB540C82}" ShortID="11133192">
+															<Language>SFX</Language>
+															<AudioFile>Hat2.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hat2" ID="{6995F475-D891-4A04-9CBD-7E6FAB540C82}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat3" ID="{41242464-6D0A-4AF5-8E85-728A5A3C46FC}" ShortID="366271254">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hat3" ID="{3DEEDE24-7238-4FAE-9A5B-08864C604DCF}" ShortID="277412915">
+															<Language>SFX</Language>
+															<AudioFile>Hat3.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hat3" ID="{3DEEDE24-7238-4FAE-9A5B-08864C604DCF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat4" ID="{17BE10BB-7AFD-49A2-82EF-709FCDDF62DE}" ShortID="920308821">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hat4" ID="{EDAB22A1-4D1E-4EAE-A404-B95D62F69705}" ShortID="589924819">
+															<Language>SFX</Language>
+															<AudioFile>Hat4.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hat4" ID="{EDAB22A1-4D1E-4EAE-A404-B95D62F69705}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat5" ID="{248AD022-2829-4430-AD95-B7746DB5CD58}" ShortID="904201405">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hat5" ID="{FF65172E-85F0-4444-A292-C7994F4A37B2}" ShortID="386490265">
+															<Language>SFX</Language>
+															<AudioFile>Hat5.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hat5" ID="{FF65172E-85F0-4444-A292-C7994F4A37B2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat6" ID="{574B8797-0BDE-4660-B236-86E86A1E2A32}" ShortID="70689904">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hat6" ID="{FE03594B-0C36-4F57-8C8A-82CDEE8FA0B8}" ShortID="1059073170">
+															<Language>SFX</Language>
+															<AudioFile>Hat6.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hat6" ID="{FE03594B-0C36-4F57-8C8A-82CDEE8FA0B8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat7" ID="{D22472EB-F980-4185-B879-9B78E9204302}" ShortID="288578911">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Hat7" ID="{33BD3511-2596-418E-88C4-DA08CF6FD1F2}" ShortID="1033383895">
+															<Language>SFX</Language>
+															<AudioFile>Hat7.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Hat7" ID="{33BD3511-2596-418E-88C4-DA08CF6FD1F2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Song1RandomMisc" ID="{42733F67-FFC0-4270-B4A8-C55A7538D13C}" ShortID="791531521">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1E756E79-9C81-4364-9CD5-AFB02650DA04}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="InvisibleDrumSet" ID="{9AF57605-3376-44E2-A541-A2C4FEEABA8D}" ShortID="169596353">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{EA746C8A-F03C-4FC9-9ADE-C0D4FE2AACDB}" ShortID="561451042">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.015858111034676"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="7.78633251802594"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.95983273459196"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{EA746C8A-F03C-4FC9-9ADE-C0D4FE2AACDB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_01" ID="{2D294E9F-41D9-4E2F-9C8C-C53AD72D24B9}" ShortID="501946084">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{9CD561D1-4676-4CE2-8A9E-DC5B091F72EE}" ShortID="57762460">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.133651898761386"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="9.00159895295489"/>
+																<Property Name="TrimEnd" Type="Real64" Value="9.40385984356289"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{9CD561D1-4676-4CE2-8A9E-DC5B091F72EE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_02" ID="{DDA4C648-796C-4AFD-819B-CB719C0AB16F}" ShortID="1068122096">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{A0D71560-0C79-4F70-B388-886EFFFAA625}" ShortID="917305012">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="6.12571202656333E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="9.43642444194274"/>
+																<Property Name="TrimEnd" Type="Real64" Value="10.3077721725394"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{A0D71560-0C79-4F70-B388-886EFFFAA625}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_03" ID="{BC6E5266-A845-44CD-BBF7-C8576B2A69D4}" ShortID="836098349">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{D95000CC-76B6-403D-8334-4BDF574E5A00}" ShortID="50848665">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.269587887589493"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="10.3864753902671"/>
+																<Property Name="TrimEnd" Type="Real64" Value="11.1641101684119"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{D95000CC-76B6-403D-8334-4BDF574E5A00}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_04" ID="{939707C8-65FD-4D1D-BB6B-26F36F257E2E}" ShortID="12886363">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{59E81B47-84DC-4682-A7BE-1728DCD9EEEE}" ShortID="1036055908">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.142722999312083"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="11.1911276909155"/>
+																<Property Name="TrimEnd" Type="Real64" Value="12.5516948839461"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{59E81B47-84DC-4682-A7BE-1728DCD9EEEE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_05" ID="{FA9E3F7F-A750-4868-B46C-32E2F84236CC}" ShortID="940590933">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{8FE8F82D-9E0C-4178-A353-9F55F8CB3728}" ShortID="159256820">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="12.6894037617307"/>
+																<Property Name="TrimEnd" Type="Real64" Value="13.46353626844"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{8FE8F82D-9E0C-4178-A353-9F55F8CB3728}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Song1RandomTom" ID="{F1BEA0A5-1383-4BC4-9118-4067FB237ACC}" ShortID="740301222">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{80876237-1635-476D-9699-F602212BEAB7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="InvisibleDrumSet" ID="{F31707D0-3BEC-41A4-8BC3-FD5DD43347EE}" ShortID="331279865">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{C1C4542F-3E5B-438E-A11D-0C291F2EB391}" ShortID="924690378">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="7.51791930532795E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.42629098830544"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.9813248745191"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{C1C4542F-3E5B-438E-A11D-0C291F2EB391}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_01" ID="{C04AC0DD-AFB1-464F-B5C0-71C0CC43DCA9}" ShortID="305323099">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{E65C51F8-2E5E-4F1B-AF75-2FFD548FC64E}" ShortID="711169800">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.133651898761386"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.00997388992742"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.82180475935691"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{E65C51F8-2E5E-4F1B-AF75-2FFD548FC64E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_02" ID="{82B70F74-51A1-428D-B1A3-3A72E3B48B8C}" ShortID="329593055">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{ED280FB9-EB83-47D0-8511-0B3771C1EC85}" ShortID="1061269058">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="6.12571202656333E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.88902226703477"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.35530293922719"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{ED280FB9-EB83-47D0-8511-0B3771C1EC85}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_03" ID="{68CE7B36-26C8-4DA8-B375-A07F70C8504D}" ShortID="573993967">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{B055C7F2-503E-430F-B881-39577F3A5CD6}" ShortID="595192671">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.269587887589493"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="4.3767081261382"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.2966090855818"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{B055C7F2-503E-430F-B881-39577F3A5CD6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_04" ID="{D5567244-3B09-48ED-B265-5BB5FB42EBC4}" ShortID="313849567">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{F41ABD17-BB25-44A8-B302-B6FA92411331}" ShortID="724432844">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.142722999312083"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="5.35155051553595"/>
+																<Property Name="TrimEnd" Type="Real64" Value="6.2560248031797"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{F41ABD17-BB25-44A8-B302-B6FA92411331}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_05" ID="{A0B87848-BAFA-4877-A4B6-157E96E9DE54}" ShortID="70061388">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{0A3B57BA-3CDD-425F-A32D-F7F5C60032F3}" ShortID="543344764">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.131563587843239"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.32031650024827"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.62775140767918"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{0A3B57BA-3CDD-425F-A32D-F7F5C60032F3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Song1RandomMisc" ID="{42733F67-FFC0-4270-B4A8-C55A7538D13C}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Song1RandomTom" ID="{F1BEA0A5-1383-4BC4-9118-4067FB237ACC}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Hi" ID="{93550B0C-7E28-4567-A1E4-871E0485EC78}"/>
+												<ItemList>
+													<ItemRef Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Lo" ID="{3641091D-8C2B-423B-959A-4A11EC592F65}"/>
+												<ItemList>
+													<ItemRef Name="Song1RandomTom" ID="{F1BEA0A5-1383-4BC4-9118-4067FB237ACC}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Med" ID="{4E9DF169-6031-4690-8931-525FEFFB029F}"/>
+												<ItemList>
+													<ItemRef Name="Song1RandomMisc" ID="{42733F67-FFC0-4270-B4A8-C55A7538D13C}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<RandomSequenceContainer Name="Song2RandomSnare" ID="{2DFEEAEC-5948-4AE8-93DB-E7A17253B8D3}" ShortID="153784641">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
 												<ModifierInfo>
-													<Modifier Name="" ID="{87C70D61-3282-46CF-AE3D-42E15AC99D8F}">
+													<Modifier Name="" ID="{90B43325-A19C-497E-AE99-3E5A3C0231B8}">
 														<PropertyList>
 															<Property Name="Enabled" Type="bool" Value="True"/>
 															<Property Name="Max" Type="Real64" Value="100"/>
@@ -1673,6 +2270,11 @@
 													</Modifier>
 												</ModifierInfo>
 											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
@@ -1684,7 +2286,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Hat1" ID="{A075E463-301E-4AE7-AEB6-2229EBF137CC}" ShortID="269584452">
+										<Sound Name="InvisibleDrumSet" ID="{81D3002D-3F06-4811-B923-90BCE19DA3B6}" ShortID="492773414">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1694,16 +2296,21 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hat1" ID="{2A923393-822D-4180-9D64-3907586174C0}" ShortID="278935672">
+												<AudioFileSource Name="InvisibleDrumSet" ID="{067EBDD8-4606-4BAD-BFB5-331FBEA9C1E2}" ShortID="41316063">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="7.51791930532795E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.459885220005605"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Hat1.wav</AudioFile>
+													<AudioFile>InvisibleDrumSet.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Hat1" ID="{2A923393-822D-4180-9D64-3907586174C0}" Platform="Linked"/>
+												<ActiveSource Name="InvisibleDrumSet" ID="{067EBDD8-4606-4BAD-BFB5-331FBEA9C1E2}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hat2" ID="{3B46DB38-D755-40AB-9426-407810496DC9}" ShortID="964391776">
+										<Sound Name="InvisibleDrumSet_01" ID="{9335B71D-C04B-4F33-80B1-1110B4D181EE}" ShortID="133132529">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1713,16 +2320,29 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hat2" ID="{6995F475-D891-4A04-9CBD-7E6FAB540C82}" ShortID="11133192">
+												<AudioFileSource Name="InvisibleDrumSet" ID="{0C946AFC-27A3-46C7-9CF5-2832CCB5E823}" ShortID="826559809">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.133651898761386"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.457666389655072"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.824948072384104"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Hat2.wav</AudioFile>
+													<AudioFile>InvisibleDrumSet.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Hat2" ID="{6995F475-D891-4A04-9CBD-7E6FAB540C82}" Platform="Linked"/>
+												<ActiveSource Name="InvisibleDrumSet" ID="{0C946AFC-27A3-46C7-9CF5-2832CCB5E823}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hat3" ID="{41242464-6D0A-4AF5-8E85-728A5A3C46FC}" ShortID="366271254">
+										<Sound Name="InvisibleDrumSet_02" ID="{4DC63E80-EB74-452B-934F-920954FE71CB}" ShortID="183172894">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1732,16 +2352,29 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hat3" ID="{3DEEDE24-7238-4FAE-9A5B-08864C604DCF}" ShortID="277412915">
+												<AudioFileSource Name="InvisibleDrumSet" ID="{509947A6-551B-4F0C-BF56-5D6F83CA5B9E}" ShortID="402453447">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="6.12571202656333E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.852697953924903"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.04639604266257"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Hat3.wav</AudioFile>
+													<AudioFile>InvisibleDrumSet.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Hat3" ID="{3DEEDE24-7238-4FAE-9A5B-08864C604DCF}" Platform="Linked"/>
+												<ActiveSource Name="InvisibleDrumSet" ID="{509947A6-551B-4F0C-BF56-5D6F83CA5B9E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hat4" ID="{17BE10BB-7AFD-49A2-82EF-709FCDDF62DE}" ShortID="920308821">
+										<Sound Name="InvisibleDrumSet_03" ID="{613F9266-5AE3-42A0-8785-7C7B1C867C87}" ShortID="793660216">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1751,16 +2384,22 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hat4" ID="{EDAB22A1-4D1E-4EAE-A404-B95D62F69705}" ShortID="589924819">
+												<AudioFileSource Name="InvisibleDrumSet" ID="{090BEEEC-7DA9-4203-9135-72B36E90C194}" ShortID="401395457">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="2.47503516224783E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.05477829065347"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.24948669647886"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Hat4.wav</AudioFile>
+													<AudioFile>InvisibleDrumSet.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Hat4" ID="{EDAB22A1-4D1E-4EAE-A404-B95D62F69705}" Platform="Linked"/>
+												<ActiveSource Name="InvisibleDrumSet" ID="{090BEEEC-7DA9-4203-9135-72B36E90C194}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hat5" ID="{248AD022-2829-4430-AD95-B7746DB5CD58}" ShortID="904201405">
+										<Sound Name="InvisibleDrumSet_04" ID="{166CC6DE-CFE9-480B-8DA8-FB17DCD4443A}" ShortID="587623494">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1770,16 +2409,22 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hat5" ID="{FF65172E-85F0-4444-A292-C7994F4A37B2}" ShortID="386490265">
+												<AudioFileSource Name="InvisibleDrumSet" ID="{5AF7392A-738B-4D44-89A2-D271A807C53A}" ShortID="1063793793">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.78433843118295E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.24978882479457"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.4560566599788"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Hat5.wav</AudioFile>
+													<AudioFile>InvisibleDrumSet.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Hat5" ID="{FF65172E-85F0-4444-A292-C7994F4A37B2}" Platform="Linked"/>
+												<ActiveSource Name="InvisibleDrumSet" ID="{5AF7392A-738B-4D44-89A2-D271A807C53A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Hat6" ID="{574B8797-0BDE-4660-B236-86E86A1E2A32}" ShortID="70689904">
+										<Sound Name="InvisibleDrumSet_05" ID="{44104A7A-FE9A-4D95-98C4-4CFFB2B991C2}" ShortID="681046288">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1789,62 +2434,62 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Hat6" ID="{FE03594B-0C36-4F57-8C8A-82CDEE8FA0B8}" ShortID="1059073170">
+												<AudioFileSource Name="InvisibleDrumSet" ID="{91348F3A-943C-4B44-94D9-A72F72A10E17}" ShortID="500810212">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="3.68934928872582E-02"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.45761926762763"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.72853410277969"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Hat6.wav</AudioFile>
+													<AudioFile>InvisibleDrumSet.wav</AudioFile>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Hat6" ID="{FE03594B-0C36-4F57-8C8A-82CDEE8FA0B8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hat7" ID="{D22472EB-F980-4185-B879-9B78E9204302}" ShortID="288578911">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Hat7" ID="{33BD3511-2596-418E-88C4-DA08CF6FD1F2}" ShortID="1033383895">
-													<Language>SFX</Language>
-													<AudioFile>Hat7.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Hat7" ID="{33BD3511-2596-418E-88C4-DA08CF6FD1F2}" Platform="Linked"/>
+												<ActiveSource Name="InvisibleDrumSet" ID="{91348F3A-943C-4B44-94D9-A72F72A10E17}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Song3RandomCrash" ID="{24532F37-168A-40EB-A5B3-2B378007C9F7}" ShortID="626383834">
+								<SwitchContainer Name="Song3HiMedLo" ID="{8C83806E-81DC-4C69-B364-1A13B1D96258}" ShortID="1002853859">
 									<PropertyList>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{F126F35F-98FA-487E-B410-E6B9FC399A54}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="100"/>
-															<Property Name="Min" Type="Real64" Value="-100"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
 										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="None" ID="{0D0B3B77-7E09-4B76-B9EA-FC999104255B}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
 										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="HiMedLoDrumset" ID="{D1AB2609-3CBF-4998-9A81-0489179E894D}" WorkUnitID="{64D5C5CA-1DC5-4240-9486-F642A0418EC2}"/>
+										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Hat1" ID="{C4B9C0EF-6C72-4A1A-899C-80C326A25FC1}" ShortID="415818154">
+										<RandomSequenceContainer Name="Song1RandomMisc" ID="{7EF5F1C2-2E89-4556-9BB0-D942729D687D}" ShortID="1018564514">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{1BB3D1B0-E9FD-4B51-BF3E-BBE3554421F7}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1854,16 +2499,196 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Kooman KUSH crash (50)" ID="{7C5F13F8-5A54-47FB-A04F-FF983B7E5C60}" ShortID="581319617">
-													<Language>SFX</Language>
-													<AudioFile>Kooman KUSH crash (50).wav</AudioFile>
-												</AudioFileSource>
+												<Sound Name="InvisibleDrumSet" ID="{71065DEA-4001-41FD-A084-C03B9D9A662B}" ShortID="505064084">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{F3F68493-F3F2-4EDB-8F18-33347D4E657A}" ShortID="644830455">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.015858111034676"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="7.78633251802594"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.95983273459196"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="561451042"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{F3F68493-F3F2-4EDB-8F18-33347D4E657A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_01" ID="{E7EB0002-6B52-4817-95C1-35D7CFD3343D}" ShortID="1016463776">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{425BFCE2-A8F1-4E2F-BE76-B28983B75A93}" ShortID="840820617">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.133651898761386"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="9.00159895295489"/>
+																<Property Name="TrimEnd" Type="Real64" Value="9.40385984356289"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="57762460"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{425BFCE2-A8F1-4E2F-BE76-B28983B75A93}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_02" ID="{07701CE1-06CA-4035-BD7C-BF0CA9ABC62B}" ShortID="500221891">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{E6E65E90-7C07-43D2-8756-86F0D60E87FF}" ShortID="392506836">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="6.12571202656333E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="9.43642444194274"/>
+																<Property Name="TrimEnd" Type="Real64" Value="10.3077721725394"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="917305012"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{E6E65E90-7C07-43D2-8756-86F0D60E87FF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_03" ID="{7D58249D-6C4A-4F18-A25D-41FFFD2FEE85}" ShortID="452837466">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{62CF05CF-4009-4939-86C6-1F5B4976CDBF}" ShortID="581145313">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.269587887589493"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="10.3864753902671"/>
+																<Property Name="TrimEnd" Type="Real64" Value="11.1641101684119"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="50848665"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{62CF05CF-4009-4939-86C6-1F5B4976CDBF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_04" ID="{6363E58E-4415-4C93-8B94-0D3ACA5CE222}" ShortID="292327059">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{E15BD9EA-CC1A-45F2-81B2-D3F325DD6F1C}" ShortID="247296409">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.142722999312083"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="11.1911276909155"/>
+																<Property Name="TrimEnd" Type="Real64" Value="12.5516948839461"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1036055908"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{E15BD9EA-CC1A-45F2-81B2-D3F325DD6F1C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_05" ID="{F328D00C-8369-4A87-B57B-528AE40976C1}" ShortID="51667443">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{8587388E-C7CD-4581-8BEA-7FF2FDB24752}" ShortID="824664276">
+															<PropertyList>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="12.6894037617307"/>
+																<Property Name="TrimEnd" Type="Real64" Value="13.46353626844"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="159256820"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{8587388E-C7CD-4581-8BEA-7FF2FDB24752}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Kooman KUSH crash (50)" ID="{7C5F13F8-5A54-47FB-A04F-FF983B7E5C60}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hat2" ID="{DEC4AF1A-1060-4678-A006-AE07C6CE1424}" ShortID="689796247">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Song1RandomTom" ID="{1B088731-41F9-4ED9-99D8-AF4B60D44B72}" ShortID="908989837">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{00CD748E-BE72-4148-AD17-7235D161F44B}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1873,16 +2698,206 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Kooman KUSH crash (51)" ID="{81427D3C-B3D0-4D8C-9989-7F97626667A8}" ShortID="816968227">
-													<Language>SFX</Language>
-													<AudioFile>Kooman KUSH crash (51).wav</AudioFile>
-												</AudioFileSource>
+												<Sound Name="InvisibleDrumSet" ID="{631CA042-F3E5-49C7-8CB6-400752517A06}" ShortID="17200757">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{38DB5D42-C35F-4EA5-97F3-2A4EEEE0102F}" ShortID="486627635">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="7.51791930532795E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="2.42629098830544"/>
+																<Property Name="TrimEnd" Type="Real64" Value="2.9813248745191"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="924690378"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{38DB5D42-C35F-4EA5-97F3-2A4EEEE0102F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_01" ID="{810F431C-4522-40A0-990B-8992CF56D48C}" ShortID="277945712">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{3F0FF1FD-F232-4F43-B0FF-09961FFCED5B}" ShortID="851247633">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.133651898761386"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.00997388992742"/>
+																<Property Name="TrimEnd" Type="Real64" Value="3.82180475935691"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="711169800"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{3F0FF1FD-F232-4F43-B0FF-09961FFCED5B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_02" ID="{7E551DCF-D734-437B-ADF6-3E5B6FAA23AC}" ShortID="159423604">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>1</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{445871A7-3588-45F4-A9A7-B612B999FC21}" ShortID="605740100">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="6.12571202656333E-02"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="3.88902226703477"/>
+																<Property Name="TrimEnd" Type="Real64" Value="4.35530293922719"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="1061269058"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{445871A7-3588-45F4-A9A7-B612B999FC21}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_03" ID="{1BCE19D7-BAE6-41DD-9D6A-116C244F28F0}" ShortID="445805447">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{C3CE01E1-CC45-4197-91D0-C12A633AF3C0}" ShortID="625499914">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.269587887589493"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="4.3767081261382"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.2966090855818"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="595192671"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{C3CE01E1-CC45-4197-91D0-C12A633AF3C0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_04" ID="{1ECF8C69-62A0-4788-AA2D-E8275023C5EC}" ShortID="854898539">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{11BDFB38-1526-4771-B2C7-AC18AC95126C}" ShortID="274856786">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.142722999312083"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="5.35155051553595"/>
+																<Property Name="TrimEnd" Type="Real64" Value="6.2560248031797"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="724432844"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{11BDFB38-1526-4771-B2C7-AC18AC95126C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="InvisibleDrumSet_05" ID="{6F40B330-CC9A-4F71-A9AE-CA6DCE728EB6}" ShortID="1002442424">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="InvisibleDrumSet" ID="{8C460498-8047-4389-8174-B426541985B2}" ShortID="557554939">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.131563587843239"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="6.32031650024827"/>
+																<Property Name="TrimEnd" Type="Real64" Value="7.62775140767918"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>InvisibleDrumSet.wav</AudioFile>
+															<ConvertedFileIDList>
+																<File ID="543344764"/>
+															</ConvertedFileIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="InvisibleDrumSet" ID="{8C460498-8047-4389-8174-B426541985B2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Kooman KUSH crash (51)" ID="{81427D3C-B3D0-4D8C-9989-7F97626667A8}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hat3" ID="{27F3F8C9-A88E-40DE-8F61-1EA9A805A6DC}" ShortID="410316437">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Song3RandomCrash" ID="{24532F37-168A-40EB-A5B3-2B378007C9F7}" ShortID="626383834">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F126F35F-98FA-487E-B410-E6B9FC399A54}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
@@ -1892,74 +2907,157 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Kooman KUSH crash (52)" ID="{577FF06F-CA46-4C60-85F0-82D34A935690}" ShortID="623035860">
-													<Language>SFX</Language>
-													<AudioFile>Kooman KUSH crash (52).wav</AudioFile>
-												</AudioFileSource>
+												<Sound Name="Hat1" ID="{C4B9C0EF-6C72-4A1A-899C-80C326A25FC1}" ShortID="415818154">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Kooman KUSH crash (50)" ID="{7C5F13F8-5A54-47FB-A04F-FF983B7E5C60}" ShortID="581319617">
+															<Language>SFX</Language>
+															<AudioFile>Kooman KUSH crash (50).wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Kooman KUSH crash (50)" ID="{7C5F13F8-5A54-47FB-A04F-FF983B7E5C60}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat2" ID="{DEC4AF1A-1060-4678-A006-AE07C6CE1424}" ShortID="689796247">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Kooman KUSH crash (51)" ID="{81427D3C-B3D0-4D8C-9989-7F97626667A8}" ShortID="816968227">
+															<Language>SFX</Language>
+															<AudioFile>Kooman KUSH crash (51).wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Kooman KUSH crash (51)" ID="{81427D3C-B3D0-4D8C-9989-7F97626667A8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat3" ID="{27F3F8C9-A88E-40DE-8F61-1EA9A805A6DC}" ShortID="410316437">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Kooman KUSH crash (52)" ID="{577FF06F-CA46-4C60-85F0-82D34A935690}" ShortID="623035860">
+															<Language>SFX</Language>
+															<AudioFile>Kooman KUSH crash (52).wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Kooman KUSH crash (52)" ID="{577FF06F-CA46-4C60-85F0-82D34A935690}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat4" ID="{14AFFE7E-9D8B-4895-B9A3-9E72A1041DF6}" ShortID="535019996">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Kooman KUSH crash (53)" ID="{3616B6EB-EEF7-49C0-9290-6063FB9E6ACE}" ShortID="628390883">
+															<Language>SFX</Language>
+															<AudioFile>Kooman KUSH crash (53).wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Kooman KUSH crash (53)" ID="{3616B6EB-EEF7-49C0-9290-6063FB9E6ACE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat5" ID="{C7D4BE63-1D8D-4390-B64E-385C1E6E060A}" ShortID="642802865">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Kooman KUSH crash (54)" ID="{7AB0236D-5C56-490B-8B41-150AAB21F439}" ShortID="977278617">
+															<Language>SFX</Language>
+															<AudioFile>Kooman KUSH crash (54).wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Kooman KUSH crash (54)" ID="{7AB0236D-5C56-490B-8B41-150AAB21F439}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Hat6" ID="{352DB1D7-CCC4-42EA-8DC0-14E33C5E5F16}" ShortID="990563684">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Kooman KUSH crash (55)" ID="{9703F766-AC35-4ABA-BE0E-2C38ED59D31E}" ShortID="551940536">
+															<Language>SFX</Language>
+															<AudioFile>Kooman KUSH crash (55).wav</AudioFile>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Kooman KUSH crash (55)" ID="{9703F766-AC35-4ABA-BE0E-2C38ED59D31E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Kooman KUSH crash (52)" ID="{577FF06F-CA46-4C60-85F0-82D34A935690}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hat4" ID="{14AFFE7E-9D8B-4895-B9A3-9E72A1041DF6}" ShortID="535019996">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Kooman KUSH crash (53)" ID="{3616B6EB-EEF7-49C0-9290-6063FB9E6ACE}" ShortID="628390883">
-													<Language>SFX</Language>
-													<AudioFile>Kooman KUSH crash (53).wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Kooman KUSH crash (53)" ID="{3616B6EB-EEF7-49C0-9290-6063FB9E6ACE}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hat5" ID="{C7D4BE63-1D8D-4390-B64E-385C1E6E060A}" ShortID="642802865">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Kooman KUSH crash (54)" ID="{7AB0236D-5C56-490B-8B41-150AAB21F439}" ShortID="977278617">
-													<Language>SFX</Language>
-													<AudioFile>Kooman KUSH crash (54).wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Kooman KUSH crash (54)" ID="{7AB0236D-5C56-490B-8B41-150AAB21F439}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Hat6" ID="{352DB1D7-CCC4-42EA-8DC0-14E33C5E5F16}" ShortID="990563684">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D70E51A2-6F1D-4471-996E-24DA5097DD3C}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E6CD3B3A-A022-4D50-B0B8-5747027C4DC2}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Kooman KUSH crash (55)" ID="{9703F766-AC35-4ABA-BE0E-2C38ED59D31E}" ShortID="551940536">
-													<Language>SFX</Language>
-													<AudioFile>Kooman KUSH crash (55).wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Kooman KUSH crash (55)" ID="{9703F766-AC35-4ABA-BE0E-2C38ED59D31E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</RandomSequenceContainer>
 									</ChildrenList>
-								</RandomSequenceContainer>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Song1RandomTom" ID="{1B088731-41F9-4ED9-99D8-AF4B60D44B72}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Song3RandomCrash" ID="{24532F37-168A-40EB-A5B3-2B378007C9F7}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="Song1RandomMisc" ID="{7EF5F1C2-2E89-4556-9BB0-D942729D687D}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Hi" ID="{93550B0C-7E28-4567-A1E4-871E0485EC78}"/>
+												<ItemList>
+													<ItemRef Name="Song3RandomCrash" ID="{24532F37-168A-40EB-A5B3-2B378007C9F7}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Lo" ID="{3641091D-8C2B-423B-959A-4A11EC592F65}"/>
+												<ItemList>
+													<ItemRef Name="Song1RandomTom" ID="{1B088731-41F9-4ED9-99D8-AF4B60D44B72}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Med" ID="{4E9DF169-6031-4690-8931-525FEFFB029F}"/>
+												<ItemList>
+													<ItemRef Name="Song1RandomMisc" ID="{7EF5F1C2-2E89-4556-9BB0-D942729D687D}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
 							</ChildrenList>
 							<GroupingInfo>
 								<GroupingBehaviorList>
@@ -1967,30 +3065,35 @@
 										<ItemRef Name="WallTriggerSwitch" ID="{BCBF5912-5533-44DE-A88E-0B88336CD117}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="Song3RandomCrash" ID="{24532F37-168A-40EB-A5B3-2B378007C9F7}"/>
+										<ItemRef Name="Song3HiMedLo" ID="{8C83806E-81DC-4C69-B364-1A13B1D96258}"/>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}"/>
+										<ItemRef Name="Song1HiMedLoDrumset" ID="{43BF13C1-C0FB-4B7D-9CCD-E36CF474B5BB}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Song2RandomSnare" ID="{2DFEEAEC-5948-4AE8-93DB-E7A17253B8D3}"/>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
 								<GroupingList>
 									<Grouping>
 										<SwitchRef Name="Song1RaveGazebo" ID="{DD627449-96B4-4A21-93DD-01D2866F5D05}"/>
 										<ItemList>
-											<ItemRef Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}"/>
+											<ItemRef Name="Song1HiMedLoDrumset" ID="{43BF13C1-C0FB-4B7D-9CCD-E36CF474B5BB}"/>
 											<ItemRef Name="WallTriggerSwitch" ID="{BCBF5912-5533-44DE-A88E-0B88336CD117}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
 										<SwitchRef Name="Song2CondimentTieDye" ID="{D361F569-21F4-45DB-8B6F-0AF54CD403A5}"/>
 										<ItemList>
-											<ItemRef Name="Song1RandomHat" ID="{761BE091-C454-4A72-89BF-23BE6F219684}"/>
+											<ItemRef Name="Song1HiMedLoDrumset" ID="{43BF13C1-C0FB-4B7D-9CCD-E36CF474B5BB}"/>
+											<ItemRef Name="Song2RandomSnare" ID="{2DFEEAEC-5948-4AE8-93DB-E7A17253B8D3}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
 										<SwitchRef Name="Song3TBN" ID="{DF29ED95-8898-49D6-B4CB-7F32313F5A13}"/>
 										<ItemList>
-											<ItemRef Name="Song3RandomCrash" ID="{24532F37-168A-40EB-A5B3-2B378007C9F7}"/>
+											<ItemRef Name="Song2RandomSnare" ID="{2DFEEAEC-5948-4AE8-93DB-E7A17253B8D3}"/>
+											<ItemRef Name="Song3HiMedLo" ID="{8C83806E-81DC-4C69-B364-1A13B1D96258}"/>
 										</ItemList>
 									</Grouping>
 								</GroupingList>

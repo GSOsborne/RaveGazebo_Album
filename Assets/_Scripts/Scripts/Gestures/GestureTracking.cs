@@ -65,6 +65,26 @@ public class GestureTracking : MonoBehaviour
             Debug.DrawRay(controllerPosition, controllerVelocity, Color.green, 2f);
             if (hit.transform.gameObject.CompareTag("GestureWall"))
             {
+                //Feature where vertical direction changes the type of wall stinger sound
+                Vector3 normalizedControllerVelocity = controllerVelocity.normalized;
+                if(normalizedControllerVelocity.y > .35f)
+                {
+                    AkSoundEngine.SetState("HiMedLoDrumset", "Hi");
+                    Debug.Log("Set HiMedLo to Hi: " + normalizedControllerVelocity);
+                    
+                }
+                else if (normalizedControllerVelocity.y < -.35f)
+                {
+                    AkSoundEngine.SetState("HiMedLoDrumset", "Lo");
+                    Debug.Log("Set HiMedLo to Lo: " + normalizedControllerVelocity);
+                }
+                else
+                {
+                    AkSoundEngine.SetState("HiMedLoDrumset", "Med");
+                    Debug.Log("Set HiMedLo to Med: " + normalizedControllerVelocity);
+                }
+
+                //call the wall trigger and get this process started
                 hit.transform.gameObject.GetComponent<WallTrigger>().WallTriggered();
 
                 StartCoroutine(ResetController());

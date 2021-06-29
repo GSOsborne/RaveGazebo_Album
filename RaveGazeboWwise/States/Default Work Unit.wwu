@@ -56,6 +56,14 @@
 						<State Name="Song3TBN" ID="{DF29ED95-8898-49D6-B4CB-7F32313F5A13}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="HiMedLoDrumset" ID="{D1AB2609-3CBF-4998-9A81-0489179E894D}">
+					<ChildrenList>
+						<State Name="None" ID="{0D0B3B77-7E09-4B76-B9EA-FC999104255B}"/>
+						<State Name="Hi" ID="{93550B0C-7E28-4567-A1E4-871E0485EC78}"/>
+						<State Name="Med" ID="{4E9DF169-6031-4690-8931-525FEFFB029F}"/>
+						<State Name="Lo" ID="{3641091D-8C2B-423B-959A-4A11EC592F65}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

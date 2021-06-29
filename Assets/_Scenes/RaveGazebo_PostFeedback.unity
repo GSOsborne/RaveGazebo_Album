@@ -67134,12 +67134,12 @@ GameObject:
   - component: {fileID: 1233255625}
   - component: {fileID: 1233255630}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: AKTriggerEnter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1233255625
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73808,39 +73808,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1318481538}
   m_PrefabAsset: {fileID: 0}
---- !u!21 &1331277276
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: Default UI Material
-  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats:
-    - _ColorMask: 15
-    - _Stencil: 0
-    - _StencilComp: 8
-    - _StencilOp: 0
-    - _StencilReadMask: 255
-    - _StencilWriteMask: 255
-    - _UseUIAlphaClip: 0
-    m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1331616254
 GameObject:
   m_ObjectHideFlags: 0
@@ -74481,6 +74448,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359210377}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &1359903860
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Default UI Material
+  m_Shader: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorMask: 15
+    - _Stencil: 0
+    - _StencilComp: 8
+    - _StencilOp: 0
+    - _StencilReadMask: 255
+    - _StencilWriteMask: 255
+    - _UseUIAlphaClip: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1366763700
 GameObject:
   m_ObjectHideFlags: 0
@@ -110078,6 +110078,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1713033098746211318, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 172135491}
     - target: {fileID: 2094343065277614058, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -110108,6 +110113,16 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2845494178470204820, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 172135491}
+    - target: {fileID: 2901221476844096418, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 172135491}
     - target: {fileID: 3088465001573035076, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
         type: 3}
       propertyPath: m_RootOrder
@@ -110133,6 +110148,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3223101544767701099, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 172135491}
     - target: {fileID: 3325234078108297833, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
         type: 3}
       propertyPath: m_Mesh
@@ -110232,6 +110252,37 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSizeBase
       value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253398157481161922, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: m_text
+      value: 'Wack to
+
+        Start
+
+        Rave
+
+        Gazebo'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253398157481161922, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253398157481161922, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253398157481161922, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6253398157481161922, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6253398157481161935, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
         type: 3}
@@ -110383,6 +110434,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6937549673689293231, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 172135491}
     - target: {fileID: 7359321469161914464, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
         type: 3}
       propertyPath: m_Layer
@@ -110413,6 +110469,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7705605092564797231, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 172135491}
     - target: {fileID: 7820888090585196260, guid: 04d89b8c5ac77c14ea9887a4cf974c20,
         type: 3}
       propertyPath: m_Mesh

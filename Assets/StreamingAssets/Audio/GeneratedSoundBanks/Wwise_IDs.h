@@ -67,6 +67,18 @@ namespace AK
             } // namespace STATE
         } // namespace FILLSTATE
 
+        namespace HIMEDLODRUMSET
+        {
+            static const AkUniqueID GROUP = 2363979547U;
+
+            namespace STATE
+            {
+                static const AkUniqueID HI = 1769415228U;
+                static const AkUniqueID LO = 1702304870U;
+                static const AkUniqueID MED = 981339021U;
+            } // namespace STATE
+        } // namespace HIMEDLODRUMSET
+
         namespace WHICHSONGSTATE
         {
             static const AkUniqueID GROUP = 3535580974U;

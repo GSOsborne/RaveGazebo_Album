@@ -1,10 +1,15 @@
 State Group	ID	Name			Wwise Object Path	Notes
+	2363979547	HiMedLoDrumset			\Default Work Unit\HiMedLoDrumset	
 	3097867629	DSPState			\Default Work Unit\DSPState	
 	3363456409	FillState			\Default Work Unit\FillState	
 	3535580974	WhichSongState			\Default Work Unit\WhichSongState	
 	3943631437	CubeState			\Default Work Unit\CubeState	
 
 State	ID	Name	State Group			Notes
+	0	None	HiMedLoDrumset			
+	981339021	Med	HiMedLoDrumset			
+	1702304870	Lo	HiMedLoDrumset			
+	1769415228	Hi	HiMedLoDrumset			
 	0	None	DSPState			
 	2604525308	DSPActive	DSPState			
 	2704169237	DSPOff	DSPState			

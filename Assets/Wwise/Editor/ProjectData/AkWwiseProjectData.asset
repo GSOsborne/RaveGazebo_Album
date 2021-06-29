@@ -467,7 +467,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: cac5d564c51d40429486f642a0418ec2
     GuidInternal: 
-    m_lastTime: -8585798032794775808
+    m_lastTime: -8585766141634775808
     List:
     - name: CubeState
       guid: 752ee587ee73c043a70e35a9f789fc62
@@ -586,6 +586,43 @@ MonoBehaviour:
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
+    - name: HiMedLoDrumset
+      guid: 0926abd1bf3c98499a810489179e894d
+      id: 2363979547
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: HiMedLoDrumset
+        ObjectType: 9
+      Path: Default Work Unit\HiMedLoDrumset
+      values:
+      - name: Hi
+        guid: 0c0b5593287e6745a1e4871e0485ec78
+        id: 1769415228
+        PathAndIcons:
+        - ElementName: Hi
+          ObjectType: 8
+      - name: Lo
+        guid: 1d0941362b8c3b42959a4a11ec592f65
+        id: 1702304870
+        PathAndIcons:
+        - ElementName: Lo
+          ObjectType: 8
+      - name: Med
+        guid: 69f19d4e316090468931525feffb029f
+        id: 981339021
+        PathAndIcons:
+        - ElementName: Med
+          ObjectType: 8
+      - name: None
+        guid: 773b0b0d097e764bb9eafc999104255b
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
     - name: WhichSongState
       guid: 5a74df77bf7eec41972911ceafb8c77c
       id: 3535580974
@@ -628,7 +665,7 @@ MonoBehaviour:
     ParentPhysicalPath: 
     guid: 2d9a35552175bc4a966e1e323bec1c25
     GuidInternal: 
-    m_lastTime: -8586261156254775808
+    m_lastTime: -8585766141634775808
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu

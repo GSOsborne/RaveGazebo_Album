@@ -49,6 +49,10 @@
 					<ShortName>Sniper_Sting1.wav</ShortName>
 					<Path>SFX\Sniper_Sting1_56D34C19.wem</Path>
 				</File>
+				<File Id="41316063" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_A3A95B7F.wem</Path>
+				</File>
 				<File Id="42080067" Language="SFX">
 					<ShortName>CTD_Wall4_SidechainKick.mid</ShortName>
 					<Path>SFX\CTD_Wall4_SidechainKick_00000000.wem</Path>
@@ -57,6 +61,10 @@
 					<ShortName>Squeaker_Sting2.wav</ShortName>
 					<Path>SFX\Squeaker_Sting2_56D34C19.wem</Path>
 				</File>
+				<File Id="50848665" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_C493E58D.wem</Path>
+				</File>
 				<File Id="57048353" Language="SFX">
 					<ShortName>CTD_Riser3.wav</ShortName>
 					<Path>SFX\CTD_Riser3_8956FC97.wem</Path>
@@ -64,6 +72,10 @@
 				<File Id="57323775" Language="SFX">
 					<ShortName>#21RampUp.mid</ShortName>
 					<Path>SFX\#21RampUp_00000000.wem</Path>
+				</File>
+				<File Id="57762460" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_429CBDEF.wem</Path>
 				</File>
 				<File Id="62224334" Language="SFX">
 					<ShortName>CTD_Riser4.wav</ShortName>
@@ -120,6 +132,10 @@
 				<File Id="148469304" Language="SFX">
 					<ShortName>#20Triangle.mid</ShortName>
 					<Path>SFX\#20Triangle_00000000.wem</Path>
+				</File>
+				<File Id="159256820" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_864E56BB.wem</Path>
 				</File>
 				<File Id="162542203" Language="SFX">
 					<ShortName>CTD_Wall6_SidechainKick.mid</ShortName>
@@ -289,6 +305,14 @@
 					<ShortName>#16RampUp.mid</ShortName>
 					<Path>SFX\#16RampUp_00000000.wem</Path>
 				</File>
+				<File Id="401395457" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_D3BF7B47.wem</Path>
+				</File>
+				<File Id="402453447" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_BFCA79E2.wem</Path>
+				</File>
 				<File Id="403825601" Language="SFX">
 					<ShortName>#20Triangle.mid</ShortName>
 					<Path>SFX\#20Triangle_00000000.wem</Path>
@@ -349,6 +373,10 @@
 					<ShortName>CTD_Wall4_Layer3.wav</ShortName>
 					<Path>SFX\CTD_Wall4_Layer3_8956FC97.wem</Path>
 				</File>
+				<File Id="500810212" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_90243782.wem</Path>
+				</File>
 				<File Id="511470018" Language="SFX">
 					<ShortName>#21Flat.mid</ShortName>
 					<Path>SFX\#21Flat_00000000.wem</Path>
@@ -381,6 +409,10 @@
 					<ShortName>CTD_Riser6.wav</ShortName>
 					<Path>SFX\CTD_Riser6_8956FC97.wem</Path>
 				</File>
+				<File Id="543344764" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_0E3030DD.wem</Path>
+				</File>
 				<File Id="543447063" Language="SFX">
 					<ShortName>#17Triangle.mid</ShortName>
 					<Path>SFX\#17Triangle_00000000.wem</Path>
@@ -400,6 +432,10 @@
 				<File Id="560288039" Language="SFX">
 					<ShortName>CTD_Wall5_Fills.wav</ShortName>
 					<Path>SFX\CTD_Wall5_Fills_8956FC97.wem</Path>
+				</File>
+				<File Id="561451042" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_78E01085.wem</Path>
 				</File>
 				<File Id="569728116" Language="SFX">
 					<ShortName>Charleston_Sting5.wav</ShortName>
@@ -424,6 +460,10 @@
 				<File Id="591159828" Language="SFX">
 					<ShortName>#19RampUp.mid</ShortName>
 					<Path>SFX\#19RampUp_00000000.wem</Path>
+				</File>
+				<File Id="595192671" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_93ECBB3F.wem</Path>
 				</File>
 				<File Id="598106935" Language="SFX">
 					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
@@ -505,6 +545,10 @@
 					<ShortName>CTD_Wall6_SidechainSnare.mid</ShortName>
 					<Path>SFX\CTD_Wall6_SidechainSnare_00000000.wem</Path>
 				</File>
+				<File Id="711169800" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_57CD2E22.wem</Path>
+				</File>
 				<File Id="719219164" Language="SFX">
 					<ShortName>CTD_Wall3_Layer2.wav</ShortName>
 					<Path>SFX\CTD_Wall3_Layer2_8956FC97.wem</Path>
@@ -516,6 +560,10 @@
 				<File Id="722996484" Language="SFX">
 					<ShortName>Charleston_Sting3.wav</ShortName>
 					<Path>SFX\Charleston_Sting3_56D34C19.wem</Path>
+				</File>
+				<File Id="724432844" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_47582312.wem</Path>
 				</File>
 				<File Id="734349865" Language="SFX">
 					<ShortName>CTD_Wall1_SidechainSnare.mid</ShortName>
@@ -581,6 +629,10 @@
 					<ShortName>Kooman KUSH crash (51).wav</ShortName>
 					<Path>SFX\Kooman KUSH crash (51)_56D34C19.wem</Path>
 				</File>
+				<File Id="826559809" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_5194BF84.wem</Path>
+				</File>
 				<File Id="827257653" Language="SFX">
 					<ShortName>CTD_Wall3_SidechainKick.mid</ShortName>
 					<Path>SFX\CTD_Wall3_SidechainKick_00000000.wem</Path>
@@ -645,6 +697,10 @@
 					<ShortName>CTD_Wall3_Fills.wav</ShortName>
 					<Path>SFX\CTD_Wall3_Fills_8956FC97.wem</Path>
 				</File>
+				<File Id="917305012" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_CECBB3EE.wem</Path>
+				</File>
 				<File Id="918931925" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
 					<Path>SFX\#19Flat_00000000.wem</Path>
@@ -656,6 +712,10 @@
 				<File Id="922149693" Language="SFX">
 					<ShortName>CTD_Wall4_Fills.wav</ShortName>
 					<Path>SFX\CTD_Wall4_Fills_8956FC97.wem</Path>
+				</File>
+				<File Id="924690378" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_6BC6B5B4.wem</Path>
 				</File>
 				<File Id="934970204" Language="SFX">
 					<ShortName>#17Flat.mid</ShortName>
@@ -705,6 +765,10 @@
 					<ShortName>Hat7.wav</ShortName>
 					<Path>SFX\Hat7_56D34C19.wem</Path>
 				</File>
+				<File Id="1036055908" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_72596C12.wem</Path>
+				</File>
 				<File Id="1039274912" Language="SFX">
 					<ShortName>Charleston_Sting6.wav</ShortName>
 					<Path>SFX\Charleston_Sting6_56D34C19.wem</Path>
@@ -720,6 +784,14 @@
 				<File Id="1059073170" Language="SFX">
 					<ShortName>Hat6.wav</ShortName>
 					<Path>SFX\Hat6_56D34C19.wem</Path>
+				</File>
+				<File Id="1061269058" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_8E51D7DC.wem</Path>
+				</File>
+				<File Id="1063793793" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_815830AE.wem</Path>
 				</File>
 				<File Id="1064316419" Language="SFX">
 					<ShortName>CTD_Wall4_Layer2.wav</ShortName>
@@ -769,6 +841,10 @@
 					<ShortName>Sniper_Sting1.wav</ShortName>
 					<Path>SFX\Sniper_Sting1_56D34C19.wem</Path>
 				</File>
+				<File Id="41316063" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_A3A95B7F.wem</Path>
+				</File>
 				<File Id="43306733" Language="SFX">
 					<ShortName>Squeaker_Sting2.wav</ShortName>
 					<Path>SFX\Squeaker_Sting2_56D34C19.wem</Path>
@@ -777,9 +853,17 @@
 					<ShortName>bassline #1 v1 layer #3 (pizz fast pluck).wav</ShortName>
 					<Path>SFX\bassline #1 v1 layer #3 (pizz fast pluck)_8956FC97.wem</Path>
 				</File>
+				<File Id="50848665" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_C493E58D.wem</Path>
+				</File>
 				<File Id="57323775" Language="SFX">
 					<ShortName>#21RampUp.mid</ShortName>
 					<Path>SFX\#21RampUp_00000000.wem</Path>
+				</File>
+				<File Id="57762460" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_429CBDEF.wem</Path>
 				</File>
 				<File Id="69731098" Language="SFX">
 					<ShortName>#16Triangle.mid</ShortName>
@@ -824,6 +908,10 @@
 				<File Id="150905465" Language="SFX">
 					<ShortName>Bassline #3 (d5).wav</ShortName>
 					<Path>SFX\Bassline #3 (d5)_8956FC97.wem</Path>
+				</File>
+				<File Id="159256820" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_864E56BB.wem</Path>
 				</File>
 				<File Id="163792164" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
@@ -921,6 +1009,14 @@
 					<ShortName>#16RampUp.mid</ShortName>
 					<Path>SFX\#16RampUp_00000000.wem</Path>
 				</File>
+				<File Id="401395457" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_D3BF7B47.wem</Path>
+				</File>
+				<File Id="402453447" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_BFCA79E2.wem</Path>
+				</File>
 				<File Id="403825601" Language="SFX">
 					<ShortName>#20Triangle.mid</ShortName>
 					<Path>SFX\#20Triangle_00000000.wem</Path>
@@ -953,6 +1049,10 @@
 					<ShortName>bassline #2 v1 layer #1 drums (d2).wav</ShortName>
 					<Path>SFX\bassline #2 v1 layer #1 drums (d2)_8956FC97.wem</Path>
 				</File>
+				<File Id="500810212" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_90243782.wem</Path>
+				</File>
 				<File Id="511204238" Language="SFX">
 					<ShortName>bassline #1 v2 layer #3 (cool blip).wav</ShortName>
 					<Path>SFX\bassline #1 v2 layer #3 (cool blip)_8956FC97.wem</Path>
@@ -981,6 +1081,10 @@
 					<ShortName>#21Flat.mid</ShortName>
 					<Path>SFX\#21Flat_00000000.wem</Path>
 				</File>
+				<File Id="543344764" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_0E3030DD.wem</Path>
+				</File>
 				<File Id="543447063" Language="SFX">
 					<ShortName>#17Triangle.mid</ShortName>
 					<Path>SFX\#17Triangle_00000000.wem</Path>
@@ -996,6 +1100,10 @@
 				<File Id="558876200" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
 					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="561451042" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_78E01085.wem</Path>
 				</File>
 				<File Id="567443484" Language="SFX">
 					<ShortName>bassline #3 v2 kick midi.mid</ShortName>
@@ -1028,6 +1136,10 @@
 				<File Id="594609099" Language="SFX">
 					<ShortName>bassline #3 v1 snare midi.mid</ShortName>
 					<Path>SFX\bassline #3 v1 snare midi_00000000.wem</Path>
+				</File>
+				<File Id="595192671" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_93ECBB3F.wem</Path>
 				</File>
 				<File Id="600456504" Language="SFX">
 					<ShortName>#17Flat.mid</ShortName>
@@ -1085,6 +1197,10 @@
 					<ShortName>bassline #2 v2 layer #3 (pluck) (d2).wav</ShortName>
 					<Path>SFX\bassline #2 v2 layer #3 (pluck) (d2)_8956FC97.wem</Path>
 				</File>
+				<File Id="711169800" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_57CD2E22.wem</Path>
+				</File>
 				<File Id="720437376" Language="SFX">
 					<ShortName>#20RampUp.mid</ShortName>
 					<Path>SFX\#20RampUp_00000000.wem</Path>
@@ -1092,6 +1208,10 @@
 				<File Id="722996484" Language="SFX">
 					<ShortName>Charleston_Sting3.wav</ShortName>
 					<Path>SFX\Charleston_Sting3_56D34C19.wem</Path>
+				</File>
+				<File Id="724432844" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_47582312.wem</Path>
 				</File>
 				<File Id="735000557" Language="SFX">
 					<ShortName>bassline #2 v1 snare midi.mid</ShortName>
@@ -1153,6 +1273,10 @@
 					<ShortName>Kooman KUSH crash (51).wav</ShortName>
 					<Path>SFX\Kooman KUSH crash (51)_56D34C19.wem</Path>
 				</File>
+				<File Id="826559809" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_5194BF84.wem</Path>
+				</File>
 				<File Id="828147351" Language="SFX">
 					<ShortName>#17RampUp.mid</ShortName>
 					<Path>SFX\#17RampUp_00000000.wem</Path>
@@ -1205,9 +1329,17 @@
 					<ShortName>Bassline #1 (d2).wav</ShortName>
 					<Path>SFX\Bassline #1 (d2)_8956FC97.wem</Path>
 				</File>
+				<File Id="917305012" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_CECBB3EE.wem</Path>
+				</File>
 				<File Id="918931925" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
 					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="924690378" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_6BC6B5B4.wem</Path>
 				</File>
 				<File Id="934970204" Language="SFX">
 					<ShortName>#17Flat.mid</ShortName>
@@ -1273,6 +1405,10 @@
 					<ShortName>Hat7.wav</ShortName>
 					<Path>SFX\Hat7_56D34C19.wem</Path>
 				</File>
+				<File Id="1036055908" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_72596C12.wem</Path>
+				</File>
 				<File Id="1039274912" Language="SFX">
 					<ShortName>Charleston_Sting6.wav</ShortName>
 					<Path>SFX\Charleston_Sting6_56D34C19.wem</Path>
@@ -1284,6 +1420,14 @@
 				<File Id="1059073170" Language="SFX">
 					<ShortName>Hat6.wav</ShortName>
 					<Path>SFX\Hat6_56D34C19.wem</Path>
+				</File>
+				<File Id="1061269058" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_8E51D7DC.wem</Path>
+				</File>
+				<File Id="1063793793" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_815830AE.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
@@ -1329,13 +1473,25 @@
 					<ShortName>Sniper_Sting1.wav</ShortName>
 					<Path>SFX\Sniper_Sting1_56D34C19.wem</Path>
 				</File>
+				<File Id="41316063" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_A3A95B7F.wem</Path>
+				</File>
 				<File Id="43306733" Language="SFX">
 					<ShortName>Squeaker_Sting2.wav</ShortName>
 					<Path>SFX\Squeaker_Sting2_56D34C19.wem</Path>
 				</File>
+				<File Id="50848665" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_C493E58D.wem</Path>
+				</File>
 				<File Id="57323775" Language="SFX">
 					<ShortName>#21RampUp.mid</ShortName>
 					<Path>SFX\#21RampUp_00000000.wem</Path>
+				</File>
+				<File Id="57762460" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_429CBDEF.wem</Path>
 				</File>
 				<File Id="62100216" Language="SFX">
 					<ShortName>DavisDnB_OGProd_Layer2.wav</ShortName>
@@ -1372,6 +1528,10 @@
 				<File Id="148469304" Language="SFX">
 					<ShortName>#20Triangle.mid</ShortName>
 					<Path>SFX\#20Triangle_00000000.wem</Path>
+				</File>
+				<File Id="159256820" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_864E56BB.wem</Path>
 				</File>
 				<File Id="163792164" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
@@ -1485,6 +1645,14 @@
 					<ShortName>#16RampUp.mid</ShortName>
 					<Path>SFX\#16RampUp_00000000.wem</Path>
 				</File>
+				<File Id="401395457" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_D3BF7B47.wem</Path>
+				</File>
+				<File Id="402453447" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_BFCA79E2.wem</Path>
+				</File>
 				<File Id="403825601" Language="SFX">
 					<ShortName>#20Triangle.mid</ShortName>
 					<Path>SFX\#20Triangle_00000000.wem</Path>
@@ -1553,6 +1721,10 @@
 					<ShortName>#17RampDown.mid</ShortName>
 					<Path>SFX\#17RampDown_00000000.wem</Path>
 				</File>
+				<File Id="500810212" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_90243782.wem</Path>
+				</File>
 				<File Id="508746534" Language="SFX">
 					<ShortName>RaveGazebo_SlowBass_v1.wav</ShortName>
 					<Path>SFX\RaveGazebo_SlowBass_v1_8956FC97.wem</Path>
@@ -1581,6 +1753,10 @@
 					<ShortName>#21Flat.mid</ShortName>
 					<Path>SFX\#21Flat_00000000.wem</Path>
 				</File>
+				<File Id="543344764" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_0E3030DD.wem</Path>
+				</File>
 				<File Id="543447063" Language="SFX">
 					<ShortName>#17Triangle.mid</ShortName>
 					<Path>SFX\#17Triangle_00000000.wem</Path>
@@ -1596,6 +1772,10 @@
 				<File Id="558876200" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
 					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="561451042" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_78E01085.wem</Path>
 				</File>
 				<File Id="569728116" Language="SFX">
 					<ShortName>Charleston_Sting5.wav</ShortName>
@@ -1624,6 +1804,10 @@
 				<File Id="591159828" Language="SFX">
 					<ShortName>#19RampUp.mid</ShortName>
 					<Path>SFX\#19RampUp_00000000.wem</Path>
+				</File>
+				<File Id="595192671" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_93ECBB3F.wem</Path>
 				</File>
 				<File Id="600456504" Language="SFX">
 					<ShortName>#17Flat.mid</ShortName>
@@ -1685,6 +1869,10 @@
 					<ShortName>SidechainMIDI_Squeaker.mid</ShortName>
 					<Path>SFX\SidechainMIDI_Squeaker_00000000.wem</Path>
 				</File>
+				<File Id="711169800" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_57CD2E22.wem</Path>
+				</File>
 				<File Id="720437376" Language="SFX">
 					<ShortName>#20RampUp.mid</ShortName>
 					<Path>SFX\#20RampUp_00000000.wem</Path>
@@ -1692,6 +1880,10 @@
 				<File Id="722996484" Language="SFX">
 					<ShortName>Charleston_Sting3.wav</ShortName>
 					<Path>SFX\Charleston_Sting3_56D34C19.wem</Path>
+				</File>
+				<File Id="724432844" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_47582312.wem</Path>
 				</File>
 				<File Id="728625553" Language="SFX">
 					<ShortName>RaveGazebo_FastBass_v1.wav</ShortName>
@@ -1736,6 +1928,10 @@
 				<File Id="816968227" Language="SFX">
 					<ShortName>Kooman KUSH crash (51).wav</ShortName>
 					<Path>SFX\Kooman KUSH crash (51)_56D34C19.wem</Path>
+				</File>
+				<File Id="826559809" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_5194BF84.wem</Path>
 				</File>
 				<File Id="828147351" Language="SFX">
 					<ShortName>#17RampUp.mid</ShortName>
@@ -1801,9 +1997,17 @@
 					<ShortName>SidechainMIDI_Squeaker.mid</ShortName>
 					<Path>SFX\SidechainMIDI_Squeaker_00000000.wem</Path>
 				</File>
+				<File Id="917305012" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_CECBB3EE.wem</Path>
+				</File>
 				<File Id="918931925" Language="SFX">
 					<ShortName>#19Flat.mid</ShortName>
 					<Path>SFX\#19Flat_00000000.wem</Path>
+				</File>
+				<File Id="924690378" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_6BC6B5B4.wem</Path>
 				</File>
 				<File Id="934970204" Language="SFX">
 					<ShortName>#17Flat.mid</ShortName>
@@ -1869,6 +2073,10 @@
 					<ShortName>sniper ghost drums.wav</ShortName>
 					<Path>SFX\sniper ghost drums_8956FC97.wem</Path>
 				</File>
+				<File Id="1036055908" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_72596C12.wem</Path>
+				</File>
 				<File Id="1039274912" Language="SFX">
 					<ShortName>Charleston_Sting6.wav</ShortName>
 					<Path>SFX\Charleston_Sting6_56D34C19.wem</Path>
@@ -1880,6 +2088,14 @@
 				<File Id="1059073170" Language="SFX">
 					<ShortName>Hat6.wav</ShortName>
 					<Path>SFX\Hat6_56D34C19.wem</Path>
+				</File>
+				<File Id="1061269058" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_8E51D7DC.wem</Path>
+				</File>
+				<File Id="1063793793" Language="SFX">
+					<ShortName>InvisibleDrumSet.wav</ShortName>
+					<Path>SFX\InvisibleDrumSet_815830AE.wem</Path>
 				</File>
 				<File Id="1069424399" Language="SFX">
 					<ShortName>Dholak_KickMIDI.mid</ShortName>
