@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Raindrops
+  m_Shader: {fileID: -6465566751694194690, guid: 879b303e266a8984e935f748fc712039,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_26C26DDD:
+        m_Texture: {fileID: 2800000, guid: e95e596268c3c3942b09f799cc180b28, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_5F795BCA:
+        m_Texture: {fileID: 2800000, guid: 941806a66f2fdd44b925ddfeb5a9b390, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_AF984689:
+        m_Texture: {fileID: 2800000, guid: 389d490304f1b1b46905908d8513e94d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C61CC1A0:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_DF50890C:
+        m_Texture: {fileID: 2800000, guid: ad3e2f171756bed4e9aaf61ae3d65d62, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_1DEE09B1: 10
+    - Vector1_2C07657B: 16
+    - Vector1_406336F5: 1
+    - Vector1_5055382C: -0
+    - Vector1_98CB75FC: 0.00512
+    - Vector1_A5B94F3C: 0.485
+    - Vector1_AA47BC40: 2000
+    - Vector1_CEECF5B3: 100
+    - _WaveNormalStrength: 0.021
+    m_Colors:
+    - Color_12CF2247: {r: 0, g: 0, b: 0.20392157, a: 0.89411765}
+    - Color_B5883295: {r: 0, g: 0.3773585, b: 0.37311852, a: 0.5176471}
